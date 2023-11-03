@@ -168,6 +168,10 @@ navbar:
     Tags: #取名随意
         icon: fa-solid fa-tags #图标
         path: /tags/ #链接
+  about:
+    About: #取名随意
+        icon: fa-solid fa-user #图标
+        path: /about/ #链接
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
@@ -217,12 +221,12 @@ home:
       Archives: 
         path: /archives 
         icon: fa-regular fa-archive # can be empty
-      Tags: 
-        path: /tags 
-        icon: fa-regular fa-tags # can be empty
       Categories: 
         path: /categories 
         icon: fa-regular fa-folder # can be empty
+      Tags: 
+        path: /tags 
+        icon: fa-regular fa-tags # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
