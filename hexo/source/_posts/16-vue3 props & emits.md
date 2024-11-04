@@ -1,7 +1,12 @@
 ---
-title: 16-vue3 props & emits
+title: vue3 props & emits
 date: 2023-12-15 20:26:11
 tags:
+    - vue3
+    - vue
+categories:
+    - vue3
+      - 文档
 ---
 
 ## props

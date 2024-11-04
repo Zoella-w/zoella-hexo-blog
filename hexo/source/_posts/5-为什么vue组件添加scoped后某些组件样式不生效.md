@@ -1,8 +1,9 @@
 ---
-title: 5-为什么vue组件添加scoped后某些组件样式不生效
+title: 为什么 vue 组件添加 scoped 后，某些组件样式不生效
 date: 2023-11-14 17:46:52
 tags:
     - vue
+    - 实践问题
 categories:
     - vue
       - 样式

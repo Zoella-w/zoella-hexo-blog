@@ -1,10 +1,11 @@
 ---
-title: 7-v-for
+title: v-for
 date: 2023-11-29 10:41:57
 tags: 
     - vue
 categories:
     - vue
+      - 文档
 ---
 
 ## 基础

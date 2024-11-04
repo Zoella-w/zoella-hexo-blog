@@ -1,11 +1,10 @@
 ---
-title: 2-vue指令语法
+title: vue 指令语法
 date: 2023-11-06 16:04:06
 tags:
-    - vue3
     - vue
 categories:
-    - vue3
+    - vue
       - 文档
 ---
 

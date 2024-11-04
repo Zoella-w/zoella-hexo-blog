@@ -1,10 +1,11 @@
 ---
-title: 9-vue事件处理
+title: vue 事件处理
 date: 2023-11-30 18:50:13
 tags: 
     - vue
 categories:
     - vue
+      - 文档
 ---
 
 v-on:click="" 缩写为 @click

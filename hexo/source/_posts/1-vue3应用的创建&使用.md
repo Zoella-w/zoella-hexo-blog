@@ -1,5 +1,5 @@
 ---
-title: 1-vue3应用的创建&使用
+title: vue3 应用的创建&使用
 date: 2023-11-06 11:27:47
 tags:
     - vue3

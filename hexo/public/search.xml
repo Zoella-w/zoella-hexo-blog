@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2-vue指令语法</title>
+    <title>vue 指令语法</title>
     <url>/2023/11/06/2-vue%E6%8C%87%E4%BB%A4%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><p>种类：v-html, v-bind, v-on, v-model, v-slot …</p>
 <p>指令语法如下图所示：<br><img  
@@ -40,15 +40,14 @@
 <p>（3）场景：v-if 初始渲染开销较好，不会频繁切换时使用；v-show 切换开销较小，频繁切换时使用</p>
 ]]></content>
       <categories>
-        <category>vue3 - 文档</category>
+        <category>vue - 文档</category>
       </categories>
       <tags>
-        <tag>vue3</tag>
         <tag>vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>1-vue3应用的创建&amp;使用</title>
+    <title>vue3 应用的创建&amp;使用</title>
     <url>/2023/11/06/1-vue3%E5%BA%94%E7%94%A8%E7%9A%84%E5%88%9B%E5%BB%BA&amp;%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h2 id="创建应用"><a href="#创建应用" class="headerlink" title="创建应用"></a>创建应用</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm create vue@latest</span><br></pre></td></tr></table></figure></div>
 
@@ -82,7 +81,7 @@
       </tags>
   </entry>
   <entry>
-    <title>3-vue3响应式</title>
+    <title>vue3 响应式</title>
     <url>/2023/11/06/3-vue3%E5%93%8D%E5%BA%94%E5%BC%8F/</url>
     <content><![CDATA[<h2 id="ref"><a href="#ref" class="headerlink" title="ref()"></a>ref()</h2><p>ref() 返回一个包含属性 value 的对象</p>
 <div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">    <span class="title function_">setup</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">const</span> count = <span class="title function_">ref</span>(<span class="number">0</span>);</span><br><span class="line">        <span class="keyword">function</span> <span class="title function_">increment</span>(<span class="params"></span>) &#123;</span><br><span class="line">            count.<span class="property">value</span>++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            count,</span><br><span class="line">            increment</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -133,7 +132,7 @@
       </tags>
   </entry>
   <entry>
-    <title>4-vue3计算属性</title>
+    <title>vue3 计算属性</title>
     <url>/2023/11/07/4-vue3%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>computed() 方法接受一个 getter 函数，返回一个计算属性 ref</p>
 <p>因为 ref 会在模板中自动解包，所以在表达式中引用无需 .value</p>
@@ -159,7 +158,7 @@
       </tags>
   </entry>
   <entry>
-    <title>5-为什么vue组件添加scoped后某些组件样式不生效</title>
+    <title>为什么 vue 组件添加 scoped 后，某些组件样式不生效</title>
     <url>/2023/11/14/5-%E4%B8%BA%E4%BB%80%E4%B9%88vue%E7%BB%84%E4%BB%B6%E6%B7%BB%E5%8A%A0scoped%E5%90%8E%E6%9F%90%E4%BA%9B%E7%BB%84%E4%BB%B6%E6%A0%B7%E5%BC%8F%E4%B8%8D%E7%94%9F%E6%95%88/</url>
     <content><![CDATA[<h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>在父组件中修改子组件的某些样式，发现不生效，删去<code>&lt;style scoped&gt;&lt;/style&gt;</code>中的 scoped 后生效。</p>
 <h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>scoped 实现样式隔离的原理为：</p>
@@ -193,10 +192,11 @@
       </categories>
       <tags>
         <tag>vue</tag>
+        <tag>实践问题</tag>
       </tags>
   </entry>
   <entry>
-    <title>6-vue class与style绑定</title>
+    <title>vue class 与 style 绑定</title>
     <url>/2023/11/28/6-vue%20class%E4%B8%8Estyle%E7%BB%91%E5%AE%9A/</url>
     <content><![CDATA[<h2 id="绑定一个返回对象的计算属性"><a href="#绑定一个返回对象的计算属性" class="headerlink" title="绑定一个返回对象的计算属性"></a>绑定一个返回对象的计算属性</h2><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> isActive = <span class="title function_">ref</span>(<span class="literal">true</span>);</span><br><span class="line"><span class="keyword">const</span> error = <span class="title function_">ref</span>(<span class="literal">null</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> classObject = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> (&#123;</span><br><span class="line">    <span class="attr">active</span>: isActive.<span class="property">value</span> &amp;&amp; !error.<span class="property">value</span>,</span><br><span class="line">    <span class="string">&#x27;text-danger&#x27;</span>: error.<span class="property">value</span> &amp;&amp; error.<span class="property">value</span>.<span class="property">type</span> === <span class="string">&#x27;fatal&#x27;</span></span><br><span class="line">&#125;));</span><br></pre></td></tr></table></figure></div>
 
@@ -229,7 +229,7 @@
       </tags>
   </entry>
   <entry>
-    <title>7-v-for</title>
+    <title>v-for</title>
     <url>/2023/11/29/7-v-for/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">v-for</span>=<span class="string">&quot;(item, index) in items&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -260,14 +260,14 @@
 <p>推荐在任何时候为 v-for 提供一个 key attribute，除非所迭代的 DOM 内容非常简单。</p>
 ]]></content>
       <categories>
-        <category>vue</category>
+        <category>vue - 文档</category>
       </categories>
       <tags>
         <tag>vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>8-js事件</title>
+    <title>js 事件</title>
     <url>/2023/11/29/8-js%E4%BA%8B%E4%BB%B6/</url>
     <content><![CDATA[<p>事件捕获和事件冒泡 是浏览器处理DOM元素事件的两种方式（顺序：先捕获，再冒泡）。</p>
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span>&gt;</span>click me<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
@@ -307,7 +307,7 @@
       </tags>
   </entry>
   <entry>
-    <title>9-vue事件处理</title>
+    <title>vue 事件处理</title>
     <url>/2023/11/30/9-vue%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86/</url>
     <content><![CDATA[<p>v-on:click&#x3D;”” 缩写为 @click</p>
 <h2 id="在內联事件处理器中访问事件参数"><a href="#在內联事件处理器中访问事件参数" class="headerlink" title="在內联事件处理器中访问事件参数"></a>在內联事件处理器中访问事件参数</h2><p>在內联事件中访问原生 DOM 事件：</p>
@@ -350,14 +350,14 @@
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 当抬起 Ctrl 时，即使同时抬起其他系统按键也会触发 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">keyup.ctrl</span>=<span class="string">&quot;doSth&quot;</span>&gt;</span>A<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 仅当抬起 Ctrl 且未抬起任何其他键时才会触发 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">keyup.ctrl.exact</span>=<span class="string">&quot;doSth&quot;</span>&gt;</span>A<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 仅当没有抬起任何系统按键时触发 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">keyup.exact</span>=<span class="string">&quot;doSth&quot;</span>&gt;</span>A<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
-        <category>vue</category>
+        <category>vue - 文档</category>
       </categories>
       <tags>
         <tag>vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>10-v-model</title>
+    <title>v-model</title>
     <url>/2023/12/05/10-v-model/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span></span></span><br><span class="line"><span class="tag">    <span class="attr">:value</span>=<span class="string">&quot;text&quot;</span></span></span><br><span class="line"><span class="tag">    @<span class="attr">input</span>=<span class="string">&quot;event =&gt; text = event.target.value&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -391,14 +391,14 @@
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">v-model.trim</span>=<span class="string">&quot;msg&quot;</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
       <categories>
-        <category>vue</category>
+        <category>vue - 文档</category>
       </categories>
       <tags>
         <tag>vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>11-vue3生命周期</title>
+    <title>vue3 生命周期</title>
     <url>/2023/12/05/11-vue3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     <content><![CDATA[<h2 id="vue3-生命周期图示"><a href="#vue3-生命周期图示" class="headerlink" title="vue3 生命周期图示"></a>vue3 生命周期图示</h2><img  
                      lazyload
@@ -422,7 +422,7 @@
       </tags>
   </entry>
   <entry>
-    <title>12-vue3侦听器</title>
+    <title>vue3 侦听器</title>
     <url>/2023/12/07/12-vue3%E4%BE%A6%E5%90%AC%E5%99%A8/</url>
     <content><![CDATA[<h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; ref, watch &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> initVal = <span class="title function_">ref</span>(<span class="string">&#x27;&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">watch</span>(initVal, <span class="function">(<span class="params">newVal, oldVal</span>) =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">    ...</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -453,7 +453,7 @@
       </tags>
   </entry>
   <entry>
-    <title>14-vue3组件基础</title>
+    <title>vue3 组件基础</title>
     <url>/2023/12/11/14-vue3%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="父传子"><a href="#父传子" class="headerlink" title="父传子"></a>父传子</h3><p>defineProps 是仅在 <code>&lt;script setup&gt;</code> 中可用的编译宏命令</p>
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">defineProps</span>([<span class="string">&#x27;title&#x27;</span>, <span class="string">&#x27;content&#x27;</span>]);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">template</span>&gt;</span>&#123;&#123; title &#125;&#125;&#123;&#123; content &#125;&#125;<span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
@@ -495,7 +495,7 @@
       </tags>
   </entry>
   <entry>
-    <title>13-vue3模板引用</title>
+    <title>vue3 模板引用</title>
     <url>/2023/12/08/13-vue3%E6%A8%A1%E6%9D%BF%E5%BC%95%E7%94%A8/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">ref</span>=<span class="string">&quot;myInput&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">import</span> &#123; ref, onMounted &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">const</span> myInput = <span class="title function_">ref</span>(<span class="literal">null</span>); <span class="comment">// 必须和模版中的 ref 同名</span></span></span><br><span class="line"><span class="language-javascript">    </span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">onMounted</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        myInput.<span class="property">value</span>.<span class="title function_">focus</span>(); <span class="comment">// 自动聚焦</span></span></span><br><span class="line"><span class="language-javascript">    &#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -524,7 +524,7 @@
       </tags>
   </entry>
   <entry>
-    <title>15-vue3组件注册</title>
+    <title>vue3 组件注册</title>
     <url>/2023/12/13/15-vue3%E7%BB%84%E4%BB%B6%E6%B3%A8%E5%86%8C/</url>
     <content><![CDATA[<h2 id="全局注册"><a href="#全局注册" class="headerlink" title="全局注册"></a>全局注册</h2><p>所有子组件可以使用全局注册的组件。</p>
 <p>使用 vue 应用实例的 .component() 方法：</p>
@@ -550,7 +550,7 @@
       </tags>
   </entry>
   <entry>
-    <title>16-vue3 props &amp; emits</title>
+    <title>vue3 props &amp; emits</title>
     <url>/2023/12/15/16-vue3%20props%20&amp;%20emits/</url>
     <content><![CDATA[<h2 id="props"><a href="#props" class="headerlink" title="props"></a>props</h2><p>注意：props 为单向数据流，从父组件流子组件，所以不应该在子组件中修改 props。</p>
 <p>如有需要：</p>
@@ -582,9 +582,16 @@
 
 <h2 id="emit"><a href="#emit" class="headerlink" title="emit"></a>emit</h2><h3 id="事件校验"><a href="#事件校验" class="headerlink" title="事件校验"></a>事件校验</h3><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> emit = <span class="title function_">defineEmits</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="comment">// 无校验</span></span></span><br><span class="line"><span class="language-javascript">  <span class="attr">click</span>: <span class="literal">null</span>,</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="comment">// 校验 submit 事件</span></span></span><br><span class="line"><span class="language-javascript">  <span class="attr">submit</span>: <span class="function">(<span class="params">&#123; email, password &#125;</span>) =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span> (email &amp;&amp; password) &#123;</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">return</span> <span class="literal">true</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125; <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="language-javascript">      <span class="variable language_">console</span>.<span class="title function_">warn</span>(<span class="string">&#x27;Invalid submit event payload!&#x27;</span>)</span></span><br><span class="line"><span class="language-javascript">      <span class="keyword">return</span> <span class="literal">false</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">  &#125;</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">submitForm</span>(<span class="params">email, password</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">  <span class="comment">// 抛出 submit 事件，携带 email, password 参数</span></span></span><br><span class="line"><span class="language-javascript">  <span class="title function_">emit</span>(<span class="string">&#x27;submit&#x27;</span>, &#123; email, password &#125;);</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
+      <categories>
+        <category>vue3 - 文档</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+        <tag>vue</tag>
+      </tags>
   </entry>
   <entry>
-    <title>17-vue3组件v-model</title>
+    <title>vue3 组件 v-model</title>
     <url>/2023/12/15/17-vue3%E7%BB%84%E4%BB%B6v-model/</url>
     <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>父组件：</p>
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">CustomInput</span> <span class="attr">v-model</span>=<span class="string">&quot;searchText&quot;</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 被展开为： --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- &lt;CustomInput</span></span><br><span class="line"><span class="comment">    :model-value=&quot;searchText&quot;</span></span><br><span class="line"><span class="comment">    @update:model-value=&quot;newValue =&gt; searchText = newValue&quot; /&gt; --&gt;</span></span><br></pre></td></tr></table></figure></div>
@@ -608,5 +615,573 @@
 
 <div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> props = <span class="title function_">defineProps</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">firstName</span>: <span class="title class_">String</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">lastName</span>: <span class="title class_">String</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">firstNameModifiers</span>: &#123;  <span class="comment">// firstName + Modifiers</span></span></span><br><span class="line"><span class="language-javascript">        <span class="attr">default</span>: <span class="function">() =&gt;</span> (&#123;&#125;) </span></span><br><span class="line"><span class="language-javascript">    &#125;,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">lastNameModifiers</span>: &#123;  <span class="comment">// lastName + Modifiers</span></span></span><br><span class="line"><span class="language-javascript">        <span class="attr">default</span>: <span class="function">() =&gt;</span> (&#123;&#125;)</span></span><br><span class="line"><span class="language-javascript">    &#125;,</span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">defineEmits</span>([<span class="string">&#x27;update:firstName&#x27;</span>, <span class="string">&#x27;update:lastName&#x27;</span>]);</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">console</span>.<span class="title function_">log</span>(props.<span class="property">firstNameModifiers</span>); <span class="comment">// &#123; calitalize: true &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">console</span>.<span class="title function_">log</span>(props.<span class="property">lastNameModifiers</span>); <span class="comment">// &#123; uppercase: true &#125;</span></span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
+      <categories>
+        <category>vue3 - 文档</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue3 继承 attributes</title>
+    <url>/2023/12/21/18-vue3%E7%BB%A7%E6%89%BFattributes/</url>
+    <content><![CDATA[<h2 id="禁用-attributes-继承"><a href="#禁用-attributes-继承" class="headerlink" title="禁用 attributes 继承"></a>禁用 attributes 继承</h2><p>如果不想一个组件自动继承 attribute，可在组件选项中设置 <code>inheritAttrs: false</code></p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">defineOptions</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">inheritAttrs</span>: <span class="literal">false</span></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>透传进来的 attribute 可在模版的表达式中用 $attrs 访问：</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>attribute: &#123;&#123; $attrs &#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p>常见的需要禁用 attribute 继承的场景是：attribute 需要应用在根节点以外的其他元素。</p>
+<p>比如：希望透传的 attribute 应用在内层的节点而非外层。</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&#x27;btn-wrapper&#x27;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&#x27;btn&#x27;</span> <span class="attr">v-bind</span>=<span class="string">&quot;$attrs&quot;</span>&gt;</span>click me<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">defineOptions</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">inheritAttrs</span>: <span class="literal">false</span></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="多根节点的-attributes-继承"><a href="#多根节点的-attributes-继承" class="headerlink" title="多根节点的 attributes 继承"></a>多根节点的 attributes 继承</h2><p>需要显示绑定 $attrs，否则会有警告</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span>...<span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">main</span> <span class="attr">v-bind</span>=<span class="string">&quot;$attrs&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">main</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span>...<span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="在-JS-中访问透传的-attributes"><a href="#在-JS-中访问透传的-attributes" class="headerlink" title="在 JS 中访问透传的 attributes"></a>在 JS 中访问透传的 attributes</h2><p>使用 useAttrs() API 访问组件的所有透传 attribute</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; useAttrs &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> attrs = <span class="title function_">useAttrs</span>();</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>但是这里的 attrs 对象不具有响应式，如有需要：</p>
+<p>（1）可使用 prop；</p>
+<p>（2）可使用 onUpdated() 在每次更新时获取最新的 attrs。</p>
+]]></content>
+      <categories>
+        <category>vue3 - 文档</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue 插槽</title>
+    <url>/2023/12/26/19-vue%E6%8F%92%E6%A7%BD/</url>
+    <content><![CDATA[<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>插槽内容可以为文本、模版、组件</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">FancyButton</span>&gt;</span></span><br><span class="line">  Click me! <span class="comment">&lt;!-- 插槽内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">FancyButton</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 子组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;fancy-btn&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span> <span class="comment">&lt;!-- 插槽出口 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>渲染结果：</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;fancy-btn&quot;</span>&gt;</span>Click me!<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="默认内容"><a href="#默认内容" class="headerlink" title="默认内容"></a>默认内容</h2><p>子组件的 <code>&lt;slot&gt;&lt;/slot&gt;</code> 标签之间是默认值</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">slot</span>&gt;</span>Submit<span class="tag">&lt;/<span class="name">slot</span>&gt;</span> <span class="comment">&lt;!-- 默认内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="具名插槽"><a href="#具名插槽" class="headerlink" title="具名插槽"></a>具名插槽</h2><p>当一个组件包含多个插槽出口时，需要使用 name 来给各个插槽分配唯一的 ID，没有提供 name 的插槽会隐式地命名为“default”。</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 子组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;container&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">header</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;header&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">main</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span> <span class="comment">&lt;!-- name 为 default --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">main</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">footer</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;footer&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">footer</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>在父组件中，使用 v-slot 或者 # 加上插槽名，来指定插槽内容。</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">BaseLayout</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-slot:header</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- header 插槽的内容 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #<span class="attr">footer</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- footer 插槽的内容 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">BaseLayout</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="动态插槽名"><a href="#动态插槽名" class="headerlink" title="动态插槽名"></a>动态插槽名</h2><p>可定义动态插槽名：</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">base-layout</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-slot:</span>[<span class="attr">dynamicSlotName</span>]&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">&lt;!-- 缩写 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #[<span class="attr">dynamicSlotName</span>]&gt;</span></span><br><span class="line">    ...</span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">base-layout</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="作用域插槽"><a href="#作用域插槽" class="headerlink" title="作用域插槽"></a>作用域插槽</h2><p>可以向插槽出口传递 attributes</p>
+<h3 id="默认插槽"><a href="#默认插槽" class="headerlink" title="默认插槽"></a>默认插槽</h3><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 子组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">:text</span>=<span class="string">&quot;message&quot;</span> <span class="attr">:count</span>=<span class="string">&quot;1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">MyComponent</span> <span class="attr">v-slot</span>=<span class="string">&quot;slotProps&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123; slotProps.text &#125;&#125; &#123;&#123; slotProps.count &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">MyComponent</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 或者 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">MyComponent</span> <span class="attr">v-slot</span>=<span class="string">&quot;&#123; text, count &#125;&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123; text &#125;&#125; &#123;&#123; count &#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">MyComponent</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="具名插槽-1"><a href="#具名插槽-1" class="headerlink" title="具名插槽"></a>具名插槽</h3><div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 父组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">MyComponent</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #<span class="attr">header</span>=<span class="string">&quot;headerProps&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123; headerProps &#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">&lt;!-- 不缩写 --&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> <span class="attr">v-slot:default</span>=<span class="string">&quot;defaultProps&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123; defaultProps &#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #<span class="attr">footer</span>=<span class="string">&quot;footerProps&quot;</span>&gt;</span></span><br><span class="line">    &#123;&#123; footerProps &#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">MyComponent</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 子组件 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;header&quot;</span> <span class="attr">:msg1</span>=<span class="string">&quot;hello1&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">slot</span> <span class="attr">:msg2</span>=<span class="string">&quot;hello2&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span> <span class="comment">&lt;!-- name 为 default --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">&quot;header&quot;</span> <span class="attr">:msg3</span>=<span class="string">&quot;hello3&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+]]></content>
+      <categories>
+        <category>vue - 文档</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue3 依赖注入</title>
+    <url>/2023/12/28/20-vue3%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</url>
+    <content><![CDATA[<h2 id="props-逐级透传"><a href="#props-逐级透传" class="headerlink" title="props 逐级透传"></a>props 逐级透传</h2><p>深层子组件需要较远的祖先组件中的部分数据，使用 props 逐级传递很麻烦：</p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://cn.vuejs.org/assets/prop-drilling.FyV2vFBP.png"
+                      
+                >
+
+
+<h2 id="provide（提供）"><a href="#provide（提供）" class="headerlink" title="provide（提供）"></a>provide（提供）</h2><p>为组件后代提供数据，使用 provide() 函数：</p>
+<div class="highlight-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">import</span> &#123; provide &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="title function_">provide</span>(<span class="comment">/* 注入名 */</span><span class="string">&#x27;message&#x27;</span>, <span class="comment">/* 注入值 */</span><span class="string">&#x27;value&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>vue3 - 文档</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浏览器输入url后发生了什么</title>
+    <url>/2024/10/10/21-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5url%E5%90%8E%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[<h2 id="1-URL解析"><a href="#1-URL解析" class="headerlink" title="1. URL解析"></a>1. URL解析</h2><p>用户输入的URL（例如 <code>https://www.example.com/index.html</code>）首先被浏览器解析，该过程包括：</p>
+<ul>
+<li>提取协议（如HTTP或HTTPS）</li>
+<li>主机名（如<a class="link"   href="http://www.example.com)/" >www.example.com） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>端口</li>
+<li>路径（如&#x2F;index.html）</li>
+<li>查询参数</li>
+<li>锚点</li>
+</ul>
+<p><a href="./22-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%A3%E6%9E%90url%E8%BF%87%E7%A8%8B.md">浏览器解析url过程</a></p>
+<h2 id="2-DNS-查询"><a href="#2-DNS-查询" class="headerlink" title="2. DNS 查询"></a>2. DNS 查询</h2><p>浏览器需要将域名转换为IP地址，以便进行网络通信。<br>此时，浏览器会查找本地DNS缓存，如果没有找到，就会向系统的DNS服务器发送请求。DNS服务器将返回对应的IP地址。</p>
+<p><a href="./25-DNS.md">DNS</a></p>
+<h2 id="3-TCP连接"><a href="#3-TCP连接" class="headerlink" title="3. TCP连接"></a>3. TCP连接</h2><p>一旦获得了IP地址，浏览器通过TCP（传输控制协议）建立与目标服务器的连接。<br>对于HTTPS请求，还需要进行SSL&#x2F;TLS握手，以确保安全性。这一过程包括：</p>
+<ul>
+<li>客户端向服务器发送连接请求</li>
+<li>服务器确认并建立连接</li>
+<li>进行SSL&#x2F;TLS证书验证以及协商加密算法</li>
+</ul>
+<h2 id="4-发送HTTP请求"><a href="#4-发送HTTP请求" class="headerlink" title="4. 发送HTTP请求"></a>4. 发送HTTP请求</h2><p>连接建立后，浏览器构建一个HTTP请求并发送到服务器。这个请求包含：</p>
+<ul>
+<li>请求行（例如 GET &#x2F;index.html HTTP&#x2F;1.1）</li>
+<li>请求头（例如用户代理、接受类型等信息）</li>
+<li>请求体（对于POST请求，可能包含数据）</li>
+</ul>
+<h2 id="5-服务器处理请求"><a href="#5-服务器处理请求" class="headerlink" title="5. 服务器处理请求"></a>5. 服务器处理请求</h2><p>服务器接收到请求后，会根据请求的内容进行处理。它可能会查找文件、访问数据库或者执行其他逻辑，最终生成一个HTTP响应。</p>
+<h2 id="6-接收HTTP响应"><a href="#6-接收HTTP响应" class="headerlink" title="6. 接收HTTP响应"></a>6. 接收HTTP响应</h2><p>服务器发送回HTTP响应，包含状态码（如200表示成功，404表示未找到），响应头（如内容类型、内容长度等）和响应体（实际请求资源的内容，如HTML文档）。</p>
+<h2 id="7-渲染页面"><a href="#7-渲染页面" class="headerlink" title="7. 渲染页面"></a>7. 渲染页面</h2><p>浏览器接收响应后，进行以下步骤：</p>
+<ul>
+<li>解析HTML文档，构建DOM树</li>
+<li>如果遇到CSS文件，发起请求以获取样式，并构建CSSOM树</li>
+<li>合并DOM和CSSOM，生成渲染树</li>
+<li>根据渲染树计算布局，决定每个元素的位置和大小</li>
+<li>绘制页面，将内容绘制到屏幕上</li>
+</ul>
+<h2 id="8-处理JavaScript"><a href="#8-处理JavaScript" class="headerlink" title="8. 处理JavaScript"></a>8. 处理JavaScript</h2><p>如果HTML中包含JavaScript代码，浏览器会逐步执行这些脚本。<br>JavaScript可以操作DOM，改变页面内容，进行AJAX请求等。</p>
+<h2 id="9-其它资源加载"><a href="#9-其它资源加载" class="headerlink" title="9. 其它资源加载"></a>9. 其它资源加载</h2><p>如果页面中包含其他资源（如图片、音频、视频），浏览器会并行请求这些资源，直至全部加载完成。</p>
+<h2 id="案例说明"><a href="#案例说明" class="headerlink" title="案例说明"></a>案例说明</h2><p>假设用户在浏览器中输入<a class="link"   href="https://www.example.com/index.html%EF%BC%8C%E6%95%B4%E4%B8%AA%E8%BF%87%E7%A8%8B%E5%A6%82%E4%B8%8B%EF%BC%9A" >https://www.example.com/index.html，整个过程如下： <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<ol>
+<li>浏览器解析出协议为HTTPS，域名为<a class="link"   href="http://www.example.com./" >www.example.com。 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li>发送DNS请求，获得IP地址93.184.216.34。</li>
+<li>与该IP地址建立TCP连接，并进行TLS握手。</li>
+<li>发送GET请求，请求&#x2F;index.html资源。</li>
+<li>服务器处理请求，返回200状态及index.html内容。</li>
+<li>浏览器解析HTML，构建DOM树，并抓取相关的CSS和JavaScript文件。</li>
+<li>最终呈现完整的网页给用户。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>计算机网络 - 综合</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>url</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浏览器解析url过程</title>
+    <url>/2024/10/14/22-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%A3%E6%9E%90url%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="1-URL的格式"><a href="#1-URL的格式" class="headerlink" title="1. URL的格式"></a>1. URL的格式</h2><p>协议表示浏览器应当使用的访问方法，包括：”http：””ftp：””file：””mailto：”。<br>比如访问Web服务器使用HTTP协议，访问本地服务器使用FILE协议，访问FTP服务器使用FTP协议。</p>
+<p>图1 列举了常见的几种URL，访问自标不同，URL的写法也不同。<br>例如在访问Web服务器和FTP服务器时，URL中包含服务器的域名和要访问的文件的路径名等，而发邮件的URL则包含收件人的邮件地址。此外，URL还可能包含用户名、密码、服务器端口号等信息。</p>
+<p>图1.1：URL的各种格式<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pica.zhimg.com/80/v2-e72ee2cb036bb9fa21e2817228a43e42_1440w.webp?source=2c26e567"
+                      alt="图1.1"
+                ></p>
+<h2 id="2-URL的组成元素"><a href="#2-URL的组成元素" class="headerlink" title="2. URL的组成元素"></a>2. URL的组成元素</h2><p>图1.2：Web浏览器解析url的过程<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://picx.zhimg.com/80/v2-42f11c5b60c90af055cc232d71d15fd0_1440w.webp?source=2c26e567"
+                      alt="图1.2"
+                ></p>
+<p>图1.3：路径名为&#x2F;dir&#x2F;file1.html的文件<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://pic1.zhimg.com/80/v2-204e5983725b0bf4ea61bef9c66d8d99_1440w.webp?source=2c26e567"
+                      alt="图1.3"
+                ></p>
+<h2 id="3-省略文件名的情况"><a href="#3-省略文件名的情况" class="headerlink" title="3. 省略文件名的情况"></a>3. 省略文件名的情况</h2><h4 id="a-以”-“结尾：lab-glasscom-com-dir"><a href="#a-以”-“结尾：lab-glasscom-com-dir" class="headerlink" title="(a) 以”&#x2F;“结尾：lab.glasscom.com/dir/"></a>(a) 以”&#x2F;“结尾：<code>lab.glasscom.com/dir/</code></h4><p>以”&#x2F;dir&#x2F;“结尾代表&#x2F;dir&#x2F;后面本应该有的文件名被省略了。<br>我们会在服务器上事先设置好文件名省略时要访问的默认文件名，大多情况下是index.html或者default.htm。因此，像前面这样省略文件名时，服务器就会访问其中的默认文件。</p>
+<h4 id="b-域名-”-“：lab-glasscom-com"><a href="#b-域名-”-“：lab-glasscom-com" class="headerlink" title="(b) 域名+”&#x2F;“：lab.glasscom.com/"></a>(b) 域名+”&#x2F;“：<code>lab.glasscom.com/</code></h4><p>以”域名+&#x2F;“结尾表示访问一个名叫”&#x2F;“的目录（根目录）；<br>由于省略了文件名，会访问&#x2F;index.html之类的文件。</p>
+<h4 id="c-域名：lab-glasscom-com"><a href="#c-域名：lab-glasscom-com" class="headerlink" title="(c) 域名：lab.glasscom.com"></a>(c) 域名：<code>lab.glasscom.com</code></h4><p>以域名结尾时，就代表访问根目录下事先设置的默认文件，也就是&#x2F;index.html之类的文件。</p>
+<h4 id="d-路径结尾无”-“：lab-glasscom-com-whatisthis"><a href="#d-路径结尾无”-“：lab-glasscom-com-whatisthis" class="headerlink" title="(d) 路径结尾无”&#x2F;“：lab.glasscom.com/whatisthis"></a>(d) 路径结尾无”&#x2F;“：<code>lab.glasscom.com/whatisthis</code></h4><p><strong>先文件，后目录。</strong><br>如果Web服务器上存在名为whatisthis的文件，则将whatisthis作为文件名来处理；<br>如果存在名为whatisthis的目录，则将whatisthis作为目录名来处理。</p>
+<h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h3><ul>
+<li>URL：Uniform Resource Locator，统一资源定位符。</li>
+<li>FTP：File Transfer Protocol，文件传送协议。是在上传、下载文件时使用的协议（也指使用FTP协议传送文件的程序）。</li>
+<li>HTTP：Hypertext Transfer Protocol，超文本传送协议。</li>
+<li>根目录：”&#x2F;“目录 表示最顶层的目录 “根目录”。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>计算机网络 - url</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>url</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投放链接防重定向</title>
+    <url>/2024/10/14/23-%E6%8A%95%E6%94%BE%E9%93%BE%E6%8E%A5%E9%98%B2%E9%87%8D%E5%AE%9A%E5%90%91/</url>
+    <content><![CDATA[<p>为了防止浏览器进行多次重定向，影响页面性能，投放链接应该以 https 开头，以 ‘&#x2F;‘ 结尾<br>不用：<code>http://lc.jr.jd.com/finance/fund/fundinvest/investZone</code><br>使用：<code>https://lc.jr.jd.com/finance/fund/fundinvest/investZone/</code></p>
+<h2 id="不正确投放链接"><a href="#不正确投放链接" class="headerlink" title="不正确投放链接"></a>不正确投放链接</h2><p>访问<code>http://lc.jr.jd.com/finance/fund/fundinvest/investZone</code>的请求过程：</p>
+<h3 id="一、有缓存"><a href="#一、有缓存" class="headerlink" title="一、有缓存"></a>一、有缓存</h3><h4 id="1-协议变为-https"><a href="#1-协议变为-https" class="headerlink" title="1. 协议变为 https"></a>1. 协议变为 https</h4><p>浏览器把协议从http替换为https（使用307重定向，保证不改变请求方法GET）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/1.png"
+                      alt="图1"
+                ></p>
+<h4 id="2-本地缓存获取IP"><a href="#2-本地缓存获取IP" class="headerlink" title="2. 本地缓存获取IP"></a>2. 本地缓存获取IP</h4><p>浏览器在本地缓存中获取到IP（远端地址）；重定向到补充末尾”&#x2F;“的规范URL</p>
+<ul>
+<li>返回304响应码，该GET请求的request header中包含（与缓存相关的）条件参数</li>
+<li>使用path相对路径进行重定向，因为nginx在server中设置了<code>absolute_redirect off</code></li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/2.png"
+                      alt="图2"
+                ></p>
+<p>请求头中的条件参数（If-xxx）：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/3.png"
+                      alt="图3"
+                ></p>
+<h4 id="3-请求资源"><a href="#3-请求资源" class="headerlink" title="3. 请求资源"></a>3. 请求资源</h4><p>浏览器使用上述请求从本地缓存中获取的IP，向远端服务器GET资源，并成功<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/4.png"
+                      alt="图4"
+                ></p>
+<h3 id="二、无缓存"><a href="#二、无缓存" class="headerlink" title="二、无缓存"></a>二、无缓存</h3><p>无缓存时，第2步变为使用301重定向</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/5.png"
+                      alt="图5"
+                ></p>
+<h2 id="不正确投放链接-1"><a href="#不正确投放链接-1" class="headerlink" title="不正确投放链接"></a>不正确投放链接</h2><p>访问<code>https://lc.jr.jd.com/finance/fund/fundinvest/investZone/</code>的请求过程：</p>
+<h3 id="一、有缓存-1"><a href="#一、有缓存-1" class="headerlink" title="一、有缓存"></a>一、有缓存</h3><p>服务器返回304响应码，表示可以使用客户端中之前缓存的副本</p>
+<ul>
+<li>该请求的request header中包含「与缓存相关」的条件参数</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/23/6.png"
+                      alt="图6"
+                ></p>
+<h3 id="二、无缓存-1"><a href="#二、无缓存-1" class="headerlink" title="二、无缓存"></a>二、无缓存</h3><p>普通请求，响应码为200</p>
+]]></content>
+      <categories>
+        <category>计算机网络 - url</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>url</tag>
+        <tag>实践问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浏览器缓存与304状态码</title>
+    <url>/2024/10/16/24-%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E4%B8%8E304%E7%8A%B6%E6%80%81%E7%A0%81/</url>
+    <content><![CDATA[<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>出现304状态码的条件</p>
+<ul>
+<li>不禁止缓存</li>
+<li>不检查本地缓存是否过期；或者检查本地缓存、且未过期</li>
+<li>响应头有<code>Etag</code>（则下次的请求头中有<code>If-None-Match</code>）；或者响应头有<code>Last-Modified</code>（则下次的请求头中有<code>If-Modified-since</code>）</li>
+<li>缓存有效</li>
+</ul>
+<p>注意：下图中的<code>Etag</code>和<code>Last-Modified</code>之间不存在先后顺序</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/11/22/15fe1d6fc1269a86~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图1"
+                ></p>
+<h2 id="一、304请求的交互过程"><a href="#一、304请求的交互过程" class="headerlink" title="一、304请求的交互过程"></a>一、304请求的交互过程</h2><p>假设用户通过浏览器访问某静态资源（比如图片image.png），且该资源之前已被浏览器缓存，现在分析两次请求的交互过程。</p>
+<h3 id="第一次请求（初始加载）"><a href="#第一次请求（初始加载）" class="headerlink" title="第一次请求（初始加载）"></a>第一次请求（初始加载）</h3><h4 id="1、浏览器发送请求"><a href="#1、浏览器发送请求" class="headerlink" title="1、浏览器发送请求"></a>1、浏览器发送请求</h4><p>用户在浏览器中输入 URL，浏览器向服务器发送 GET 请求，获取 image.png。<br>请求头可能如下：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="keyword">GET</span> <span class="string">/image.png</span> <span class="meta">HTTP/1.1</span></span><br><span class="line"><span class="attribute">Host</span><span class="punctuation">: </span>example.com</span><br><span class="line"><span class="attribute">User-Agent</span><span class="punctuation">: </span>Mozilla/5.0 ...</span><br><span class="line"><span class="attribute">Accept</span><span class="punctuation">: </span>image/webp,image/apng,image/*,*/*;q=0.8</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="2、服务器响应"><a href="#2、服务器响应" class="headerlink" title="2、服务器响应"></a>2、服务器响应</h4><p>服务器处理请求，并返回 200 OK 响应，同时附带以下响应头：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="meta">HTTP/1.1</span> <span class="number">200</span> OK</span><br><span class="line"><span class="attribute">Content-Type</span><span class="punctuation">: </span>image/png</span><br><span class="line"><span class="attribute">Content-Length</span><span class="punctuation">: </span>123456</span><br><span class="line"><span class="attribute">Last-Modified</span><span class="punctuation">: </span>Mon, 01 Jan 2023 12:00:00 GMT</span><br><span class="line"><span class="attribute">ETag</span><span class="punctuation">: </span>&quot;abc123&quot;</span><br><span class="line"><span class="attribute">Cache-Control</span><span class="punctuation">: </span>max-age=31536000</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>Last-Modified</code>：表示资源最后修改的时间</li>
+<li><code>ETag</code>：资源的唯一标识符</li>
+<li><code>Cache-Control</code>：指示浏览器可以缓存该资源的时长</li>
+</ul>
+<h4 id="3、浏览器缓存资源"><a href="#3、浏览器缓存资源" class="headerlink" title="3、浏览器缓存资源"></a>3、浏览器缓存资源</h4><p>浏览器接收响应后，将image.png缓存到本地，并根据响应头信息（如<code>Last-Modified</code>和<code>ETag</code>）记录该资源的状态</p>
+<h3 id="第二次请求（缓存验证）"><a href="#第二次请求（缓存验证）" class="headerlink" title="第二次请求（缓存验证）"></a>第二次请求（缓存验证）</h3><h4 id="1、浏览器发送条件请求"><a href="#1、浏览器发送条件请求" class="headerlink" title="1、浏览器发送条件请求"></a>1、浏览器发送条件请求</h4><p>当用户再次访问同一资源，浏览器会检查缓存，如果该资源仍然有效，就发送一个带条件的 GET 请求到服务器，请求头如下：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="keyword">GET</span> <span class="string">/image.png</span> <span class="meta">HTTP/1.1</span></span><br><span class="line"><span class="attribute">Host</span><span class="punctuation">: </span>example.com</span><br><span class="line"><span class="attribute">If-Modified-Since</span><span class="punctuation">: </span>Mon, 01 Jan 2023 12:00:00 GMT</span><br><span class="line"><span class="attribute">If-None-Match</span><span class="punctuation">: </span>&quot;abc123&quot;</span><br><span class="line"><span class="attribute">User-Agent</span><span class="punctuation">: </span>Mozilla/5.0 ...</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>If-Modified-Since</code>：告诉服务器，如果在指定日期之后资源被修改，则返回新的资源</li>
+<li><code>If-None-Match</code>：告诉服务器，如果资源的<code>ETag</code>与提供的值不匹配，则返回新的资源</li>
+</ul>
+<h4 id="2、服务器处理请求"><a href="#2、服务器处理请求" class="headerlink" title="2、服务器处理请求"></a>2、服务器处理请求</h4><p>服务器接收到条件请求后，检查该资源的状态：<br>如果资源自<code>Last-Modified</code>时间以来未被修改，且<code>ETag</code>匹配，那么服务器不会返回新的内容，而是返回 304 Not Modified。</p>
+<p>服务器返回如下响应：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="meta">HTTP/1.1</span> <span class="number">304</span> Not Modified</span><br><span class="line"><span class="attribute">Date</span><span class="punctuation">: </span>Mon, 02 Jan 2023 12:00:00 GMT</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>注意：304 响应没有消息体，通常只包含必要的状态码和一些响应头。</strong></p>
+<h4 id="3、浏览器处理304响应"><a href="#3、浏览器处理304响应" class="headerlink" title="3、浏览器处理304响应"></a>3、浏览器处理304响应</h4><p>当浏览器接收到 304 Not Modified 响应时，了解到之前缓存的 image.png 仍然有效，因此直接使用缓存中的版本，而无需重新下载。</p>
+<h2 id="二、详细讨论"><a href="#二、详细讨论" class="headerlink" title="二、详细讨论"></a>二、详细讨论</h2><h3 id="1、是否禁止缓存"><a href="#1、是否禁止缓存" class="headerlink" title="1、是否禁止缓存"></a>1、是否禁止缓存</h3><p><strong>禁止缓存</strong>：缓存中不得存储任何关于客户端请求和服务端响应的内容，客户端每次发起的请求都会下载完整的响应内容</p>
+<p>在请求头中，<code>Cache-Control: no-store</code> 与 <code>Pragma: no-cache</code> 都可以禁止缓存</p>
+<ul>
+<li><code>Pragma: no-cache</code> 可用于 <code>http 1.0</code> 和 <code>http 1.1</code></li>
+<li><code>Cache-Control: no-store</code> 只能用于 <code>http 1.1</code></li>
+</ul>
+<h3 id="2、是否检查本地副本是否过期"><a href="#2、是否检查本地副本是否过期" class="headerlink" title="2、是否检查本地副本是否过期"></a>2、是否检查本地副本是否过期</h3><p>由 <code>Cache-Control</code> 的 <code>no-cache</code> 和 <code>must-revalidate</code> 两个可选值控制</p>
+<ul>
+<li><code>no-cache</code>：告诉浏览器、缓存服务器，不管本地副本是否过期，<strong>使用资源副本前，必须到源服务器进行副本有效性校验</strong></li>
+<li><code>must-revalidate</code>：告诉浏览器、缓存服务器，<strong>本地副本过期前，可使用本地副本</strong>；本地副本一旦过期，必须去源服务器进行有效性校验（如果没有该属性，若发生网络问题等情况，客户端可能直接使用本地缓存，而不会向服务器发起校验）</li>
+</ul>
+<h3 id="3、检查本地副本是否过期"><a href="#3、检查本地副本是否过期" class="headerlink" title="3、检查本地副本是否过期"></a>3、检查本地副本是否过期</h3><p>与「缓存的过期机制」相关的响应头字段（优先级依次降低）：</p>
+<h4 id="（1）max-age"><a href="#（1）max-age" class="headerlink" title="（1）max-age=&lt;seconds&gt;"></a>（1）<code>max-age=&lt;seconds&gt;</code></h4><p>表示资源能被缓存的最大时间，通常和 <code>must-revalidate</code> 一起使用。</p>
+<p>本地副本过期前，可使用本地副本，缓存时间为60秒；<br>如果本地副本已过期，则重新向服务器请求（要求必须进行有效性校验）：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="attribute">Cache-Control</span><span class="punctuation">: </span>max-age=60, must-revalidate</span><br></pre></td></tr></table></figure></div>
+
+<p>共享缓存（如代理服务器）将在60秒后失效，而个人用户的缓存则在120秒后失效：</p>
+<div class="highlight-container" data-rel="Http"><figure class="iseeu highlight http"><table><tr><td class="code"><pre><span class="line"><span class="attribute">Cache-Control</span><span class="punctuation">: </span>max-age=120, smax-age=60</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（2）Expires"><a href="#（2）Expires" class="headerlink" title="（2）Expires"></a>（2）<code>Expires</code></h4><p>表示资源的过期时间。<br>如果无<code>max-age</code>但有<code>Expires</code>，通过比较<code>Expires</code>和<code>Date</code>的值来判断是否缓存有效：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec71a24236~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图2"
+                ></p>
+<h4 id="（3）Last-Modified"><a href="#（3）Last-Modified" class="headerlink" title="（3）Last-Modified"></a>（3）<code>Last-Modified</code></h4><p>表示资源的最后修改时间。<br>如果无<code>max-age</code>和<code>expires</code>但有<code>Last-Modified</code>，缓存的时长等于</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="code"><pre><span class="line">(Date - Last-Modified) / <span class="number">10</span></span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec6d61c11a~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图3"
+                ></p>
+<p><strong>如果都没有，浏览器将不会对该需求进行缓存。</strong></p>
+<h3 id="4、本地副本没过期"><a href="#4、本地副本没过期" class="headerlink" title="4、本地副本没过期"></a>4、本地副本没过期</h3><p>直接从缓存中读取资源，并返回200状态码。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec7215656e~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图4"
+                ></p>
+<h3 id="5、本地副本已过期"><a href="#5、本地副本已过期" class="headerlink" title="5、本地副本已过期"></a>5、本地副本已过期</h3><p>进行「源服务器进行有效性校验」的前期准备：</p>
+<h4 id="（1）If-None-Match"><a href="#（1）If-None-Match" class="headerlink" title="（1）If-None-Match"></a>（1）If-None-Match</h4><p>首先，在请求头里寻找<code>If-None-Match</code>字段（其值为服务器上次返回的<code>ETag</code>响应头的值）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec71ddeec1~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图5"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec89fb1991~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图6"
+                ></p>
+<h4 id="（2）If-Modified-Since"><a href="#（2）If-Modified-Since" class="headerlink" title="（2）If-Modified-Since"></a>（2）If-Modified-Since</h4><p>如果没有<code>If-None-Match</code>，则在请求头中寻找<code>If-Modified-Since</code>字段（其值为服务器上次返回的<code>Last-Modified</code>响应头中的日期值）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eec8a29d072~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图7"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eed35bf1c0e~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图8"
+                ></p>
+<p>如果<code>If-None-Match</code>与<code>If-Modified-Since</code>都没有，则直接向服务器请求数据</p>
+<h3 id="6、去源服务器进行有效性校验"><a href="#6、去源服务器进行有效性校验" class="headerlink" title="6、去源服务器进行有效性校验"></a>6、去源服务器进行有效性校验</h3><p>如果请求头中有<code>If-None-Match</code>或<code>If-Modified-Since</code>，则到源服务器进行有效性校验。<br>如果源服务器资源没有变化，则返回304；如果有变化，则返回200。</p>
+<h3 id="7、上述流程的总结图"><a href="#7、上述流程的总结图" class="headerlink" title="7、上述流程的总结图"></a>7、上述流程的总结图</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2018/8/24/16569eed5984fb4b~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.png"
+                      alt="图9"
+                ></p>
+<h2 id="三、意义"><a href="#三、意义" class="headerlink" title="三、意义"></a>三、意义</h2><ul>
+<li><strong>避免了不必要的数据传输，提高了网络效率和用户体验</strong>；</li>
+<li><strong>在频繁访问相同资源的情况下，可以显著降低带宽消耗和服务器负载</strong>。</li>
+</ul>
+<h2 id="四、补充"><a href="#四、补充" class="headerlink" title="四、补充"></a>四、补充</h2><h3 id="私有缓存和公共缓存"><a href="#私有缓存和公共缓存" class="headerlink" title="私有缓存和公共缓存"></a>私有缓存和公共缓存</h3><p>在<code>Cache-Control</code>还有两个值：<code>private</code>与<code>public</code>：</p>
+<ul>
+<li>public 表示该响应可被任何中间人（比如中间代理、CDN等）缓存。</li>
+<li>private 表示该响应是专用于某单个用户的，不能被中间人缓存，应该用于浏览器的私有缓存中，比如：带有HTTP验证信息（帐号密码）的页面 或 某些特定影响状态码的页面*。</li>
+</ul>
+<p>“某些特定影响状态码的页面”指具有特殊语义的状态码，比如：</p>
+<h5 id="（1）401-Unauthorized"><a href="#（1）401-Unauthorized" class="headerlink" title="（1）401 Unauthorized"></a>（1）401 Unauthorized</h5><p>当访问受保护的资源时，如果用户未通过身份验证，服务器可能返回401状态码。<br>此时通常只应允许客户端缓存该响应，因为该内容对其他用户是不适用的。</p>
+<h4 id="（2）403-Forbidden"><a href="#（2）403-Forbidden" class="headerlink" title="（2）403 Forbidden"></a>（2）403 Forbidden</h4><p>表示服务器理解请求但拒绝执行它。<br>在某些情况下，公共内容也可能出于安全考虑而不被中间缓存，因此可标记为 private。</p>
+<h5 id="（2）404-Not-Found"><a href="#（2）404-Not-Found" class="headerlink" title="（2）404 Not Found"></a>（2）404 Not Found</h5><p>如果某资源不存在，虽然它是公开的，但可能在某些应用场景下不希望被中间缓存。</p>
+<h5 id="（3）500-Internal-Server-Error"><a href="#（3）500-Internal-Server-Error" class="headerlink" title="（3）500 Internal Server Error"></a>（3）500 Internal Server Error</h5><p>表示服务器出现了问题，返回的内容可能不稳定，因此不应被中间缓存。</p>
+<h4 id="private-使用场景"><a href="#private-使用场景" class="headerlink" title="private 使用场景"></a>private 使用场景</h4><h5 id="（1）用户特定数据"><a href="#（1）用户特定数据" class="headerlink" title="（1）用户特定数据"></a>（1）用户特定数据</h5><p>如个性化推荐、用户历史记录等，仅对特定用户合适，其他用户无法访问，即便返回成功状态，为了保护用户隐私，建议使用 private。</p>
+<h5 id="（2）临时性数据"><a href="#（2）临时性数据" class="headerlink" title="（2）临时性数据"></a>（2）临时性数据</h5><p>如操作结果、表单提交后给予反馈的信息等，这类信息通常只需当前用户知道，对其他用户无意义，适合标记为 private。</p>
+]]></content>
+      <categories>
+        <category>计算机网络 - 状态码</category>
+        <category>计算机网络 - 浏览器</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>url</tag>
+        <tag>状态码</tag>
+        <tag>浏览器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>25</title>
+    <url>/2024/10/18/25-DNS/</url>
+    <content><![CDATA[<h2 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h2><p>DNS 是：</p>
+<ul>
+<li>一个使得主机能够查询分布式数据库的<strong>应用层协议</strong></li>
+<li>一个由分层的 DNS 服务器实现的<strong>分布式数据库</strong></li>
+</ul>
+<p>（1）DNS 是一个分布式数据库，整个 DNS 系统由分散在世界各地的很多 DNS 服务器组成，每台服务器上都保存了一些数据，可以让我们最终查到主机名对应的 IP。</p>
+<p>（2）DNS 是一个应用层协议，发送一个包含所查询主机名的请求，它会返回该主机名对应的 IP。</p>
+<p><strong>分布式：</strong> 世界上没有一台 DNS 服务器拥有因特网上所有主机的映射，每台 DNS 只负责部分映射。</p>
+<h2 id="二、层次"><a href="#二、层次" class="headerlink" title="二、层次"></a>二、层次</h2><p>DNS 服务器有 3 种类型：</p>
+<ul>
+<li>根 DNS 服务器</li>
+<li>顶级域（Top-Level Domain, TLD）</li>
+<li>DNS 服务器</li>
+<li>权威 DNS 服务器</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://img1.baidu.com/it/u=2736501838,3539264290&fm=253&fmt=auto&app=138&f=PNG?w=722&h=408"
+                      alt="图1"
+                ></p>
+<h3 id="1、根-DNS-服务器"><a href="#1、根-DNS-服务器" class="headerlink" title="1、根 DNS 服务器"></a>1、根 DNS 服务器</h3><p>比如 <code>www.baidu.com</code>，其完整写法是 <code>www.baidu.com.</code>，最后的这个 <code>.</code> 就是根域名。</p>
+<p>通过询问根 DNS 服务器，可以知道它的下一级，也就是顶级域 DNS 服务器的 IP 是多少，从而继续向顶级域 DNS 服务器发起查询请求。</p>
+<h3 id="2、顶级域-DNS-服务器"><a href="#2、顶级域-DNS-服务器" class="headerlink" title="2、顶级域 DNS 服务器"></a>2、顶级域 DNS 服务器</h3><p>除了前面提到的 <code>com</code> 是顶级域名，常见的顶级域名还有 <code>cn</code>、<code>org</code>、<code>edu</code> 等。顶级域 DNS 服务器，也就是 TLD，提供了它的下一级，也就是权威 DNS 服务器的 IP 地址。</p>
+<h3 id="3、权威-DNS-服务器"><a href="#3、权威-DNS-服务器" class="headerlink" title="3、权威 DNS 服务器"></a>3、权威 DNS 服务器</h3><p>权威 DNS 服务器可以返回主机和IP之间的最终映射。</p>
+<h2 id="三、本地-DNS-服务器"><a href="#三、本地-DNS-服务器" class="headerlink" title="三、本地 DNS 服务器"></a>三、本地 DNS 服务器</h2><p>每个 ISP（Internet Server Provider, 网络服务提供商）都有一台本地 DNS 服务器，比如一个居民区的 ISP、一个大学的 ISP、一个机构的 ISP，都有一台或多台本地 DNS 服务器。</p>
+<p>当主机发出 DNS 请求时，该请求被发往本地 DNS 服务器，<strong>本地 DNS 服务器起着代理的作用，并负责将该请求转发到 DNS 服务器层次结构中。</strong></p>
+<p>严格来说，本地 DNS 服务器不属于 DNS 的层次结构。</p>
+<h2 id="四、递归查询、迭代查询"><a href="#四、递归查询、迭代查询" class="headerlink" title="四、递归查询、迭代查询"></a>四、递归查询、迭代查询</h2><p>如下图，假设主机 m.n.com 想要获取主机 a.b.com 的 IP 地址，会经过以下几个步骤：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6bb796a3045e409aabb0f89ad40d3fad~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.webp"
+                      alt="图2"
+                ></p>
+<p>（1）首先，主机 m.n.com 向它的本地 DNS 服务器发送一个 DNS 查询报文，包含期待被转换的主机名 a.b.com；</p>
+<p>（2）本地 DNS 服务器将该报文转发到根 DNS 服务器；</p>
+<p>（3）该根 DNS 服务器注意到 com 前缀，向本地 DNS 服务器返回 com 对应的顶级域 DNS 服务器（TLD）的 IP 地址列表。</p>
+<p>（4）本地 DNS 服务器则向其中一台 TLD 服务器发送查询报文；</p>
+<p>（5）该 TLD 服务器注意到 b.com 前缀，向本地 DNS 服务器返回权威 DNS 服务器的 IP 地址。</p>
+<p>（6）本地 DNS 服务器又向其中一台权威服务器发送查询报文；</p>
+<p>（7）该权威服务器返回了 a.b.com 的 IP 地址；</p>
+<p>（8）本地 DNS 服务器将 a.b.com 跟 IP 地址的映射返回给主机 m.n.com，m.n.com 就可以用该 IP 向 a.b.com 发送请求了。</p>
+<h3 id="1、递归"><a href="#1、递归" class="headerlink" title="1、递归"></a>1、递归</h3><p>主机 m.n.com 向本地 DNS 服务器 dns.n.com 发出的查询就是递归查询，这个查询是主机 m.n.com 以自己的名义向本地 DNS 服务器请求想要的 IP 映射，并且本地 DNS 服务器直接返回映射结果给到主机。</p>
+<h3 id="2、迭代"><a href="#2、迭代" class="headerlink" title="2、迭代"></a>2、迭代</h3><p>而后继的三个查询是迭代查询，包括本地 DNS 服务器向根 DNS 服务器发送查询请求、本地 DNS 服务器向 TLD 服务器发送查询请求、本地 DNS 服务器向权威 DNS 服务器发送查询请求，所有的请求都是由本地 DNS 服务器发出，所有的响应都是直接返回给本地 DNS 服务器。</p>
+<h3 id="3、另一种-DNS-查询"><a href="#3、另一种-DNS-查询" class="headerlink" title="3、另一种 DNS 查询"></a>3、另一种 DNS 查询</h3><p>从理论上讲，任何 DNS 查询既可以是递归的，也可以是迭代的。下图的所有查询就都是递归的，不包含迭代。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd1422f81c2647a19cde72cb9694bc89~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.webp"
+                      alt="图3"
+                ></p>
+<h4 id="TLD-一定知道权威-DNS-服务器的-IP-地址吗？"><a href="#TLD-一定知道权威-DNS-服务器的-IP-地址吗？" class="headerlink" title="TLD 一定知道权威 DNS 服务器的 IP 地址吗？"></a>TLD 一定知道权威 DNS 服务器的 IP 地址吗？</h4><p>不一定，有时 TLD 只是知道中间的某个 DNS 服务器，再由这个中间 DNS 服务器去找到权威 DNS 服务器。</p>
+<p>这种情况不仅增加了延迟，还使得网络上需要传输更多的数据包，也会产生更多的 DNS 报文。</p>
+<h2 id="五、DNS-优化"><a href="#五、DNS-优化" class="headerlink" title="五、DNS 优化"></a>五、DNS 优化</h2><h3 id="1、DNS-缓存"><a href="#1、DNS-缓存" class="headerlink" title="1、DNS 缓存"></a>1、DNS 缓存</h3><p>DNS 存在多级缓存，从离浏览器的距离排序，有以下几种：<br>浏览器缓存，系统缓存，路由器缓存，IPS 服务器缓存，根域名服务器缓存，顶级域名服务器缓存，主域名服务器缓存。</p>
+<ul>
+<li>在chrome浏览器中输入 <code>chrome://net-internals/#dns</code>，可以看到chrome浏览器的DNS缓存</li>
+<li>系统缓存主要存在 <code>/etc/hosts</code> （Linux系统）中</li>
+</ul>
+<p>缓存并不是永久的，每一条映射记录都有对应的生存时间，一旦过了生存时间，该条记录就会从缓存移出。</p>
+<h3 id="2、DNS-负载均衡"><a href="#2、DNS-负载均衡" class="headerlink" title="2、DNS 负载均衡"></a>2、DNS 负载均衡</h3><p>访问某网站的时候，每次响应的很可能不是同一个服务器（IP 地址不同），因为一般公司都有多台服务器来支撑访问，而 DNS 会返回一个合适的机器的 IP 给用户（<strong>根据每台机器的负载量、该机器和用户地理位置的距离等</strong>），这就是 DNS 负载均衡。</p>
+]]></content>
+      <categories>
+        <category>计算机网络 - DNS</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>DNS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>26-CDN</title>
+    <url>/2024/10/29/26-CDN/</url>
+    <content><![CDATA[<h2 id="一、概念"><a href="#一、概念" class="headerlink" title="一、概念"></a>一、概念</h2><p>CDN 全称为 “Content Delivery Network”，即内容分发网络。<br>CDN 是一种特殊的 DNS服务器。</p>
+<h2 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h2><p>当使用域名访问某一个网站时（比如访问 <code>www.baidu.com</code>），分为两步：</p>
+<ul>
+<li>首先解析出该域名所对应的 IP地址（DNS 域名解析）</li>
+<li>然后将 Http请求包 路由到 IP地址 所对应的服务器</li>
+</ul>
+<p>（注：IP地址和网卡相绑定，一个服务器可以有多个网卡，即可能有多个IP地址）</p>
+<h3 id="1、域名解析"><a href="#1、域名解析" class="headerlink" title="1、域名解析"></a>1、域名解析</h3><p>域名解析分为两种：</p>
+<ul>
+<li>将域名解析为IP地址</li>
+<li>将域名解析为另一个域名（CNAME）</li>
+</ul>
+<p>购买一个域名之后，需要去映射一个 IP地址，用 Map 表示：{域名：IP}。<br>也可以给某域名取一个别名，比如给 <code>www.baidu.com</code> 取一个别名 <code>test.baidu.com</code>，用 Map 表示：{域名：CNAME}，这里的CNAME就是别名。</p>
+<p><strong>域名解析，实际上就是解析出指定域名所对应的 IP地址，或该域名的一个 CNAME。</strong></p>
+<p>没有CNAME的情况：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/16/16bf9e293d4bc895~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.webp#?w=1004&h=474&s=41808&e=png&b=fefbfb"
+                      alt="图1"
+                ></p>
+<p>有CNAME的情况：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/16/16bf9e293e8c88d4~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.webp#?w=1012&h=468&s=46488&e=png&b=fefafa"
+                      alt="图1"
+                ></p>
+<p>特别注意：在有 CNAME 的情况下，CNAME 在域名解析的过程中承担了代理的角色，这是 CDN 实现的关键。</p>
+<h3 id="2、资源分类"><a href="#2、资源分类" class="headerlink" title="2、资源分类"></a>2、资源分类</h3><p>服务器上的资源分为两种：</p>
+<ul>
+<li>静态资源：这种资源通常很少变动，比如图片，视频，css，js 等等</li>
+<li>动态资源：这种资源不同用户不同时刻访问通常是不一样的，比如 ftl，jsp 等等。</li>
+</ul>
+<h4 id="（1）集群（动态资源）"><a href="#（1）集群（动态资源）" class="headerlink" title="（1）集群（动态资源）"></a>（1）集群（动态资源）</h4><p>在全国各地部署服务器，每个服务器上都有相同的动态资源，并且还需配置相应的数据库，这就涉及到数据同步等问题。这种做法专业一点就是集群，目前集群架构最多是三地五中心，因为全国多地集群成本太高。</p>
+<h4 id="（2）CDN服务器（静态资源）"><a href="#（2）CDN服务器（静态资源）" class="headerlink" title="（2）CDN服务器（静态资源）"></a>（2）CDN服务器（静态资源）</h4><p>在每个服务器上只部署静态资源是成本较低的方式，因为静态资源通常不涉及数据库，也能提高用户访问速度。</p>
+<p>现在有很多 CDN供应商，只要把系统接入并将静态资源传给 CDN服务，这些静态资源将会自动分布到世界各地。</p>
+<p>在访问静态资源时，DNS系统 进行域名解析的过程中，如何解析出离用户最近的 IP地址？<br>这就需要使用 CDN服务器，该服务器知道用户当前所在位置，和用户访问的域名对应哪些 IP地址，及这些 IP地址 分别在哪。</p>
+<p>这样，只要用户在通过某域名访问静态资源时，<strong>配置自己电脑的 DNS地址 为 CDN专用DNS服务器</strong>，就可以解决问题了，但不能要求所有用户都去修改自己电脑的 DNS地址，这时就要利用 DNS 中的 CNAME 了。</p>
+<h3 id="3、负载均衡和缓存"><a href="#3、负载均衡和缓存" class="headerlink" title="3、负载均衡和缓存"></a>3、负载均衡和缓存</h3><h4 id="（1）负载均衡系统"><a href="#（1）负载均衡系统" class="headerlink" title="（1）负载均衡系统"></a>（1）负载均衡系统</h4><p>如果没有返回 IP地址，本地DNS服务器 会向对应的 CDN服务器 再次发送请求，通过 CDN负载均衡系统 进行智能调度：</p>
+<ul>
+<li>看用户的 IP 地址，查表得知<strong>地理位置</strong>，找相对最近的边缘节点</li>
+<li>看用户所在的<strong>运营商网络</strong>，找相同网络的边缘节点</li>
+<li>检查边缘节点的<strong>负载情况</strong>，找负载较轻的节点</li>
+<li>其他，比如节点的“健康状况”、服务能力、带宽、响应时间等</li>
+</ul>
+<p>结合以上因素，得到最合适的边缘节点，并把该节点返回给用户，用户就能就近访问 CDN 的缓存代理。</p>
+<p>整体流程如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/7/16/16bf9e293edf212d~tplv-t2oaga2asx-jj-mark:3024:0:0:0:q75.webp#?w=1090&h=720&s=68194&e=png&b=fefcfc"
+                      alt="图3"
+                ></p>
+<h4 id="（2）缓存代理"><a href="#（2）缓存代理" class="headerlink" title="（2）缓存代理"></a>（2）缓存代理</h4><p>缓存系统是 CDN 的另一个关键组成部分，缓存系统会缓存最常用的资源，有两个衡量 CDN服务质量 的指标：</p>
+<ul>
+<li><strong>命中率</strong>：用户访问的资源恰好在缓存系统里，可直接返回给用户，命中次数与所有访问次数之比</li>
+<li><strong>回源率</strong>：缓存里没有，必须用代理的方式回源站取，回源次数与所有访问次数之比</li>
+</ul>
+<p>缓存系统可以划分层次为：一级缓存节点和二级缓存节点，一级缓存直连源站，二级缓存直连用户。<br>在回源时，二级缓存首先找一级缓存，一级缓存没有才回源站，可有效减少真正的回源。</p>
+<p>现在的商业 CDN命中率都在 90% 以上，相当于把源站的服务能力放大了 10 倍以上</p>
+<h4 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h4><p>域名解析有多种记录类型，最常用的有：</p>
+<ul>
+<li><strong>A记录：一个域名对应一个IP地址</strong></li>
+<li><strong>CNAME：一个域名对应另外一个域名</strong></li>
+<li>NS：将子域名指定其他DNS服务器解析</li>
+</ul>
+]]></content>
+      <categories>
+        <category>计算机网络 - CDN</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>CDN</tag>
+      </tags>
   </entry>
 </search>

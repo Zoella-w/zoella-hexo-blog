@@ -1,5 +1,5 @@
 ---
-title: 6-vue class与style绑定
+title: vue class 与 style 绑定
 date: 2023-11-28 19:03:13
 tags:
     - vue3

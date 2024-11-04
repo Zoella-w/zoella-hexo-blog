@@ -1,10 +1,11 @@
 ---
-title: 10-v-model
+title: v-model
 date: 2023-12-05 10:31:56
 tags: 
     - vue
 categories:
     - vue
+      - 文档
 ---
 
 ## 基础

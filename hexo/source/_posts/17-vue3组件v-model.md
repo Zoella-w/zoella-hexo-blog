@@ -1,7 +1,12 @@
 ---
-title: 17-vue3组件v-model
+title: vue3 组件 v-model
 date: 2023-12-15 20:27:47
 tags:
+    - vue3
+    - vue
+categories:
+    - vue3
+      - 文档
 ---
 
 ## 基础

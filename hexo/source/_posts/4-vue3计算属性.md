@@ -1,5 +1,5 @@
 ---
-title: 4-vue3计算属性
+title: vue3 计算属性
 date: 2023-11-07 18:46:36
 tags:
     - vue3
