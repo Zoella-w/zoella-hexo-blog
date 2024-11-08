@@ -93,6 +93,8 @@ CDN 是一种特殊的 DNS服务器。
 缓存系统可以划分层次为：一级缓存节点和二级缓存节点，一级缓存直连源站，二级缓存直连用户。
 在回源时，二级缓存首先找一级缓存，一级缓存没有才回源站，可有效减少真正的回源。
 
+![图4](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6db24ee3dcb84eed84b7736b09bdaec9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.webp)
+
 现在的商业 CDN命中率都在 90% 以上，相当于把源站的服务能力放大了 10 倍以上
 
 #### 补充

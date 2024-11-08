@@ -729,9 +729,16 @@
 <li>查询参数</li>
 <li>锚点</li>
 </ul>
-<p><a href="./22-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%A3%E6%9E%90url%E8%BF%87%E7%A8%8B.md">浏览器解析url过程</a></p>
+<p>详见：</p>
+<ul>
+<li><a href="./22-%E6%B5%8F%E8%A7%88%E5%99%A8%E8%A7%A3%E6%9E%90url%E8%BF%87%E7%A8%8B.md">浏览器解析url过程</a></li>
+</ul>
 <h2 id="2-DNS-查询"><a href="#2-DNS-查询" class="headerlink" title="2. DNS 查询"></a>2. DNS 查询</h2><p>浏览器需要将域名转换为IP地址，以便进行网络通信。<br>此时，浏览器会查找本地DNS缓存，如果没有找到，就会向系统的DNS服务器发送请求。DNS服务器将返回对应的IP地址。</p>
-<p><a href="./25-DNS.md">DNS</a></p>
+<p>详见：</p>
+<ul>
+<li><a href="./25-DNS.md">DNS</a></li>
+<li><a href="./26-CDN.md">CDN</a></li>
+</ul>
 <h2 id="3-TCP连接"><a href="#3-TCP连接" class="headerlink" title="3. TCP连接"></a>3. TCP连接</h2><p>一旦获得了IP地址，浏览器通过TCP（传输控制协议）建立与目标服务器的连接。<br>对于HTTPS请求，还需要进行SSL&#x2F;TLS握手，以确保安全性。这一过程包括：</p>
 <ul>
 <li>客户端向服务器发送连接请求</li>
@@ -1167,6 +1174,12 @@
 <li><strong>回源率</strong>：缓存里没有，必须用代理的方式回源站取，回源次数与所有访问次数之比</li>
 </ul>
 <p>缓存系统可以划分层次为：一级缓存节点和二级缓存节点，一级缓存直连源站，二级缓存直连用户。<br>在回源时，二级缓存首先找一级缓存，一级缓存没有才回源站，可有效减少真正的回源。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6db24ee3dcb84eed84b7736b09bdaec9~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.webp"
+                      alt="图4"
+                ></p>
 <p>现在的商业 CDN命中率都在 90% 以上，相当于把源站的服务能力放大了 10 倍以上</p>
 <h4 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h4><p>域名解析有多种记录类型，最常用的有：</p>
 <ul>
@@ -1182,6 +1195,156 @@
         <tag>面经</tag>
         <tag>计算机网络</tag>
         <tag>CDN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>28-interface &amp; type</title>
+    <url>/2024/11/05/28-interface&amp;type/</url>
+    <content><![CDATA[<h2 id="一、相同点"><a href="#一、相同点" class="headerlink" title="一、相同点"></a>一、相同点</h2><h3 id="1、都可以描述对象和函数的类型"><a href="#1、都可以描述对象和函数的类型" class="headerlink" title="1、都可以描述对象和函数的类型"></a>1、都可以描述对象和函数的类型</h3><p>但语法不一样，type 使用 &#x3D; 赋值</p>
+<div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">SetUser</span> &#123;</span><br><span class="line">    (<span class="attr">name</span>: <span class="built_in">string</span>, <span class="attr">age</span>: <span class="built_in">number</span>): <span class="built_in">void</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span> <span class="title class_">User</span> = &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> <span class="title class_">SetUser</span> = <span class="function">(<span class="params">name: <span class="built_in">string</span>, age: <span class="built_in">number</span></span>) =&gt;</span> <span class="built_in">void</span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2、都允许扩展（extends）"><a href="#2、都允许扩展（extends）" class="headerlink" title="2、都允许扩展（extends）"></a>2、都允许扩展（extends）</h3><p>并且 interface 和 type 可以互相扩展</p>
+<h4 id="（1）interface-扩展-interface"><a href="#（1）interface-扩展-interface" class="headerlink" title="（1）interface 扩展 interface"></a>（1）interface 扩展 interface</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">Name</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> <span class="keyword">extends</span> <span class="title class_">Name</span> &#123;</span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（2）type-扩展-type"><a href="#（2）type-扩展-type" class="headerlink" title="（2）type 扩展 type"></a>（2）type 扩展 type</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span> <span class="title class_">Name</span> = &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> <span class="title class_">User</span> = <span class="title class_">Name</span> &amp; &#123;</span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（3）interface-扩展-type"><a href="#（3）interface-扩展-type" class="headerlink" title="（3）interface 扩展 type"></a>（3）interface 扩展 type</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span> <span class="title class_">Name</span> = &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> <span class="keyword">extends</span> <span class="title class_">Name</span> &#123;</span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（4）type-扩展-interface"><a href="#（4）type-扩展-interface" class="headerlink" title="（4）type 扩展 interface"></a>（4）type 扩展 interface</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">Name</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> <span class="title class_">User</span> = <span class="title class_">Name</span> &amp; &#123;</span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="二、不同点"><a href="#二、不同点" class="headerlink" title="二、不同点"></a>二、不同点</h2><h3 id="1、type-可以，但-interface-不行"><a href="#1、type-可以，但-interface-不行" class="headerlink" title="1、type 可以，但 interface 不行"></a>1、type 可以，但 interface 不行</h3><h4 id="（1）基本类型别名"><a href="#（1）基本类型别名" class="headerlink" title="（1）基本类型别名"></a>（1）基本类型别名</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span> <span class="title class_">Name</span> = <span class="built_in">string</span></span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（2）联合类型"><a href="#（2）联合类型" class="headerlink" title="（2）联合类型"></a>（2）联合类型</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">Dog</span> &#123;</span><br><span class="line">    <span class="attr">dogName</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">Cat</span> &#123;</span><br><span class="line">    <span class="attr">catName</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">type</span> <span class="title class_">Pet</span> = <span class="title class_">Dog</span> | <span class="title class_">Cat</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> <span class="title class_">StringOrNumber</span> = <span class="built_in">string</span> | <span class="built_in">number</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> <span class="title class_">Text</span> = <span class="built_in">string</span> | &#123; <span class="attr">text</span>: <span class="built_in">string</span> &#125;</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（3）元组"><a href="#（3）元组" class="headerlink" title="（3）元组"></a>（3）元组</h4><p>具体定义数组每个位置的类型</p>
+<div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span> <span class="title class_">PetList</span> = [<span class="title class_">Dog</span>, <span class="title class_">List</span>]</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="（4）使用-typeof-获取实例的类型-对-type-进行赋值"><a href="#（4）使用-typeof-获取实例的类型-对-type-进行赋值" class="headerlink" title="（4）使用 typeof 获取实例的类型 对 type 进行赋值"></a>（4）使用 typeof 获取实例的类型 对 type 进行赋值</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> divEle = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;div&#x27;</span>)</span><br><span class="line"><span class="keyword">type</span> <span class="title class_">Div</span> = <span class="keyword">typeof</span> divEle</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2、interface-可以，但-type-不行"><a href="#2、interface-可以，但-type-不行" class="headerlink" title="2、interface 可以，但 type 不行"></a>2、interface 可以，但 type 不行</h3><h4 id="interface-能够声明合并"><a href="#interface-能够声明合并" class="headerlink" title="interface 能够声明合并"></a>interface 能够声明合并</h4><div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> &#123;</span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * User 接口为 &#123;</span></span><br><span class="line"><span class="comment"> *     name: string</span></span><br><span class="line"><span class="comment"> *     age: number</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h2><p>优先用 interface，无法实现再用 type，因为 interface 具有更直观和易于理解的特点，并且能够进行声明合并。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>30-HKU ECIC</title>
+    <url>/2024/11/08/30-HKU%20ECIC/</url>
+    <content><![CDATA[<h2 id="I-General-Questions"><a href="#I-General-Questions" class="headerlink" title="I. General Questions"></a>I. General Questions</h2><h3 id="Self-introduction"><a href="#Self-introduction" class="headerlink" title="- Self-introduction"></a>- Self-introduction</h3><h4 id="1-complete"><a href="#1-complete" class="headerlink" title="1. complete"></a>1. complete</h4><h4 id="2-brief"><a href="#2-brief" class="headerlink" title="2. brief"></a>2. brief</h4><h3 id="Why-Hong-Kong"><a href="#Why-Hong-Kong" class="headerlink" title="- Why Hong Kong?"></a>- Why Hong Kong?</h3><h3 id="Why-HKU"><a href="#Why-HKU" class="headerlink" title="- Why HKU?"></a>- Why HKU?</h3><h3 id="What-is-ECIC"><a href="#What-is-ECIC" class="headerlink" title="- What is ECIC?"></a>- What is ECIC?</h3><h3 id="Why-ECIC-Why-this-program"><a href="#Why-ECIC-Why-this-program" class="headerlink" title="- Why ECIC? &#x2F; Why this program?"></a>- Why ECIC? &#x2F; Why this program?</h3><h3 id="ECIC-curriculum"><a href="#ECIC-curriculum" class="headerlink" title="- ECIC curriculum"></a>- ECIC curriculum</h3><h3 id="What-can-be-added-in-curriculum-Why"><a href="#What-can-be-added-in-curriculum-Why" class="headerlink" title="- What can be added in curriculum? Why?"></a>- What can be added in curriculum? Why?</h3><h3 id="Why-choose-you"><a href="#Why-choose-you" class="headerlink" title="- Why choose you?"></a>- Why choose you?</h3><h3 id="Why-back-to-school"><a href="#Why-back-to-school" class="headerlink" title="- Why back to school?"></a>- Why back to school?</h3><h3 id="Career-planning"><a href="#Career-planning" class="headerlink" title="- Career planning"></a>- Career planning</h3><h3 id="How-to-start-your-own-business"><a href="#How-to-start-your-own-business" class="headerlink" title="- How to start your own business?"></a>- How to start your own business?</h3><h3 id="Benefits-of-you-compared-with-others"><a href="#Benefits-of-you-compared-with-others" class="headerlink" title="- Benefits of you compared with others"></a>- Benefits of you compared with others</h3><h3 id="What’s-your-disadvantages"><a href="#What’s-your-disadvantages" class="headerlink" title="- What’s your disadvantages?"></a>- What’s your disadvantages?</h3><h3 id="Questions-for-professors"><a href="#Questions-for-professors" class="headerlink" title="- Questions for professors"></a>- Questions for professors</h3><h2 id="II-Specific-Questions"><a href="#II-Specific-Questions" class="headerlink" title="II. Specific Questions"></a>II. Specific Questions</h2><h3 id="What-payment-methods-Differences-between-alipay-and-wechat-pay"><a href="#What-payment-methods-Differences-between-alipay-and-wechat-pay" class="headerlink" title="- What payment methods? Differences between alipay and wechat pay"></a>- What payment methods? Differences between alipay and wechat pay</h3><h3 id="Suppose-you-are-an-agency-responsible-for-helping-students-apply-for-ECIC-design-2-functions-that-you-think-are-the-most-important-to-help-improve-the-success-rate-of-application-and-how-to-price-the-service"><a href="#Suppose-you-are-an-agency-responsible-for-helping-students-apply-for-ECIC-design-2-functions-that-you-think-are-the-most-important-to-help-improve-the-success-rate-of-application-and-how-to-price-the-service" class="headerlink" title="- Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service"></a>- Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service</h3><h3 id="Design-an-enterpreneurial-project-around-ChatGPT-and-show-the-killing-points"><a href="#Design-an-enterpreneurial-project-around-ChatGPT-and-show-the-killing-points" class="headerlink" title="- Design an enterpreneurial project around ChatGPT, and show the killing points"></a>- Design an enterpreneurial project around ChatGPT, and show the killing points</h3><h3 id="ChatGPT’s-influence-to-e-commerce"><a href="#ChatGPT’s-influence-to-e-commerce" class="headerlink" title="- ChatGPT’s influence to e-commerce"></a>- ChatGPT’s influence to e-commerce</h3><h3 id="Blockchain"><a href="#Blockchain" class="headerlink" title="- Blockchain"></a>- Blockchain</h3><h3 id="Metauniverse"><a href="#Metauniverse" class="headerlink" title="- Metauniverse"></a>- Metauniverse</h3><h3 id="Digital-currency"><a href="#Digital-currency" class="headerlink" title="- Digital currency"></a>- Digital currency</h3><h3 id="Differences-between-Hong-Kong-e-commerce-and-mainland-e-commerce"><a href="#Differences-between-Hong-Kong-e-commerce-and-mainland-e-commerce" class="headerlink" title="- Differences between Hong Kong e-commerce and mainland e-commerce"></a>- Differences between Hong Kong e-commerce and mainland e-commerce</h3><h3 id="Think-of-a-business-case-and-point-out-its-shortcomings"><a href="#Think-of-a-business-case-and-point-out-its-shortcomings" class="headerlink" title="- Think of a business case and point out its shortcomings"></a>- Think of a business case and point out its shortcomings</h3><h3 id="Provide-a-sum-of-money-to-start-an-e-commerce-related-business-in-Hong-Kong-and-provide-a-three-year-plan"><a href="#Provide-a-sum-of-money-to-start-an-e-commerce-related-business-in-Hong-Kong-and-provide-a-three-year-plan" class="headerlink" title="- Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan"></a>- Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan</h3><h3 id="Provide-HK-200-000-to-discuss-an-e-commerce-project"><a href="#Provide-HK-200-000-to-discuss-an-e-commerce-project" class="headerlink" title="- Provide HK$ 200,000 to discuss an e-commerce project"></a>- Provide HK$ 200,000 to discuss an e-commerce project</h3><h3 id="Come-up-with-an-e-pay-project-and-how-to-make-money"><a href="#Come-up-with-an-e-pay-project-and-how-to-make-money" class="headerlink" title="- Come up with an e-pay project and how to make money"></a>- Come up with an e-pay project and how to make money</h3><h3 id="What-technological-development-do-you-think-will-change-the-profit-model-in-the-next-decade-And-how"><a href="#What-technological-development-do-you-think-will-change-the-profit-model-in-the-next-decade-And-how" class="headerlink" title="- What technological development do you think will change the profit model in the next decade? And how?"></a>- What technological development do you think will change the profit model in the next decade? And how?</h3><p>AR, VR, Blockchain</p>
+<h3 id="How-to-combine-Metauniverse-and-AI-to-make-a-project"><a href="#How-to-combine-Metauniverse-and-AI-to-make-a-project" class="headerlink" title="- How to combine Metauniverse and AI to make a project?"></a>- How to combine Metauniverse and AI to make a project?</h3><h3 id="If-you-are-a-student-group-leader-what-should-you-do-if-there-are-people-who-don’t-do-anything-in-the-group"><a href="#If-you-are-a-student-group-leader-what-should-you-do-if-there-are-people-who-don’t-do-anything-in-the-group" class="headerlink" title="- If you are a student group leader, what should you do if there are people who don’t do anything in the group?"></a>- If you are a student group leader, what should you do if there are people who don’t do anything in the group?</h3><h2 id="III-Group-Interview"><a href="#III-Group-Interview" class="headerlink" title="III. Group Interview"></a>III. Group Interview</h2>]]></content>
+      <categories>
+        <category>ECIC 面经</category>
+      </categories>
+      <tags>
+        <tag>ECIC 面经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>27-三次握手&amp;四次挥手</title>
+    <url>/2024/11/04/27-%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B&amp;%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</url>
+    <content><![CDATA[<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><h3 id="一、概念"><a href="#一、概念" class="headerlink" title="一、概念"></a>一、概念</h3><h4 id="1、TCP-协议"><a href="#1、TCP-协议" class="headerlink" title="1、TCP 协议"></a>1、TCP 协议</h4><p>TCP（Transmission Control Protocol），即传输控制协议。<br>TCP 协议是一个 <strong>面向连接的、可靠的、基于字节流</strong> 的 <strong>传输层协议</strong>。</p>
+<p>TCP 连接可以用于 <strong>保证可靠性</strong> 和 <strong>流量控制机制</strong>，包括 Socket、序列号及窗口大小。</p>
+<p>其中 Socket 是由 IP 加端口组成的，序列号是用来解决乱序问题的，而窗口大小则是用来做流量控制的。</p>
+<h4 id="2、TCP-的特点"><a href="#2、TCP-的特点" class="headerlink" title="2、TCP 的特点"></a>2、TCP 的特点</h4><ul>
+<li>面向连接：TCP 是通过服务端和客户端进行连接的协议。</li>
+<li>面向字节流：TCP 服务端和客户端之间的数据通讯是通过 <strong>字节流数据</strong> 传输的。</li>
+<li>可靠的：TCP 传输的可靠性得益于 TCP 会记录 <strong>信息的发送状态</strong> 和 <strong>数据的接收与否</strong>，对于丢包等发送不成功的情况，TCP 会重新发包，进而保证 TCP 的可靠性。</li>
+</ul>
+<h3 id="3、TCP-三次握手"><a href="#3、TCP-三次握手" class="headerlink" title="3、TCP 三次握手"></a>3、TCP 三次握手</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://ask.qcloudimg.com/http-save/yehe-1208223/0b58ac09994e834e14ca43dcf357294b.png?imageView2/2/w/1620"
+                      alt="图1"
+                ></p>
+<ul>
+<li>SYN：Synchronize Sequence Numbers，同步序列号，表示发起一个新连接。</li>
+<li>ACK：确认收到一个新连接。</li>
+<li>SEQ：序列号。</li>
+</ul>
+<p>TCP 三次握手执行过程：</p>
+<h4 id="（1）第一次握手（在吗？）"><a href="#（1）第一次握手（在吗？）" class="headerlink" title="（1）第一次握手（在吗？）"></a>（1）第一次握手（在吗？）</h4><p>Client 将 <code>SYN</code> 发给 Server。<br>Client 进入 <code>SYN_SENT</code> 状态，等待 Server 确认。</p>
+<h4 id="（2）第二次握手（在的，有事？）"><a href="#（2）第二次握手（在的，有事？）" class="headerlink" title="（2）第二次握手（在的，有事？）"></a>（2）第二次握手（在的，有事？）</h4><p>Server 收到 <code>SYN</code>，将 <code>SYN</code>+<code>ACK</code> 发给 Client。<br>Server 进入 <code>SYN_RCVD</code> 状态，等待 Client 确认。</p>
+<h4 id="（3）第三次握手（需要数据传输）"><a href="#（3）第三次握手（需要数据传输）" class="headerlink" title="（3）第三次握手（需要数据传输）"></a>（3）第三次握手（需要数据传输）</h4><p>Client 收到 <code>SYN</code>+<code>ACK</code>，将 <code>SYN</code> 发给 Server。<br>连接成功，Client 与 Server 进入 <code>ESTABLISHED</code> 状态，可以传输数据。</p>
+<h4 id="TCP-为什么需要三次握手？"><a href="#TCP-为什么需要三次握手？" class="headerlink" title="TCP 为什么需要三次握手？"></a>TCP 为什么需要三次握手？</h4><p><strong>为了防止已失效的请求报文段传送到服务端而产生连接的误判。</strong></p>
+<p>假设是两次握手：</p>
+<p>当 A 发送一个连接请求给 B，但是该请求由于网络原因被阻塞了，一段时间后，A 未收到回复，会认为该消息丢失了，就会重新发送消息。</p>
+<p>当 A 和 B 通信完成后，这个被 A 认为已经丢失的请求到达了 B，B 会认为这是一个新的请求连接消息，就向 A 发送确认。</p>
+<p>但是 A 认为自己没有给 B 再次发送消息，所以不会理睬 B 的确认，但是 B 会一直等待 A 的消息，导致 B 的资源被浪费。</p>
+<p>这就是为什么不能两次握手。</p>
+<p><strong>设计成三次握手的情况，客户端在接收到服务端 SEQ+1 的返回消息后，就会知道该连接是历史连接，接着发送报文告诉服务端。</strong></p>
+<p>为了节省资源，也没必要设计成更多次的握手。</p>
+<h2 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://img-blog.csdnimg.cn/20190627203747107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NodWZmbGVfVHM=,size_16,color_FFFFFF,t_70"
+                      alt="图2"
+                ></p>
+<h3 id="四次挥手的-6-种状态"><a href="#四次挥手的-6-种状态" class="headerlink" title="四次挥手的 6 种状态"></a>四次挥手的 6 种状态</h3><h4 id="（1）FIN-WAIT-1"><a href="#（1）FIN-WAIT-1" class="headerlink" title="（1）FIN_WAIT_1"></a>（1）FIN_WAIT_1</h4><p>主动方在 <code>ESTABLISHED</code> 状态的时候，想要主动关闭连接，向对方发送 <code>FIN</code> 报文，并进入 <code>FIN_WAIT_1</code> 状态。</p>
+<h4 id="（2）FIN-WAIT-2"><a href="#（2）FIN-WAIT-2" class="headerlink" title="（2）FIN_WAIT_2"></a>（2）FIN_WAIT_2</h4><p>当主动方收到被动方回复的 <code>ACK</code> 报文后，就进入了 <code>FIN_WAIT_2</code> 状态。</p>
+<p>当主动方进入 <code>FIN_WAIT_2</code> 时，表示半连接状态，即被动方还有数据要发过来。</p>
+<h4 id="（3）CLOSE-WAIT"><a href="#（3）CLOSE-WAIT" class="headerlink" title="（3）CLOSE_WAIT"></a>（3）CLOSE_WAIT</h4><p>当被动方接收到 <code>FIN</code> 时，会回复一个 <code>ACK</code>，并进入 <code>CLOSE_WAIT</code> 状态。</p>
+<p>在该状态中，被动方如果还有数据要发送，就继续发送，如果没有，就关闭连接，并发送一个 <code>FIN</code> 给对方。</p>
+<h4 id="（4）TIME-WAIT"><a href="#（4）TIME-WAIT" class="headerlink" title="（4）TIME_WAIT"></a>（4）TIME_WAIT</h4><p>当主动方接收到了 <code>FIN</code> 报文，就回复一个 <code>ACK</code> 报文，并进入 <code>TIME_WAIT</code> 状态。</p>
+<p>如果主动方在 <code>FIN_WAIT_1</code> 状态下，收到了对方的 <code>FIN</code>+<code>ACK</code> 报文，可以跳过 <code>FIN_WAIT_2</code> 直接进入 <code>TIME_WAIT</code> 状态。</p>
+<h4 id="（5）LAST-ACK"><a href="#（5）LAST-ACK" class="headerlink" title="（5）LAST_ACK"></a>（5）LAST_ACK</h4><p>被动方发送了 <code>FIN</code> 报文后，最后等待对方的 <code>ACK</code> 报文时进入的状态。收到ACK报文后就可以进入CLOSED状态了。</p>
+<h4 id="（6）CLOSED"><a href="#（6）CLOSED" class="headerlink" title="（6）CLOSED"></a>（6）CLOSED</h4><p>主动方进入 <code>TIME_WAIT</code> 状态后，再等待 <code>2MSL</code> 就会进入 <code>CLOSED</code> 状态。<br>被动方在收到 <code>ACK</code> 报文后，立即进入 <code>CLOSED</code> 状态。</p>
+<h3 id="TIME-WAIT-的意义"><a href="#TIME-WAIT-的意义" class="headerlink" title="TIME_WAIT 的意义"></a><code>TIME_WAIT</code> 的意义</h3><p>如果没有 <code>TIME-WAIT</code>，主动方会直接进入 <code>CLOSED</code> 状态。<br>此时如果因为网络原因最后一次 <code>ACK</code> 丢失了，服务端会重复发送 <code>FIN</code> 请求给客户端，所以就需要主动方发送最后一次 <code>ACK</code> 之后进入 <code>TIME_WAIT</code> 状态，等待 <code>2MSL</code>（两个报文最大生命周期），等待这段时间就是为了如果接收到了重发的 <code>FIN</code> 请求能够进行最后一次 <code>ACK</code> 回复。</p>
+]]></content>
+      <categories>
+        <category>计算机网络 - TCP</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>TCP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>29-TCP</title>
+    <url>/2024/11/05/29-TCP/</url>
+    <content><![CDATA[<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/2/23/1707236e03d22cbc~tplv-t2oaga2asx-zoom-in-crop-mark:1512:0:0:0.webp"
+                      alt="图1"
+                ></p>
+<h2 id="一、TCP-和-UDP-的区别"><a href="#一、TCP-和-UDP-的区别" class="headerlink" title="一、TCP 和 UDP 的区别"></a>一、TCP 和 UDP 的区别</h2><p>TCP 和 UDP 都是传输层协议，不同点在于：</p>
+<ul>
+<li>TCP 是 <strong>面向连接的、可靠的、面向字节流</strong> 的</li>
+<li>UDP 是 <strong>面向无连接</strong> 的</li>
+</ul>
+<p>TCP 的三大核心特性</p>
+<h3 id="1、面向连接"><a href="#1、面向连接" class="headerlink" title="1、面向连接"></a>1、面向连接</h3><p>在客户端和服务器互相通信之前，TCP 需要三次握手建立连接，而 UDP 不需要</p>
+<h3 id="2、可靠性"><a href="#2、可靠性" class="headerlink" title="2、可靠性"></a>2、可靠性</h3><p>TCP 的可靠性体现在<strong>有状态、可控制</strong>。</p>
+<h4 id="（1）有状态"><a href="#（1）有状态" class="headerlink" title="（1）有状态"></a>（1）有状态</h4><p>TCP 会记录发送的数据，以及其中被接收和未被接收的数据，并保证数据包按序到达</p>
+<h4 id="（2）可控制"><a href="#（2）可控制" class="headerlink" title="（2）可控制"></a>（2）可控制</h4><p>当意识到丢包或网络不佳，TCP 会根据情况调整自身行为，控制发送速度或者重发</p>
+<h3 id="3、面向字节流"><a href="#3、面向字节流" class="headerlink" title="3、面向字节流"></a>3、面向字节流</h3><p>UDP 的数据传输是基于数据报的，这仅仅继承了 IP 层的特性；而 TCP 为了维护状态，将 IP 包变成了字节流</p>
+<h2 id="二、TCP-三次握手过程-为什么是三次"><a href="#二、TCP-三次握手过程-为什么是三次" class="headerlink" title="二、TCP 三次握手过程 &amp; 为什么是三次"></a>二、TCP 三次握手过程 &amp; 为什么是三次</h2><h3 id="1、流程"><a href="#1、流程" class="headerlink" title="1、流程"></a>1、流程</h3><p>发送与接收方需要确认双方的两种能力：发送和接收，于是会有三次握手的过程:</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/2/23/170723de9b8aa08b~tplv-t2oaga2asx-zoom-in-crop-mark:1512:0:0:0.webp"
+                      alt="图2"
+                ></p>
+<h4 id="（1）服务器变为-LISTEN"><a href="#（1）服务器变为-LISTEN" class="headerlink" title="（1）服务器变为 LISTEN"></a>（1）服务器变为 LISTEN</h4><h5 id="起初双方都处于-CLOSED-状态。服务端开始监听某个端口，进入-LISTEN-状态"><a href="#起初双方都处于-CLOSED-状态。服务端开始监听某个端口，进入-LISTEN-状态" class="headerlink" title="起初双方都处于 CLOSED 状态。服务端开始监听某个端口，进入 LISTEN 状态"></a>起初双方都处于 CLOSED 状态。服务端开始监听某个端口，进入 LISTEN 状态</h5><h4 id="（2）客户端变为-SYN-SENT"><a href="#（2）客户端变为-SYN-SENT" class="headerlink" title="（2）客户端变为 SYN-SENT"></a>（2）客户端变为 SYN-SENT</h4><h5 id="客户端主动发起连接，发送-SYN，并进入-SYN-SENT-状态"><a href="#客户端主动发起连接，发送-SYN，并进入-SYN-SENT-状态" class="headerlink" title="客户端主动发起连接，发送 SYN，并进入 SYN-SENT 状态"></a>客户端主动发起连接，发送 SYN，并进入 SYN-SENT 状态</h5><p>其中 seq&#x3D;x，表示客户端告诉服务端，我发送的首个数据包 序列号从 x 开始</p>
+<h4 id="（3）服务端变为-SYN-REVD"><a href="#（3）服务端变为-SYN-REVD" class="headerlink" title="（3）服务端变为 SYN-REVD"></a>（3）服务端变为 SYN-REVD</h4><h5 id="服务端接收到，返回-SYN-和-ACK（对应客户端发来的-SYN），并进入-SYN-REVD-状态"><a href="#服务端接收到，返回-SYN-和-ACK（对应客户端发来的-SYN），并进入-SYN-REVD-状态" class="headerlink" title="服务端接收到，返回 SYN 和 ACK（对应客户端发来的 SYN），并进入 SYN-REVD 状态"></a>服务端接收到，返回 SYN 和 ACK（对应客户端发来的 SYN），并进入 SYN-REVD 状态</h5><p>其中 seq&#x3D;y，ack&#x3D;x+1，seq&#x3D;y 表示服务端的初始序列号是 y ，ack&#x3D;x+1 表示服务端告诉客户端：已收到从序列号 x 开始的数据包，期望下次发送从序列号 x+1 开始的数据包</p>
+<h4 id="（4）客户端变为-ESTABLISHED"><a href="#（4）客户端变为-ESTABLISHED" class="headerlink" title="（4）客户端变为 ESTABLISHED"></a>（4）客户端变为 ESTABLISHED</h4><h5 id="客户端再发送-ACK-给服务端，并进入-ESTABLISHED-状态"><a href="#客户端再发送-ACK-给服务端，并进入-ESTABLISHED-状态" class="headerlink" title="客户端再发送 ACK 给服务端，并进入 ESTABLISHED 状态"></a>客户端再发送 ACK 给服务端，并进入 ESTABLISHED 状态</h5><p>其中 seq&#x3D;x+1 ，ack&#x3D;y+1 。seq&#x3D;x+1 表示客户端按照服务端的期望，从序列号 x+1 开始发送数据包，ack&#x3D;y+1 表示客户端告诉服务端：已收到从序列号 y 开始的数据包，期望下次发送从序列号 y+1 开始的数据包</p>
+<h5 id="服务端收到-ACK-之后，也进入-ESTABLISHED-状态"><a href="#服务端收到-ACK-之后，也进入-ESTABLISHED-状态" class="headerlink" title="服务端收到 ACK 之后，也进入 ESTABLISHED 状态"></a>服务端收到 ACK 之后，也进入 ESTABLISHED 状态</h5><p>注意：凡是需要对端确认的，一定会消耗 TCP 报文的序列号。<br>SYN 需要对端的确认，而 ACK 不需要，因此 SYN 消耗一个序列号，下次发送对应的 ACK 序列号要加 1，而 ACK 不需要。</p>
+<h3 id="2、为什么不是两次握手"><a href="#2、为什么不是两次握手" class="headerlink" title="2、为什么不是两次握手"></a>2、为什么不是两次握手</h3><p>根本原因：<strong>没有第三次握手，服务端无法确认客户端的接收能力</strong></p>
+<p>如果是两次，客户端发送 SYN 报文试图和服务端建立连接，但是这个包发生了滞留；一段时间后，客户端未收到服务端响应，以为丢了包，于是重传，两次握手建立好了连接。</p>
+<p>但是在连接关闭后，如果滞留的包到达了服务端，这时由于是两次握手，服务端只要接收到、并给客户端发送了相应的数据包，就默认建立连接，但是此时客户端已经断开，这就带来了资源的浪费。</p>
+<h3 id="3、三次握手过程中可以携带数据么"><a href="#3、三次握手过程中可以携带数据么" class="headerlink" title="3、三次握手过程中可以携带数据么"></a>3、三次握手过程中可以携带数据么</h3><p>第三次握手可以携带数据，前两次握手不能携带</p>
+<p>如果前两次握手能够携带数据，一旦有人想攻击服务器，只需要在第一次握手中的 SYN 报文中放大量数据，服务器势必会消耗更多的时间和内存空间去进行处理，增大了服务器被攻击的风险</p>
+<p>第三次握手时，客户端已处于 ESTABLISHED 状态，并且能够确认服务器的接收、发送能力正常，这时相对安全，可以携带数据</p>
+<h2 id="三、TCP-四次挥手的过程"><a href="#三、TCP-四次挥手的过程" class="headerlink" title="三、TCP 四次挥手的过程"></a>三、TCP 四次挥手的过程</h2>]]></content>
+      <categories>
+        <category>计算机网络 - TCP</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+        <tag>计算机网络</tag>
+        <tag>TCP</tag>
       </tags>
   </entry>
 </search>
