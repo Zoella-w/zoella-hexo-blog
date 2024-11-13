@@ -57,48 +57,57 @@ That's why I apply for HKU's ECIC program. It combines technical and strategic b
 
 #### 2.1 Why Hong Kong?
 
-I choose Hong Kong for my further studies for several reasons.
+I choose Hong Kong for my further studies for mainly two reasons.
 
-First, Hong Kong is an international financial and business center, and has many connections with multinational companies. So it will offer me great career opportunities and prospects, especially in e-commerce, which are areas I'm passionate about.
+On the one hand, Hong Kong is an international financial and business center, and is the number-one choice for international businesses to establish their regional headquarters. So it will offer me great career opportunities and prospects, especially in e-commerce, which are areas I'm passionate about.
 
-Secondly, universities in Hone Kong are recorgnized for their high academic standards and research quality, which aligns seamlessly with my career goals in e-commerce and technology.
-
-Lastly, Hong Kong is a blend of Chinese and Western cultures, so its vibrant and diverse environment will bring me new perspectives. That's also invaluable for my personal development.
+On the other hand, Hong Kong has a vibrant blend of Chinese and Western cultures for its status as an international city. So its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
 
 #### 2.2 Why HKU?
 
-I'm choosing HKU because of its strong international reputation and excellent research, ranking 17th in the world according to the latest QS World University Rankings for 2025.
+I'm choosing HKU because of its well-known international reputation and excellent research, ranking the 1st in Hong Kong and 17th in the World in the QS World University Rankings 2025.
 
-Moreover, HKU is a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. Being part of such a diverse environment would be a great experience. That's invaluable for my personal development.
+Moreover, HKU is a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. So its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
 
-Lastly, since I intend to build my career in Hong Kong, I believe HKU is the perfect place for me to chase my academic goals and career aspirations. The chance to collaborate and innovate here will really set me up for success in e-commerce and technology.
+Lastly, since I intend to build my career in Hong Kong, I believe HKU is the perfect place for me to chase my career aspirations. The chance to collaborate and innovate here will really set me up for success in e-commerce and technology.
 
 #### 2.3 Why ECIC?
 
-I've always been fascinated by business and technology. HKU's ECiC program offers a comprehensive and interdisciplinary curriculum, like 'Machine Learning for Business' and 'Data Science for Business', which perfectly align with my career ambition to become a data-driven business decision-maker. This program is exactly what I'm looking for.
+I'm a developer, who's always been passionate about finance and business, and my ultimate ambition is to run my own venture in e-commerce. The ECIC program seamlessly combines technology with business, offering an extensive interdisciplinary curriculum, including courses such as "E-marketing" and "Entrepreneurship development and ventures in Asia". These subjects are perfectly aligned with my career ambition.
 
-Additionally, the program's longstanding industry relations and strong internship opportunities provide numerous real-life business applications, making it attractive to enroll in a program that combines theoretical courses with practical experience.
+Moreover, I appreciate the diverse backgrounds of the students in this program, including accounting, management, engineering and law, because they bring different perspectives and ideas. And the strong alumni network will be invaluable for building connections and resources, which can benefit my personal and professional growth.
 
-Finally, the diverse backgrounds of the students, including accounting business management, engineering, IT, and law, can provide me with different industry
-perspectives and ideas. Moreover, the program's strong alumni network will provide valuable resources and professional connections, benefiting my personal growth and career development.
+Additionally, the project has strong connections with various industries, and provides excellent internship opportunities. That offers a lot of opportunities for accumulating real-world business experience, and helps me to combine theory with practice.
 
-In summary, the interdisciplinary courses, real-life business practice, and strong alumni network of this program are exactly what I need for my next career step.
-
-As a developer, I've always been passionate about finance and business, and my ultimate ambition is to run my own venture. The ECIC program seamlessly combines technology with business, offering an extensive interdisciplinary curriculum, including courses such as "Machine Learning for Business" and "Data Science for Business.". These subjects are perfectly aligned with my career ambition.
-
-Moreover, I appreciate the diverse backgrounds of the students in this program, whether in accounting, engineering, IT, or law, because they bring different perspectives and ideas. And the strong alumni network will be invaluable for building connections and resources, which can benefit my personal and professional growth.
-
-Additionally, the program's strong relations to the industry and excellent internship opportunities, offer plenty of chances for real-world business experience, making it an attractive option to blend theory with practice.
-
-In short, the combination of interdisciplinary courses, practical business experiences, and a robust alumni network is precisely what I need to take my next career step.
+In short, the interdisciplinary curriculum, strong alumni network and practical business practice are exactly what I need to take my next career step.
 
 #### 2.4 Favorite cource
 
+This program provides interdisciplinary courses, which update continuously with the fast developing tech world. Among all of them, "E-marketing" and "Entrepreneurship development and ventures in Asia" are particular appealing to me.
+
+I'm really into the "E-marketing" course, because I'm now in charge of the development of financial product marketing. And I'm eager to better create a customer-centered strategies using the latest technology. I love how it combines traditional marketing with digital tools, like social media and email to enhance customer interactions. Learning about interactive marketing and CRM will give me the skills to tailor products to individual consumers, which is essential in today’s market.
+
+For the "Entrepreneurship Development and Ventures in Asia" course, I'm excited about the hands-on experience of co-founding a high-tech startup through a simulation game. It’s a fun and low-risk way to grasp the complexities of launching a venture. Plus, the focus on strategic thinking, competitive advantage, and AI-data business models will be incredibly valuable.
+
+Both courses offer unique skills that align perfectly with my ambitions in e-commerce and tech entrepreneurship.
+
 #### 2.5 Where to know?
+
+A colleague who graduated from the Hong Kong University recommended me that the ECIC project was very suitable for me. Then I went to the official website to check it out, and was deeply impressed by its curriculum designed to integrate business with technology. And that perfectly met my ambition of starting my own business in the field of e-commerce.
 
 ### 3. Personalities
 
 #### 3.1 Why U?
+
+I feel my work experience and career goals completely align with this program's mission. With two years of hands-on experience in marketing and tech applications at JD.com, I have a deep understanding of technology-driven business strategies. I'm eager to learn more finance, business and management knowledge to become a comprehensive talent in e-commerce.
+
+Moreover, my background in journalism and communication, combined with social media expertise, equips me to create compelling stories that resonate with audiences and build deep customer relationships.[which is crucial in e-commerce.]
+
+Finally, I'd like to say that I am someone with innovative and critical thinking skills, and I am also very determined. These qualities help me find new solutions in the face of challenges.
+
+I'm confident that my background and characteristics make me a great fit for the ECIC program. I also will contribute a unique perspective and value to the ECiC program.
+
+First of all, my work experience aligns perfectly with the requirements of this project. With two years of front-end development practice in financial marketing at JD, I have gained a profound understanding of digital marketing strategies, and accumulated relevant knowledge in the financial sector. I'm eager to expand my knowledge in finance, business, and management, which will enable me to better integrate and apply the latest technologies with business practices, thus becoming a well-rounded talent in e-commerce.
 
 #### 3.2 Advantages compared with others
 
