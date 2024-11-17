@@ -111,15 +111,34 @@ First of all, my work experience aligns perfectly with the requirements of this 
 
 #### 3.2 Advantages compared with others
 
+On the one hand, with two years of front-end development practice in financial marketing at JD, I have gained a profound understanding of digital marketing strategies, and accumulated relevant knowledge in the financial sector. And during work, I've been using AI to better allocate our marketing resources for precise targeting. This has laid a foundation for my understanding of e-commerce.
+On the other hand, I'd like to say I am really ambitious, confident and determined. I hold the firm belief that I will achieve my career goal, and I'm willing to exert any effort required to make it a reality. These qualities help me persist in the face of challenges.
+In summary, I'm confident that my background and characteristics stand me out with other candidate for the ECIC program. I am excited about the opportunity to bring a unique perspective and valuable insights to the program.
+
 #### 3.3 Disadvantages
 
+Given my technical background, I've noticed that I sometimes focus too much on the technical details and overlook the business aspects behind a project. To address this, I've been actively working on broadening my perspective. For instance, I regularly discuss the motivations and goals of our requirements with my product manager colleagues. This helps me stay aligned with the overall direction of the project.
+
 #### 3.4 Career planning
+
+In the short term, I will work on developing financial internet products at a financial institution in Hong Kong. Following this role, I aim to transition into positions as a product manager through internal job rotations, gaining diverse skills and experiences. During this period, I intend to explore entrepreneurial ventures until they become profitable, and then scale them up.
+Looking ahead, my long-term goal is to establish my own company. Leveraging the knowledge and resources acquired from the ECIC program, I intend to run my own business, achieve my career ambitions, and contribute towards solving real-world problems.
 
 ### 4. Interpersonal relationship
 
 #### 4.1 How to handle members who are not actively participating?
 
+As a team leader, if I notice a member not actively participating, my first step would be to understand why. It could be unclear tasks, lack of interest, or external factors.
+Once I figure out the root cause, I would try to assist by assigning tasks that match their interests or skills and offering support.
+If the problem continues, I'd explore solutions within the team like redistributing tasks. If necessary, I would seek guidance from our project supervisor or professor.
+
 #### 4.2 Receive candidates with work experience or not?
+
+I believe both groups have their unique contributions. But based on the diagram and mission description on official website, it appears to have a preference for individuals with work experience.
+
+I found the age range of graduates is primarily between 26 to 35 years old, suggesting participants have some professional background. Also, The program is described as being designed for business executives, policy and decision makers, managers, and IT professionals, to furnish them with the latest insights on internet e-commerce.
+
+Therefore, while recent graduates could bring fresh academic perspectives, the program seems more suited for experienced professionals.
 
 ## II. E-commerce & Technology
 
@@ -127,13 +146,103 @@ First of all, my work experience aligns perfectly with the requirements of this 
 
 #### 5.1 Hong Kong e-commerce and mainland e-commerce
 
+Here are some key differences between e-commerce in Hong Kong and the mainland China:
+
+The first is market structure. Hong Kong has a smaller but more diverse market structure, with a blend of local and international brands. While mainland China has a massive domestic market with some local companies dominating, including giants like Alibaba and JD.com.
+
+The second is Regulations. In Hong Kong, e-commerce is less regulated, allowing for more flexible business practices. While in mainland China, e-commerce is heavily regulated, with strict rules regarding data protection and foreign investment etc.
+
+The last is payment systems. In Hong Kong, despite the adoption of digital payment methods, traditional banking remains prevalent. While in mainland China, mobile payments dominate the landscape, with Alipay and WeChat Pay being the primary methods for transactions.
+
+In summary, the primary differences lie in market structure, regulations, and payment systems.
+
 #### 5.2 Alipay and wechat pay
 
+##### 5.2.1 Which does you prefer? Why?
+
+I personally prefer using Alipay (or WeChat Pay) for the following reasons.
+
+(If Alipay): I like Alipay because its financial services are very comprehensive. Besides payments, it offers investment products, credit card repayments, and utility bill payments, making my financial management more convenient and centralized.
+
+(If WeChat Pay): I prefer WeChat Pay because it’s integrated with WeChat’s social features. Using WeChat for socializing, messaging, payments, and mini-programs is very convenient, and covers almost all aspects of my daily life.
+
+##### 5.2.2 The differences between them
+
+(1) Functionality and Focus
+
+Alipay: Alipay focuses on providing comprehensive financial services. Apart from basic payment functions, it includes investment products, insurance, and credit services. Alipay also offers extensive lifestyle services like utility payments and travel bookings.
+
+WeChat Pay: WeChat Pay is part of the WeChat app and is deeply integrated into its social ecosystem. It’s not only for payments but also widely used in WeChat mini-programs and social scenarios like sending red envelopes and splitting bills.
+
+(2) User Experience
+
+Alipay: Alipay’s interface is relatively professional and business-oriented, suitable for users who want to manage all their financial activities on one platform. It also introduces systems like Ant Points and Sesame Credit to offer more value-added services.
+
+WeChat Pay: WeChat Pay emphasizes convenience and social interaction. Users can initiate payments directly within chat windows, making it very easy to use. Its interface is more straightforward, ideal for small daily payments and social interactions.
+
+(3) Security and Trust:
+Alipay: Alipay invests heavily in security, offering multi-factor authentication like dynamic passwords, fingerprint recognition, and facial recognition. The Sesame Credit system also enhances user trust.
+
+WeChat Pay: WeChat Pay also prioritizes security, using multiple verification methods including payment passwords, fingerprint, and facial recognition. Since WeChat is a highly frequented social platform, users generally have high trust in its payment feature.
+
+(4) Market Coverage and User Base:
+Alipay: Alipay holds a significant position in e-commerce platforms like Taobao and Tmall, being one of the main payment methods. It is also expanding globally, particularly in cross- border e-commerce and international payments.
+
+WeChat Pay: WeChat Pay dominates the social payment market in China, especially in daily consumer spending. It is also gradually expanding internationally, particularly in countries and regions frequently visited by Chinese tourists.
+
+Through above analysis, I believe that both Alipay and WeChat Pay have their own advantages, and the choice between them depends largely on the user's specific needs and usage scenarios.
+
 #### 5.3 Domestic and foreign generative AI
+
+Here are some key differences in the development of generative AI and large models in China compared to other countries:
+
+(1) Government Support and Strategy
+
+China: The Chinese government actively promotes AI technology as part of its national strategy, with significant investments in AI research, development, and infrastructure.
+
+Other Countries: While countries like the U.S. and EU have supportive policies, they often focus more on fostering innovation through private sector initiatives rather than direct government-led strategies.
+
+(2) Data Availability
+
+China: The vast amounts of data generated by a large population and high levels of internet usage provide a rich resource for training AI models. Additionally, less stringent privacy regulations can facilitate data collection.
+
+Other Countries: In places like the U.S. and EU, data privacy laws  impose restrictions on data usage, which can limit access to large datasets for training AI systems.
+
+(3) Focus and Application Areas
+
+China: The development of generative AI is heavily focused on applications in consumer technology, including e-commerce, social media, and entertainment. Use cases like chatbots, content generation, and personalized recommendations are rapidly evolving.
+
+Other Countries: While similar applications are explored, there is also a strong emphasis on ethical AI, research in healthcare, autonomous systems, and industrial applications, often driven by academic institutions.
+
+(4) Collaboration Between Industry and Academia
+
+China: There is a strong collaboration between government, academia, and industry, with institutions often receiving state funding for AI research. Companies frequently partner with universities for R&D initiatives.
+
+Other Countries: Collaboration exists but can be more fragmented, with universities often working independently or pursuing grants from multiple sources, including government and private sector.
+
+(5) Market Competition
+
+China: A few major tech giants dominate the AI landscape, leading to rapid advancements through competition in the consumer market. However, this also raises concerns about monopolistic practices.
+
+Other Countries: The market is often more fragmented, with a wider variety of startups and established companies competing. There is a strong culture of open-source collaboration and innovation.
+
+(6) Ethical Considerations and Guidelines
+
+China: The approach to AI ethics can be more centralized, with guidelines often focusing on maintaining social stability and promoting national interests. There may be fewer public discussions regarding the implications of AI misuse.
+
+Other Countries: Ethical considerations are at the forefront, with robust discussions around fairness, accountability, and transparency in AI development. Many organizations prioritize ethical frameworks in their AI strategies.
+
+(7) International Collaboration and Influence
+
+China: There are efforts to build international partnerships, but geopolitical tensions sometimes affect collaboration. China is increasingly focused on developing its own capabilities independently.
+
+Other Countries: Collaboration across borders is common, particularly in Europe and North America, facilitating knowledge sharing and joint research projects.
 
 ### 6. Influence of AI to e-commerce
 
 #### 6.1 Advantages of AI e-commerce
+
+
 
 #### 6.2 Disadvantages of AI e-commerce
 
@@ -268,3 +377,32 @@ AR, VR, Blockchain
 ### - If you are a student group leader, what should you do if there are people who don't do anything in the group?
 
 ## III. Group Interview
+
+
+Sure! Here are some key differences between e-commerce in Hong Kong and the mainland China:
+
+### 1. **Market Structure**
+   - **Hong Kong**: It has a more Western-oriented market structure, with a blend of local and international brands. The market is smaller but more diverse.
+   - **Mainland China**: China has a massive domestic market with a range of local companies dominating, including giants like Alibaba and JD.com.
+
+### 2. **Regulations**
+   - **Hong Kong**: E-commerce is less regulated, allowing for more flexible business practices. There are fewer restrictions on foreign businesses.
+   - **Mainland China**: E-commerce is heavily regulated, with strict rules regarding data protection, foreign investment, and tax implications.
+
+### 3. **Payment Systems**
+   - **Hong Kong**: Credit cards and PayPal are widely used, along with local digital wallets like Alipay and WeChat Pay gaining popularity.
+   - **Mainland China**: Mobile payments dominate the landscape, with Alipay and WeChat Pay being the primary methods for transactions, often bypassing credit card usage entirely.
+
+### 4. **Logistics and Delivery**
+   - **Hong Kong**: Generally, the logistics infrastructure is more developed, leading to faster delivery times within the city.
+   - **Mainland China**: Thanks to improvements in logistics networks, many rural areas can now also enjoy efficient and often same-day or next-day delivery services, thanks to companies like Alibaba and JD.com investing heavily in their logistics capabilities.
+
+### 5. **Social Media Integration**
+   - **Hong Kong**: Social media platforms like Facebook and Instagram are commonly used for marketing and e-commerce integration.
+   - **Mainland China**: Platforms like WeChat and TikTok are crucial for e-commerce integration, blending social media and shopping seamlessly.
+
+### 6. **Cultural Differences**
+   - **Hong Kong**: The culture has a distinct international influence, affecting marketing strategies to be more aligned with Western trends and preferences.
+   - **Mainland China**: Cultural factors, including local traditions and preferences, deeply influence marketing, product offerings, and customer engagement strategies.
+
+These points highlight the unique characteristics of the e-commerce landscapes in Hong Kong and mainland China. Each has its own advantages and challenges! 😊
