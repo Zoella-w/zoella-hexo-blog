@@ -326,19 +326,267 @@ Large models (Large Language Models) have found widespread applications across v
 
 ○ Artistic Creation: Assisting artists in creating paintings and music using AI.
 
-#### 7.3 Block chain
+#### 7.3 Blockchain
+
+##### 7.3.1 Advantages of Blockchain
+
+###### (1) Enhanced Security
+
+Blockchain provides a secure distributed ledger that protects transaction data and consumer information, significantly reducing fraud risks.
+
+###### (2) Increased Transparency
+
+The technology allows for easy traceability of products, helping consumers verify authenticity and ensuring accountability within the supply chain.
+
+###### (3) Cost Reduction
+
+By eliminating intermediaries, blockchain reduces transaction fees and streamlines processes, leading to greater efficiency in business operations.
+
+###### (4) Faster Transactions
+
+With real-time processing capabilities, blockchain enables quicker transaction completions and facilitates smoother cross-border payments.
+
+###### (5) Smart Contracts
+
+These automated agreements reduce the need for intermediaries and help speed up transactions while minimizing disputes through clear, encoded terms.
+
+##### 7.3.2 Disadvantages of Blockchain
+
+###### (1) Scalability Issues
+
+Blockchain networks often struggle with processing a high volume of transactions quickly, leading to delays during peak usage times.
+
+###### (2) Regulatory Uncertainty
+
+The rules around blockchain are still changing, creating compliance challenges and legal risks for businesses looking to adopt this technology.
+
+###### (3) Integration Complexities
+
+Merging blockchain with existing systems can get pretty complicated and costly, often requiring a lot of technical know-how and resources.
 
 #### 7.4 Digital currency
 
+##### 7.4.1 Advantages of digital currency
+
+###### (1) Fast Transaction Processing (faster)
+
+Digital currencies allow for instant payments, so customers can complete their purchases right away. This speeds up the entire shopping experience and satisfies customers.
+
+###### (2) Lower Transaction Costs (cheaper)
+
+Using digital currencies can lower fees since they often skip banks and credit card companies. Merchants can keep those savings or pass them on to shoppers, making prices more appealing.
+
+###### (3) Enhanced Security (safer)
+
+Digital currencies are built on blockchain technology, which means transactions are encrypted and hard to tamper with. This boosts security and reduces fraud risks significantly.
+
+###### (4) Increased Transparency and Traceability (more transparent)
+
+Every transaction is recorded on a public blockchain, making it easy to track and verify purchases. This transparency helps build trust between buyers and sellers, since it’s clear where their money is going.
+
+##### 7.4.2 Disadvantages of digital currency
+
+###### (1) Volatility
+
+Digital currencies can be very volatile, with their values changing rapidly. This unpredictability makes it difficult for businesses and consumers to set prices.
+
+###### (2) Regulatory Uncertainty (the same as blockchain)
+
+The regulatory environment for digital currencies is still developing, which creates uncertainty for merchants. They may face challenges related to compliance and taxes.
+
+###### (3) Limited Acceptance
+
+Not all merchants accept digital currencies yet. This limited acceptance can frustrate customers who want to use them, leading to a preference for traditional payment options instead.
+
 #### 7.5 Metauniverse (shopping & marketing)
+
+##### 7.5.1 Advantages of metaverse
+
+##### (1) Immersive Shopping Experience
+
+The metaverse allows for the creation of virtual stores where customers can explore products in 3D environments. Features like virtual fitting rooms enable shoppers to try on clothes or visualize items in their own space, enhancing the overall shopping experience.
+
+##### (2) Enhanced Customer Engagement
+
+In these virtual spaces, customers can shop together, attend live events, and get involved in brand activities. This social aspect not only makes shopping fun, but also helps build stronger connections between consumers and brands.
+
+##### (3) Personalization and Customization
+
+Brands can use data from user interactions to offer personalized recommendation. Additionally, customers can customize products in a 3D setting, allowing them to create unique items that reflect their personal style.
+
+##### 7.5.2 Disadvantages of metaverse
+
+###### (1) Technological Barriers
+
+Accessing the metaverse often requires advanced devices and a stable internet connection, which can limit participation for some consumers, especially in regions with fewer technological resources.
+
+###### (2) Privacy and Security Concerns
+
+Collecting user data in virtual environments raises privacy and security issues. Consumers may feel uneasy about how their data is used and potential cybersecurity risks, which can deter them from shopping.
 
 #### 7.6 Generated AI
 
-## III. Business Thinking & Entrepreneurial Project
+Generative AI is a type of AI that can create new content based on the data it has been trained on. Simply put, it can understand and process existing data and then generate new, similar content.
 
-### 8. Business thinking
+Examples:
+
+(1) Text Generation: Models like ChatGPT can write articles and generate conversations.
+
+(2) Image Generation: Generative Adversarial Networks (GANs) can create new images, like realistic human faces or artworks.
+
+(3) Music and Video: AI can compose music and even generate video content.
+
+Generative AI is widely used in content creation, art design and game development etc.
+
+Others refer to AI.
+
+## III. Business Mindset & Entrepreneurial Project
+
+### 8. Business Thinking & Business Roadshow
+
+#### 8.0.1 E-Commerce Mindset
+
+##### (1) Customer-Centric Approach
+
+At the core of e-commerce is the consumer. Understanding customer needs, preferences, and behaviors is critical. Businesses must leverage data analytics and market research to gain insights into customer expectations, allowing them to offer personalized products and services that enhance customer satisfaction and loyalty.
+
+##### (2) Agility and Innovation
+
+The e-commerce landscape evolves quickly, so businesses need to be flexible. This means being ready to respond immediately to new trends and customer feedback. Continuous innovation, like launching new products and improving services, is essential for staying competitive.
+
+##### (3) Data-Driven Decision Making
+
+Data is essential in e-commerce. Successful businesses utilize advanced analytics tools to track sales, monitor customer behavior and market dynamics. By relying on data, businesses can make informed decisions that optimize operations and marketing strategies.
+
+##### (4) Omni-Channel Integration
+
+Unlike traditional retail, e-commerce involves multiple channels, such as websites, social media, and mobile apps. It’s important for businesses to integrate these channels, so customers have a seamless experience no matter where they interact with the brand.
+
+##### (5) Brand Building and Trust
+
+Online, brand image and customer trust are incredibly important. Companies need to focus on building a strong brand through high-quality content, excellent customer service, and positive reviews. Establishing credibility helps attract and keep customers.
+
+##### (6) Embracing Automation and Technology
+
+Utilizing technology, like marketing automation, customer relationship management(CRM) systems and AI, can simplify operations and improve customer experiences. By automating routine tasks, businesses can free up resources to focus on growth and strategy.
+
+##### (7) Continuous Learning and Adaptation
+
+The e-commerce landscape is constantly changing, with new trends and competitors popping up. Continuous learning can encourage teams to stay updated on industry shifts and experiment with new strategies.
+
+In summary, the e-commerce mindset is about being focused on customers, adaptable, data-driven, and tech-savvy. It requires a holistic approach that integrates various channels and emphasizes brand trust, ultimately leading to enhanced business performance and customer engagement.
+
+#### 8.0.2 Business Roadshow
+
+A business roadshow is an event where companies or startups present their business model, products, or services to potential investors, partners, or customers. The primary goal is to attract investment, seek collaboration opportunities, or expand market influence. Key components are as follows:
+
+##### (1) Company Overview
+
+Background information about the company, including its mission, vision, and introduction of team members.
+
+##### (2) Market Analysis
+
+An analysis of the target market's size, growth potential, and competitive landscape, explaining market demand and trends.
+
+##### (3) Product or Service Description
+
+A detailed explanation of the core products or services, highlighting their features, benefits, and the problems they solve.
+
+##### (4) Business Model
+
+Explanation of the company’s revenue streams, pricing strategies, and how it plans to achieve profitability.
+
+##### (5) Financial Projections
+
+Presentation of past financial data and projections for the next few years, covering key metrics like revenue, costs, and profits.
+
+##### (6) Funding Requirements
+
+Clear explaination about the amount of funds needed, and how the funds will be used, as well as the expected return of investors.
+
+##### (7) Future Development Plans
+
+Description of short-term and long-term strategic goals, including market expansion and new product development.
 
 #### 8.1 How business model make money? And from whom?
+
+##### 8.1.1 Business model
+
+商业模式（Business Model）是指企业创造、传递和获取价值的方式。它描述了企业如何运营，如何与客户、合作伙伴及其他利益相关者互动，以及如何实现盈利。简单来说，商业模式就是企业在市场中生存和发展的蓝图。
+
+###### 1. Key components
+
+**(1) 价值主张（Value Proposition）**
+定义：价值主张是企业向客户提供的核心价值或利益，解释了产品或服务如何满足客户的需求或解决他们的问题。
+
+重要性：清晰的价值主张能够帮助企业在竞争激烈的市场中吸引和保留客户。
+
+示例：苹果公司通过其产品的设计和用户体验传递出高品质、高科技的价值主张；特斯拉强调环保与高性能电动车的结合，吸引关注可持续发展的消费者。
+
+**(2) 目标市场（Target Market）**
+定义：目标市场是指企业希望服务的特定客户群体，这些客户通常具有共同的特点，如人口统计学特征、地理位置和心理特征。
+
+方法：通过市场调研、数据分析和用户画像等方式来识别和细分目标市场，以便更精准地制定营销策略。
+
+示例：耐克将目标市场锁定在运动爱好者，而无印良品则专注于追求简约和自然生活方式的消费者。
+
+**(3) 收入来源（Revenue Streams）**
+定义：收入来源是企业从不同渠道获得收入的方式。包括一次性销售、订阅费、广告收入、佣金等。
+
+多样化：有效的商业模式通常会有多元化的收入来源，以降低风险。
+
+示例：Netflix主要通过订阅费用获得稳定收入，而亚马逊则通过商品销售、AWS云服务和Prime会员等多个渠道获取收益。
+
+**(4) 成本结构（Cost Structure）**
+定义：成本结构包含企业在运营过程中所产生的所有成本，包括固定成本（如租金、薪资）和变动成本（如原材料、运输）。
+
+评估方法：使用成本会计、预算分析等工具，对各类成本进行定期评估，以优化运营效率。
+
+示例：制造业企业的主要成本集中在生产设备和材料上，而软件公司则更多依赖人力资源和技术开发成本。
+
+**(5) 渠道（Channels）**
+定义：渠道是企业向客户传递价值的途径，可以包括产品分销渠道、营销传播渠道等。
+
+类型：
+
+- 直接渠道：例如自有在线商店、实体店。
+- 间接渠道：例如通过经销商、合作伙伴。
+
+示例：可口可乐通过超市、便利店、餐厅等多个渠道销售其饮料，而许多SaaS公司则通过官方网站提供在线订阅服务。
+
+**(6) 客户关系（Customer Relationships）**
+定义：客户关系描述企业如何与客户互动以建立和维持长期的关系。这包括售前、售后和支持服务。
+
+类型：
+
+- 个人化服务：根据客户需求提供个性化的支持和服务。
+- 自助服务：让客户自主解决问题，提供在线帮助和FAQ。
+- 社区关系：通过建立用户社区增强客户之间的互动和忠诚度。
+
+示例：Zappos以卓越的客户服务著称，通过快速响应和个性化服务赢得顾客忠诚度。
+
+**(7) 关键资源（Key Resources）**
+定义：关键资源是企业实现其商业模式所必需的重要资产，包括人力资源、物理资源、知识产权等。
+
+分类：
+
+- 有形资源：如工厂、设备、库存等。
+- 无形资源：如品牌、专利、商誉等。
+- 人力资源：如团队、管理层、技术专家。
+
+示例：谷歌依靠强大的技术团队和丰富的数据资源推动其搜索引擎和广告业务的发展。
+
+**(8) 关键活动（Key Activities）**
+定义：关键活动是企业为执行其商业模式而需进行的重要活动，如产品研发、市场推广、运营管理等。
+
+示例：一家制造企业需要专注于生产和质量控制，而平台型企业则需关注用户获取、交易保障和社区维护。
+
+**(9) 关键合作伙伴（Key Partnerships）**
+定义：关键合作伙伴是企业为了实现其商业模式而形成的外部关系，包括供应商、分销商、战略联盟等。
+
+作用：通过合作共享资源、降低风险、加速创新。
+
+示例：星巴克与咖啡豆供应商建立的合作关系，以确保其产品质量；Uber与司机及汽车租赁
 
 #### 8.2 Current and future trends of e-commerce
 
