@@ -21,7 +21,7 @@ Currently, I'm a front-end development engineer at JD.com, one of premier e-comm
 
 For instance, I've been independently developing the system Wealth Management Rights Card for about a year and a half, which is a comprehensive membership system, including features like card purchase, renewal, and return etc. Activities like rights flash sales and group buying are included as well.
 
-Furthermore, We made various technological improvements to refine our marketing strategies. For instance, we used AI to better allocate our marketing resources for precise targeting, and took risk control measures to spot and prevent fraud. Additionally, by tracking user behavior data, we could continuously evaluate the effectiveness of our campaigns.
+Furthermore, we made various technological improvements to refine our marketing strategies. For instance, we used AI to better allocate our marketing resources for precise targeting, and took risk control measures to spot and prevent fraud. Additionally, by tracking user behavior data, we could continuously evaluate the effectiveness of our campaigns.
 
 Now, our system has grown to over 200,000 users, generated significant profits, and seen remarkable improvements in new customer conversion rates and existing customer retention rates. Its success attracted media attention, with features in “China Fund News” in 2023, extremely boosting our brand visibility.
 
@@ -67,7 +67,7 @@ On the other hand, Hong Kong has a vibrant blend of Chinese and Western cultures
 
 I'm choosing HKU because of its well-known international reputation and excellent research, ranking the 1st in Hong Kong and 17th in the World in the QS World University Rankings 2025.
 
-Moreover, HKU is a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. So its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
+Moreover, HKU is a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. And its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
 
 Lastly, since I intend to build my career in Hong Kong, I believe HKU is the perfect place for me to chase my career aspirations. The chance to collaborate and innovate here will really set me up for success in e-commerce and technology.
 
@@ -105,9 +105,7 @@ Moreover, my background in journalism and communication, combined with social me
 
 Finally, I'd like to say that I am someone with innovative and critical thinking skills, and I am also very determined. These qualities help me find new solutions in the face of challenges.
 
-I'm confident that my background and characteristics make me a great fit for the ECIC program. I also will contribute a unique perspective and value to the ECiC program.
-
-First of all, my work experience aligns perfectly with the requirements of this project. With two years of front-end development practice in financial marketing at JD, I have gained a profound understanding of digital marketing strategies, and accumulated relevant knowledge in the financial sector. I'm eager to expand my knowledge in finance, business, and management, which will enable me to better integrate and apply the latest technologies with business practices, thus becoming a well-rounded talent in e-commerce.
+I'm confident that my background and characteristics make me a great fit for the ECIC program. I also will contribute a unique perspective and value to the ECIC program.
 
 #### 3.2 Advantages compared with others
 
@@ -510,83 +508,132 @@ Description of short-term and long-term strategic goals, including market expans
 
 #### 8.1 How business model make money? And from whom?
 
-##### 8.1.1 Business model
+A business model is a framework that outlines how a company creates, delivers, and captures value while generating revenue.
 
-商业模式（Business Model）是指企业创造、传递和获取价值的方式。它描述了企业如何运营，如何与客户、合作伙伴及其他利益相关者互动，以及如何实现盈利。简单来说，商业模式就是企业在市场中生存和发展的蓝图。
+##### 8.1 Key components
 
-###### 1. Key components
+###### (1) Value Proposition (价值主张)
 
-**(1) 价值主张（Value Proposition）**
-定义：价值主张是企业向客户提供的核心价值或利益，解释了产品或服务如何满足客户的需求或解决他们的问题。
+**Definition:**
+The value proposition is the core value or benefits that a business offers to its customers, explaining how its products or services meet their needs or solve their problems.
 
-重要性：清晰的价值主张能够帮助企业在竞争激烈的市场中吸引和保留客户。
+**Importance:**
+A clear value proposition helps businesses attract and retain customers in a competitive market.
 
-示例：苹果公司通过其产品的设计和用户体验传递出高品质、高科技的价值主张；特斯拉强调环保与高性能电动车的结合，吸引关注可持续发展的消费者。
+**Examples:**
 
-**(2) 目标市场（Target Market）**
-定义：目标市场是指企业希望服务的特定客户群体，这些客户通常具有共同的特点，如人口统计学特征、地理位置和心理特征。
+- Apple conveys a high-quality, high-tech value proposition through its product design and user experience.
+- Tesla emphasizes the combination of sustainability and high-performance electric vehicles to attract environmentally conscious consumers.
 
-方法：通过市场调研、数据分析和用户画像等方式来识别和细分目标市场，以便更精准地制定营销策略。
+###### (2) Target Market (目标市场)
 
-示例：耐克将目标市场锁定在运动爱好者，而无印良品则专注于追求简约和自然生活方式的消费者。
+**Definition:**
+The target market refers to the specific group of customers that a business aims to serve, typically characterized by shared traits such as demographics, geographic location, and psychographics.
 
-**(3) 收入来源（Revenue Streams）**
-定义：收入来源是企业从不同渠道获得收入的方式。包括一次性销售、订阅费、广告收入、佣金等。
+**Method:**
+Identifying and segmenting the target market can be done through market research, data analysis, and customer profiling to create more precise marketing strategies.
 
-多样化：有效的商业模式通常会有多元化的收入来源，以降低风险。
+**Examples:**
 
-示例：Netflix主要通过订阅费用获得稳定收入，而亚马逊则通过商品销售、AWS云服务和Prime会员等多个渠道获取收益。
+- Nike targets sports enthusiasts.
+- Muji focuses on consumers who prefer simplicity and a natural lifestyle.
 
-**(4) 成本结构（Cost Structure）**
-定义：成本结构包含企业在运营过程中所产生的所有成本，包括固定成本（如租金、薪资）和变动成本（如原材料、运输）。
+###### (3) Revenue Streams (收入来源)
 
-评估方法：使用成本会计、预算分析等工具，对各类成本进行定期评估，以优化运营效率。
+**Definition:**
+Revenue streams are the various ways a business generates income from different channels, including sales, subscription fees, advertising revenue, commissions, etc.
 
-示例：制造业企业的主要成本集中在生产设备和材料上，而软件公司则更多依赖人力资源和技术开发成本。
+**Diversification:**
+A successful business model often includes multiple revenue streams to reduce risk.
 
-**(5) 渠道（Channels）**
-定义：渠道是企业向客户传递价值的途径，可以包括产品分销渠道、营销传播渠道等。
+**Examples:**
 
-类型：
+- Netflix primarily earns revenue through subscription fees.
+- Amazon generates income through product sales, AWS cloud services, and Prime memberships.
 
-- 直接渠道：例如自有在线商店、实体店。
-- 间接渠道：例如通过经销商、合作伙伴。
+###### (4) Cost Structure (成本结构)
 
-示例：可口可乐通过超市、便利店、餐厅等多个渠道销售其饮料，而许多SaaS公司则通过官方网站提供在线订阅服务。
+**Definition:**
+The cost structure encompasses all costs incurred by a business during its operations, including fixed costs (like rent and salaries) and variable costs (like raw materials and shipping).
 
-**(6) 客户关系（Customer Relationships）**
-定义：客户关系描述企业如何与客户互动以建立和维持长期的关系。这包括售前、售后和支持服务。
+**Evaluation Method:**
+Cost accounting and budget analysis tools can be used for regular assessment of different costs to optimize operational efficiency.
 
-类型：
+**Examples:**
 
-- 个人化服务：根据客户需求提供个性化的支持和服务。
-- 自助服务：让客户自主解决问题，提供在线帮助和FAQ。
-- 社区关系：通过建立用户社区增强客户之间的互动和忠诚度。
+- Manufacturing companies may have significant costs associated with production equipment and materials.
+- software companies often rely more on human resources and technology development costs.
 
-示例：Zappos以卓越的客户服务著称，通过快速响应和个性化服务赢得顾客忠诚度。
+###### (5) Channels (渠道)
 
-**(7) 关键资源（Key Resources）**
-定义：关键资源是企业实现其商业模式所必需的重要资产，包括人力资源、物理资源、知识产权等。
+**Definition:**
+Channels are the pathways through which a business delivers its value to customers, including distribution and communication channels.
 
-分类：
+**Types:**
 
-- 有形资源：如工厂、设备、库存等。
-- 无形资源：如品牌、专利、商誉等。
-- 人力资源：如团队、管理层、技术专家。
+- Direct Channels: Such as owned online stores or physical retail locations.
+- Indirect Channels: Like distributors or partners.
 
-示例：谷歌依靠强大的技术团队和丰富的数据资源推动其搜索引擎和广告业务的发展。
+**Examples:**
 
-**(8) 关键活动（Key Activities）**
-定义：关键活动是企业为执行其商业模式而需进行的重要活动，如产品研发、市场推广、运营管理等。
+- Coca-Cola sells its beverages through supermarkets, convenience stores, and restaurants.
+- Many SaaS (software as a service) companies offer online subscription services through their websites.
 
-示例：一家制造企业需要专注于生产和质量控制，而平台型企业则需关注用户获取、交易保障和社区维护。
+###### (6) Customer Relationships (客户关系)
 
-**(9) 关键合作伙伴（Key Partnerships）**
-定义：关键合作伙伴是企业为了实现其商业模式而形成的外部关系，包括供应商、分销商、战略联盟等。
+**Definition:**
+Customer relationships describe how a business interacts with its customers to establish and maintain long-term relationships, including pre-sale, after-sale, and support services.
 
-作用：通过合作共享资源、降低风险、加速创新。
+**Types:**
+Personalized Services: Providing tailored support based on customer needs.
+Self-Service: Enabling customers to resolve issues independently via online help and FAQs.
 
-示例：星巴克与咖啡豆供应商建立的合作关系，以确保其产品质量；Uber与司机及汽车租赁
+**Community Relationships:**
+Building user communities to enhance interaction and loyalty among customers.
+
+**Examples:**
+
+- Zappos is renowned for its exceptional customer service, quickly responding to inquiries and providing personalized assistance to build customer loyalty.
+
+###### (7) Key Resources (关键资源)
+
+**Definition:**
+Key resources are the essential assets a business needs to execute its business model, including human resources, physical resources, intellectual property, etc.
+
+**Categories:**
+
+- Tangible Resources: Such as factories, equipment, and inventory.
+- Intangible Resources: Including brands, patents, and goodwill.
+- Human Resources: Teams, management, and technical experts.
+
+**Examples:**
+
+- Google relies on a strong team of engineers and extensive data resources to drive its search engine and advertising business.
+
+###### (8) Key Activities (关键活动)
+
+**Definition:**
+Key activities are the critical tasks that a business must perform to deliver its value proposition, such as product development, marketing, and operational management.
+
+**Examples:**
+
+- A manufacturing company might focus on production and quality control.
+- A platform-based company would prioritize user acquisition, transaction security, and community engagement.
+
+###### (9) Key Partnerships (关键合作伙伴)
+
+**Definition:**
+Key partnerships refer to the external relationships that a business forms to achieve its objectives, including suppliers, distributors, and strategic alliances.
+
+**Role:**
+Collaborating with partners can help share resources, reduce risks, and accelerate innovation.
+
+**Examples:**
+
+- Starbucks establishes partnerships with coffee bean suppliers to ensure product quality.
+- Uber collaborates with drivers and car rental companies to expand its service offerings.
+
+These nine components work together to create a comprehensive framework that defines how a business operates, delivers value, and generates revenue.
 
 #### 8.2 Current and future trends of e-commerce
 
@@ -805,3 +852,30 @@ As AI systems become more integrated into e-commerce platforms, they also become
 If not designed carefully, AI-driven features like chatbots may frustrate customers when they fail to understand queries or provide inadequate assistance, leading to dissatisfaction.
 
 These drawbacks highlight some challenges and risks associated with the integration of AI technology in the e-commerce sector, emphasizing the need for careful consideration and management.
+
+Professor: Montgomery Alan
+Research fields: the analysis of clickstream data
+Reason: In my work at JD.com, I have consistently utilized tracking to record user interaction data, which has sparked a strong interest in clickstream analysis methods. Professor Alan's focus on "using clickstream data to predict online consumer browsing patterns and purchase conversion rates" aligns perfectly with my interests.
+
+I‘ve always been a great fan of Cantonese cuisine and am eager to visit Hong Kong to experience various authentic Cantonese dishes.
+Additionally, I really enjoy listening to Cantonese songs and hope to come to Hong Kong to learn Cantonese, so that I can sing some of my favorite songs in the language.
+
+My aunt graduated from the University of Hong Kong many years ago, and she is a source of pride for our family. She frequently shares her experiences of studying and living at HKU, which has fueled my long-standing admiration for the university.
+
+I'm really drawn to MEICOM (MSc in E-commerce and Internet Computing Alumni Association) and what it offers. The focus on lifelong connections and networking is crucial for career growth in the digital world.
+I’m excited about the chance to connect with a diverse group of alumni and fellow students, especially through social events and professional development before graduation. This supportive environment is perfect for fostering collaboration and support.
+Plus, MEICOM's commitment to continuous learning fits right in with my and career goals. I'm looking forward to tapping into this network to enhance my experience in e-commerce and internet computing.
+
+(1) determined
+While working at JD.com, I faced an important requirement needed to be completed quickly. I resolved to pushing my limits to ensure the project was delivered efficiently and with high quality.
+First, I coordinated with my supervisor to bring in a colleague to assist me. Next, I designed a solution, breaking down the complex requirement into functional modules, and developing the system architecture and project plan. Then, I invested significant time, working an entire month without taking a day off.
+In the end, I exceeded expectations in delivering the project and earned respect and recognition from my colleagues and leaders.
+(2) curious
+In addition to my daily work, I regularly read news, reports, and articles related to the e-commerce industry to stay informed about the latest trends and think about how to apply these trends to my work. I also frequently browse technology forums to proactively learn new technologies and tools, enhancing my contributions to projects.
+
+(1) innovative
+While working at JD.com, I participated in an AI competition. I was actively involved and creatively proposed the idea of "using JD's Yanxi large model to generate AI-written content, and using an AI digital human model to narrate the content and produce corresponding videos." Ultimately, we brought this idea to life and developed an AI digital human content generation platform, which fortunately earned us second place.
+(2) high-efficient
+Before starting work each day, I utilize a task management tool to list out my tasks for the day, and prioritize them based on importance. Throughout the execution process, I continuously update the status of each task and reflect on what I've accomplished at the end of the day. This approach allows me to clearly track my progress, ensuring that I complete my target tasks efficiently and on time.
+
+It‘s sometimes difficult for me to say no to extra tasks or responsibilities. I sincerely want to help my colleagues, but this may lead to taking on work beyond my ability, taking up my personal time and even affecting my health. Now I'm trying to set clearer boundaries and prioritize my workload to keep it reasonable.
