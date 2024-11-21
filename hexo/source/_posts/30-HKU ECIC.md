@@ -33,7 +33,7 @@ That's why I apply for HKU's ECIC program. It combines technical and strategic b
 
 promotes “zero purchase and redemption fees”
 I tried to live each day to the fullest.
-In addition to improve technical strength, I have grasped a deep understanding of financial concepts and strategic marketing by active self-study, and open-minded consultation with collegues.
+In addition to improve technical strength, I have grasped a deep understanding of financial concepts and strategic marketing by active self-study, and open-minded consultation with colleagues.
 to acquire customers, and to optimize user retention and conversion
 to address unmet market needs
 
@@ -81,9 +81,9 @@ Additionally, the project has strong connections with various industries, and pr
 
 In short, the interdisciplinary curriculum, strong alumni network and practical business practice are exactly what I need to take my next career step.
 
-#### 2.4 Favorite cource
+#### 2.4 Favorite course
 
-This program provides interdisciplinary courses, which update continuously with the fast developing tech world. Among all of them, "E-marketing" and "Entrepreneurship development and ventures in Asia" are particular appealing to me.
+This program provides interdisciplinary courses, which update continuously with the rapid developing tech world. Among all of them, "E-marketing" and "Entrepreneurship development and ventures in Asia" are particular appealing to me.
 
 I'm really into the "E-marketing" course, because I'm now in charge of the development of financial product marketing. And I'm eager to better create a customer-centered strategies using the latest technology. I love how it combines traditional marketing with digital tools, like social media and email to enhance customer interactions. Learning about interactive marketing and CRM will give me the skills to tailor products to individual consumers, which is essential in today’s market.
 
@@ -705,11 +705,7 @@ social media is an excellent tool for collecting feedback from customers. You ca
 
 social media allows you to connect with customers on a personal level. By responding to their comments and messages, you can build stronger relationships and foster loyalty. By showing the human side of their brand, businesses can establish a stronger emotional connection with their customers and differentiate themselves from their competitors.
 
-#### 8.3 Business projects: what to consider about startup?
-
-##### 8.3.1 Common
-
-##### 8.3.2 E-commerce
+#### 8.3 Business projects: what to consider about an e-commerce startup?
 
 **(1) Market Analysis (市场分析)**: Study the target market, competitors, and customer needs.
 **(2) Product/Service (产品/服务)**: Define the products or services and their features.
@@ -731,6 +727,8 @@ social media allows you to connect with customers on a personal level. By respon
 #### 9.4 Innovation cases
 
 ### 10. Entrepreneurial paths with 10,000,000 (10 million) yuan or 100 yuan
+
+TODO:
 
 ### 11. Critical thinking skills (academic)
 
@@ -851,7 +849,7 @@ I see you have a lot of valuable thoughts, but for the sake of time, let’s try
 
 ### 13. Questions for professors
 
-#### 13.1 Notes
+#### 13.1 What personal qualities are important in e-commerce entrepreneurship?
 
 Professor, I'd like to ask, what personal qualities do you think are important for success in e-commerce entrepreneurship? Thank you for your insights.
 
