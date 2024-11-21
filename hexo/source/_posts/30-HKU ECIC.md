@@ -2,9 +2,9 @@
 title: 30-HKU ECIC
 date: 2024-11-08 16:13:25
 tags:
-    - ECIC 面经
+  - ECIC 面经
 categories:
-    - ECIC 面经
+  - ECIC 面经
 ---
 
 ## I. Personal & Program
@@ -101,26 +101,53 @@ A colleague who graduated from the Hong Kong University recommended me that the 
 
 I feel my work experience and career goals completely align with this program's mission. With two years of hands-on experience in marketing and tech applications at JD.com, I have a deep understanding of technology-driven business strategies. I'm eager to learn more finance, business and management knowledge to become a comprehensive talent in e-commerce.
 
-Moreover, my background in journalism and communication, combined with social media expertise, equips me to create compelling stories that resonate with audiences and build deep customer relationships.[which is crucial in e-commerce.]
+Moreover, my background in journalism and communication, combined with social media expertise, equips me to create compelling stories that resonate with audiences and build deep customer relationships, which is crucial in e-commerce.
 
 Finally, I'd like to say that I am someone with innovative and critical thinking skills, and I am also very determined. These qualities help me find new solutions in the face of challenges.
 
 I'm confident that my background and characteristics make me a great fit for the ECIC program. I also will contribute a unique perspective and value to the ECIC program.
 
+##### 3.1.1 Disposition
+
+###### (1) determined
+
+While working at JD.com, I faced an important requirement needed to be completed quickly. I resolved to pushing my limits to ensure the project was delivered efficiently and with high quality.
+First, I coordinated with my supervisor to bring in a colleague to assist me. Next, I designed a solution, breaking down the complex requirement into functional modules, and developing the system architecture and project plan. Then, I invested significant time, working an entire month without taking a day off.
+In the end, I exceeded expectations in delivering the project and earned respect and recognition from my colleagues and leaders.
+
+###### (2) curious
+
+In addition to my daily work, I regularly read news, reports, and articles related to the e-commerce industry to stay informed about the latest trends and think about how to apply these trends to my work. I also frequently browse technology forums to proactively learn new technologies and tools, enhancing my contributions to projects.
+
+##### 3.1.2 Ability
+
+###### (1) innovative
+
+While working at JD.com, I participated in an AI competition. I was actively involved and creatively proposed the idea of "using JD's Yanxi large model to generate AI-written content, and using an AI digital human model to narrate the content and produce corresponding videos." Ultimately, we brought this idea to life and developed an AI digital human content generation platform, which fortunately earned us second place.
+
+###### (2) high-efficient
+
+Before starting work each day, I utilize a task management tool to list out my tasks for the day, and prioritize them based on importance. Throughout the execution process, I continuously update the status of each task and reflect on what I've accomplished at the end of the day. This approach allows me to clearly track my progress, ensuring that I complete my target tasks efficiently and on time.
+
 #### 3.2 Advantages compared with others
 
 On the one hand, with two years of front-end development practice in financial marketing at JD, I have gained a profound understanding of digital marketing strategies, and accumulated relevant knowledge in the financial sector. And during work, I've been using AI to better allocate our marketing resources for precise targeting. This has laid a foundation for my understanding of e-commerce.
+
 On the other hand, I'd like to say I am really ambitious, confident and determined. I hold the firm belief that I will achieve my career goal, and I'm willing to exert any effort required to make it a reality. These qualities help me persist in the face of challenges.
+
 In summary, I'm confident that my background and characteristics stand me out with other candidate for the ECIC program. I am excited about the opportunity to bring a unique perspective and valuable insights to the program.
 
 #### 3.3 Disadvantages
+
+It‘s sometimes difficult for me to say no to extra tasks or responsibilities. I sincerely want to help my colleagues, but this may lead to taking on work beyond my ability, taking up my personal time and even affecting my health. Now I'm trying to set clearer boundaries and prioritize my workload to keep it reasonable.
 
 Given my technical background, I've noticed that I sometimes focus too much on the technical details and overlook the business aspects behind a project. To address this, I've been actively working on broadening my perspective. For instance, I regularly discuss the motivations and goals of our requirements with my product manager colleagues. This helps me stay aligned with the overall direction of the project.
 
 #### 3.4 Career planning
 
-In the short term, I will work on developing financial internet products at a financial institution in Hong Kong. Following this role, I aim to transition into positions as a product manager through internal job rotations, gaining diverse skills and experiences. During this period, I intend to explore entrepreneurial ventures until they become profitable, and then scale them up.
-Looking ahead, my long-term goal is to establish my own company. Leveraging the knowledge and resources acquired from the ECIC program, I intend to run my own business, achieve my career ambitions, and contribute towards solving real-world problems.
+In the short term, I will work on developing financial internet products in renowned financial institutions in Hong Kong, such as banks or exchanges. Following this role, I aim to transition into positions as a product manager through internal job rotations, gaining diverse skills and experiences. During this period, I intend to explore entrepreneurial ventures until they become profitable, and then scale them up.
+
+In the long term, I will start a fintech company in Hong Kong that focuses on using innovative technology to make traditional financial services more efficient and accessible. My goal is to tackle the financing challenges faced by small businesses and individual entrepreneurs, promoting inclusive finance in the industry. Elon Musk is my role model; his company Tesla has transformed the automotive industry with its breakthroughs in battery tech and smart driving.
 
 ### 4. Interpersonal relationship
 
@@ -206,7 +233,7 @@ Other Countries: While countries like the U.S. and EU have supportive policies, 
 
 China: The vast amounts of data generated by a large population and high levels of internet usage provide a rich resource for training AI models. Additionally, less stringent privacy regulations can facilitate data collection.
 
-Other Countries: In places like the U.S. and EU, data privacy laws  impose restrictions on data usage, which can limit access to large datasets for training AI systems.
+Other Countries: In places like the U.S. and EU, data privacy laws impose restrictions on data usage, which can limit access to large datasets for training AI systems.
 
 ##### (3) Focus and Application Areas
 
@@ -396,7 +423,7 @@ The regulatory environment for digital currencies is still developing, which cre
 
 Not all merchants accept digital currencies yet. This limited acceptance can frustrate customers who want to use them, leading to a preference for traditional payment options instead.
 
-#### 7.5 Metauniverse (shopping & marketing)
+#### 7.5 Metauniverse
 
 ##### 7.5.1 Advantages of metaverse
 
@@ -637,7 +664,61 @@ These nine components work together to create a comprehensive framework that def
 
 #### 8.2 Current and future trends of e-commerce
 
-#### 8.3 Business projects: what to consider about (e-commerce) startup?
+##### 8.2.1 Trends of e-commerce
+
+###### (1) Social Commerce
+
+Social media platforms are quickly becoming major players in e-commerce.
+They use social media platforms (such as WeChat and TikTok) to establish deeper interaction with consumers, and enhance trust through user-generated content (UGC), comments and sharing.
+Besides, through real-time video product display and promotion, the interaction between anchor and audience can effectively improve the purchase conversion rate.
+
+###### (2) Personalization
+
+Consumers are increasingly looking for personalized shopping experiences, and e-commerce retailers can use data analytics and AI to provide customized product recommendations and targeted advertising. This trend is expected to continue to grow, with retailers using a combination of customer data and predictive analytics to create tailored shopping experiences.
+
+###### (3) AR and VR
+
+AR and VR technologies are transforming the way consumers shop online.
+They allow consumers to "try on" clothes, and check the placement effect of furniture in the home online, making online shopping fun and practical.
+
+###### （4）Subscription Services
+
+Subscription-based e-commerce services have been on the rise these years.
+Many e-commerce companies achieve stable cash flow by launching subscription services, while increasing customer stickiness.
+Membership usually provides additional discounts, priority delivery, exclusive products, etc. to attract users to join and stay active.
+
+##### 8.2.2 Importance of social commerce
+
+###### (1) Improved customer satisfaction
+
+social media provides customers with a convenient way to get in touch with your business. By providing quick and helpful responses, you can improve customer satisfaction and loyalty.
+
+###### (2) Cost-effective marketing
+
+social media is a cost-effective marketing channel compared to traditional marketing methods. You can reach a large audience with a minimal budget.
+
+###### (3) Valuable feedback
+
+social media is an excellent tool for collecting feedback from customers. You can learn what they like and don't like about your products or services and use this information to make improvements.
+
+###### (4) Stronger customer relationships
+
+social media allows you to connect with customers on a personal level. By responding to their comments and messages, you can build stronger relationships and foster loyalty. By showing the human side of their brand, businesses can establish a stronger emotional connection with their customers and differentiate themselves from their competitors.
+
+#### 8.3 Business projects: what to consider about startup?
+
+##### 8.3.1 Common
+
+##### 8.3.2 E-commerce
+
+**(1) Market Analysis (市场分析)**: Study the target market, competitors, and customer needs.
+**(2) Product/Service (产品/服务)**: Define the products or services and their features.
+**(3) Technology Platform (技术平台)**: Choose appropriate e-commerce platforms and tech support.
+**(4) Supply Chain Management (供应链管理)**: Ensure efficient product supply and logistics.
+**(5) Marketing Strategy (营销策略)**: Develop a plan to attract the target customer base.
+**(6) Financial Planning (财务规划)**: Budget, cost management, and revenue forecasting.
+**(7) Legal and Compliance (法律法规)**: Ensure adherence to laws and industry standards.
+**(8) Customer Service (客户服务)**: Set up efficient customer service and feedback mechanisms.
 
 ### 9. Business Entrepreneurship cases in four fields
 
@@ -653,77 +734,166 @@ These nine components work together to create a comprehensive framework that def
 
 ### 11. Critical thinking skills (academic)
 
-#### 11.1 Mind map
+#### (1) Ask Questions
 
-#### 11.2 Notes
+Continuously question the material being discussed.
+
+Exp: Could you please clarify the evidence behind this argument?
+
+#### (2) Integrate Multiple Perspectives
+
+Combine insights from various sources and disciplines for a more comprehensive understanding. This reduces bias and deepens your analysis.
+
+Exp: I think we can consider ideas from other fields, which can help us to discuss better.
+
+#### (3) Establish a Logical Framework
+
+Use logical structures to organize your thoughts, such as cause-and-effect relationships or comparisons, ensuring your arguments are clearly articulated.
+
+Exp: Let's break this down into smaller components to understand it better.
+
+#### (4) Engage in Self-Reflection
+
+Regularly review your thought processes and conclusions. Ask yourself if you've made judgments based on emotions or biases.
+
+Exp: After listening to the discussion, I realize my perspective was narrow. Now I think...
+
+#### (5) Focus on Outcomes and Implications
+
+Consider the potential consequences and impacts of a viewpoint or decision. This helps you understand the complexity of issues better.
+
+Exp: What might be the consequences if we adopt this approach?
+
+#### (6) Analyze Arguments
+
+Evaluate the logic and reliability of different viewpoints. Consider whether the evidence is sufficient, the data accurate, and the conclusions reasonable.
+
+#### (7) Consider Counterarguments
+
+Actively seek out opposing views and listen to them critically. Analyzing these perspectives can strengthen your own argument and reveal potential weaknesses.
+
+#### (8) Maintain an Open Mindset
+
+Stay open to new information and differing opinions. Being willing to accept new evidence and viewpoints broadens your thinking.
+
+#### (9) Discuss with Others
+
+Actively participate in discussions, sharing and debating ideas with others. Engaging with individuals from diverse backgrounds can challenge your thinking and promote growth.
 
 ### 12. Group interview skills
 
-#### 12.1 Principles
+#### 12.1 Evaluate the discussion in your group
 
-#### 12.2 How to prepare?
+We did a good job in the discussion, but I think we could improve by setting specific time limits for each segment. This would help keep the conversation focused and ensure that everyone has a chance to contribute.
+Overall, I found it to be a valuable experience, since the diverse perspectives brought by each member allowed us to explore various angles of the topic, and I learned a lot.
+
+#### 12.2 Principles
+
+**(1) Listen Actively**: Show respect by paying attention to others.
+**(2) Stay Focused**: Keep the discussion relevant to the topic.
+**(3) Communicate Clearly**: Express your thoughts simply and clearly.
+**(4) Demonstrate Leadership**: Take initiative without dominating the conversation.
+**(5) Be Collaborative**: Encourage teamwork and build on others' ideas.
+**(6) Be Respectful**: Acknowledge different opinions constructively.
+**(7) Summarize Key Points**: Conclude by briefly summarizing the discussion.
 
 #### 12.3 Acknowledge others' contribution
 
+##### 12.3.1 Another point
+
+I completely agree with your point (about XXX), and I’d like to add that...
+
+##### 12.3.2 Similar point
+
+I appreciate your insights (about XXX). To expand on that idea, I feel that...
+
 #### 12.4 Disagree others' opinion
 
-#### 12.5 Ask others to clarify & self-clarify
+I see your point, but I have a slightly different perspective. I believe that...
 
-#### 12.6 Be interrupted & To interrupt
+#### 12.5 Clarify
+
+##### 12.5.1 Ask others to clarify
+
+I’d love to hear more about your viewpoint on XXX. Could you explain that further, please?
+
+Could you possibly give an example to help me better understand your argument?
+
+##### 12.5.2 Self-clarify
+
+###### (1) Be seriously misunderstood
+
+I appreciate your input, but I think there may have been a misunderstanding. What I meant was...
+
+###### (2) Be slightly misunderstood
+
+I understand the confusion. To be clear, I was referring to...
+
+###### (3) Made an unclear statement
+
+Thanks for your perspective. To clarify my position, I want to emphasize that...
+
+#### 12.6 Interrupt
+
+##### 12.6.1 Be interrupted
+
+I appreciate your enthusiasm, but may I finish my point?
+
+##### 12.6.2 To interrupt
+
+###### (1) Go off topic
+
+I appreciate your insights, but could we focus back on...
+
+###### (2) Speak too long
+
+I see you have a lot of valuable thoughts, but for the sake of time, let’s try to keep our points brief. And I’d love to hear your main perspective.
 
 ### 13. Questions for professors
 
 #### 13.1 Notes
 
+Professor, I'd like to ask, what personal qualities do you think are important for success in e-commerce entrepreneurship? Thank you for your insights.
+
 #### 13.2 Whether to encourage entrepreneurship during school?
+
+Professor, I'like to know, during our studies at HKU, if we have good business ideas, does the university support us in making these ideas a reality?
 
 #### 13.3 What characteristics of people does the program tend to have?
 
----------------------------------------------------------------------------------
+Professsor, I'd like to ask, what qualities are you looking for in candidates during today's interview?
 
-#### 1.2 Experiences
+---
 
-### - What is ECIC?
+- What is ECIC?
 
-### - ECIC curriculum
+- ECIC curriculum
 
-### - What can be added in curriculum? Why?
+- What can be added in curriculum? Why?
 
-### - Why back to school?
+- Why back to school?
 
-### - How to start your own business?
+- How to start your own business?
 
-### - Questions for professors
+- Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service
 
-## II. Specific Questions
+- Design an enterpreneurial project around ChatGPT, and show the killing points
 
-### - Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service
+- ChatGPT's influence to e-commerce
 
-### - Design an enterpreneurial project around ChatGPT, and show the killing points
+- Think of a business case and point out its shortcomings
 
-### - ChatGPT's influence to e-commerce
+- Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan
 
-### - Blockchain
+- Provide HK$ 200,000 to discuss an e-commerce project
 
-### - Metauniverse
+- Come up with an e-pay project and how to make money
 
-### - Digital currency
+- What technological development do you think will change the profit model in the next decade? And how?
 
-### - Think of a business case and point out its shortcomings
+- How to combine Metauniverse and AI to make a project?
 
-### - Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan
-
-### - Provide HK$ 200,000 to discuss an e-commerce project
-
-### - Come up with an e-pay project and how to make money
-
-### - What technological development do you think will change the profit model in the next decade? And how?
-
-AR, VR, Blockchain
-
-### - How to combine Metauniverse and AI to make a project?
-
----------------------------------------------------------------------------------
+---
 
 #### 1. Here are some key differences between e-commerce in Hong Kong and the mainland China
 
@@ -865,17 +1035,3 @@ My aunt graduated from the University of Hong Kong many years ago, and she is a 
 I'm really drawn to MEICOM (MSc in E-commerce and Internet Computing Alumni Association) and what it offers. The focus on lifelong connections and networking is crucial for career growth in the digital world.
 I’m excited about the chance to connect with a diverse group of alumni and fellow students, especially through social events and professional development before graduation. This supportive environment is perfect for fostering collaboration and support.
 Plus, MEICOM's commitment to continuous learning fits right in with my and career goals. I'm looking forward to tapping into this network to enhance my experience in e-commerce and internet computing.
-
-(1) determined
-While working at JD.com, I faced an important requirement needed to be completed quickly. I resolved to pushing my limits to ensure the project was delivered efficiently and with high quality.
-First, I coordinated with my supervisor to bring in a colleague to assist me. Next, I designed a solution, breaking down the complex requirement into functional modules, and developing the system architecture and project plan. Then, I invested significant time, working an entire month without taking a day off.
-In the end, I exceeded expectations in delivering the project and earned respect and recognition from my colleagues and leaders.
-(2) curious
-In addition to my daily work, I regularly read news, reports, and articles related to the e-commerce industry to stay informed about the latest trends and think about how to apply these trends to my work. I also frequently browse technology forums to proactively learn new technologies and tools, enhancing my contributions to projects.
-
-(1) innovative
-While working at JD.com, I participated in an AI competition. I was actively involved and creatively proposed the idea of "using JD's Yanxi large model to generate AI-written content, and using an AI digital human model to narrate the content and produce corresponding videos." Ultimately, we brought this idea to life and developed an AI digital human content generation platform, which fortunately earned us second place.
-(2) high-efficient
-Before starting work each day, I utilize a task management tool to list out my tasks for the day, and prioritize them based on importance. Throughout the execution process, I continuously update the status of each task and reflect on what I've accomplished at the end of the day. This approach allows me to clearly track my progress, ensuring that I complete my target tasks efficiently and on time.
-
-It‘s sometimes difficult for me to say no to extra tasks or responsibilities. I sincerely want to help my colleagues, but this may lead to taking on work beyond my ability, taking up my personal time and even affecting my health. Now I'm trying to set clearer boundaries and prioritize my workload to keep it reasonable.
