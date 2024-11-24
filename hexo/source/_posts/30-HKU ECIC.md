@@ -13,45 +13,26 @@ categories:
 
 #### 1.1 Self-introduction
 
-##### (1) complete
+##### (1) breif
 
-Good morning/afternoon, professors! I'm Wang Yueying, but you can call me Zoe. And I'm so thrilled to be here.
+Good morning, professor! I’m Wang Yueying, but you can call me Zoe, and I’m delighted to be here to share my journey with you.
 
-Currently, I'm a front-end development engineer at JD.com, one of premier e-commerce giants in China. My role primarily involves developing marketing activities to drive new user acquisition, conversion and retention for the JD Finance App.
+Currently, I work as a front-end development engineer at JD.com, one of top e-commerce giants in China. My role focuses on developing marketing activities to drive new user acquisition, conversion, and retention for the JD Finance App.
 
-For instance, I've been independently developing the system Wealth Management Rights Card for about a year and a half, which is a comprehensive membership system, including features like card purchase, renewal, and return etc. Activities like rights flash sales and group buying are included as well.
+I graduated from East China Normal University with a major in software engineering, where I engaged in many practical projects and innovation competitions.
 
-Furthermore, we made various technological improvements to refine our marketing strategies. For instance, we used AI to better allocate our marketing resources for precise targeting, and took risk control measures to spot and prevent fraud. Additionally, by tracking user behavior data, we could continuously evaluate the effectiveness of our campaigns.
+During work, one of my proudest achievements is independently developing the Wealth Management Rights Card, a comprehensive membership system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
 
-Now, our system has grown to over 200,000 users, generated significant profits, and seen remarkable improvements in new customer conversion rates and existing customer retention rates. Its success attracted media attention, with features in “China Fund News” in 2023, extremely boosting our brand visibility.
+My experience at JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
 
-In terms of my educational background, I graduated from East China Normal University majored in software engineering, where I spent plenty of time on a lot of practical projects, and participation in various innovation and entrepreneurship competitions.
+- promotes “zero purchase and redemption fees”
+- I tried to live each day to the fullest.
+- In addition to improve technical strength, I have grasped a deep understanding of financial concepts and strategic marketing by active self-study, and open-minded consultation with colleagues.
+- to acquire customers, and to optimize user retention and conversion
+- to address unmet market needs
 
-My numerous project experiences not only improved my learning ability, but also enhanced my communication and organization skills. More importantly, they sparked my passion to expand my expertise beyond front-end development into areas like product design and market strategy.
+##### (2) complete
 
-That's why I apply for HKU's ECIC program. It combines technical and strategic business education, which will refine my entrepreneurial skills, where I can turn theories into real-world solutions, and deliver significant personal and societal benefits. Thank you for listening.
-
-promotes “zero purchase and redemption fees”
-I tried to live each day to the fullest.
-In addition to improve technical strength, I have grasped a deep understanding of financial concepts and strategic marketing by active self-study, and open-minded consultation with colleagues.
-to acquire customers, and to optimize user retention and conversion
-to address unmet market needs
-
-##### (2) breif
-
-Good morning/afternoon, professors! I'm Wang Yueying. And I'm thrilled to be here.
-
-Currently, I'm a front-end development engineer at JD.com, one of premier e-commerce giants in China. My role involves developing marketing activities to drive new user acquisition, conversion and retention.
-
-I developed the system Wealth Management Rights Card, and we made various technological improvements to refine our marketing strategies, like we used AI to better allocate our marketing resources, and tracked user behavior data to evaluate the effectiveness of our campaigns.
-
-Now, our system has grown to over 200,000 users, generated significant profits, which attracted media attention, with features in “China Fund News” in 2023.
-
-I graduated from East China Normal University majored in software engineering two years ago, where I spent plenty of time on participation in various innovation and entrepreneurship competitions.
-
-My numerous project experiences improved my learning ability, enhanced my organization skills, and sparked my passion to expand my expertise beyond development into areas like product design and market strategy.
-
-That's why I apply for HKU's ECIC program. It combines technical and strategic business education, where I can turn theories into real solutions, and deliver significant personal and societal benefits. Thank you for listening.
 
 ### 2. Understanding of program
 
@@ -778,14 +759,14 @@ Stay open to new information and differing opinions. Being willing to accept new
 
 Actively participate in discussions, sharing and debating ideas with others. Engaging with individuals from diverse backgrounds can challenge your thinking and promote growth.
 
-### 12. Group interview skills
+## IV. Group interview skills
 
-#### 12.1 Evaluate the discussion in your group
+### 12.1 Evaluate the discussion in your group
 
 We did a good job in the discussion, but I think we could improve by setting specific time limits for each segment. This would help keep the conversation focused and ensure that everyone has a chance to contribute.
 Overall, I found it to be a valuable experience, since the diverse perspectives brought by each member allowed us to explore various angles of the topic, and I learned a lot.
 
-#### 12.2 Principles
+### 12.2 Principles
 
 **(1) Listen Actively**: Show respect by paying attention to others.
 **(2) Stay Focused**: Keep the discussion relevant to the topic.
@@ -795,69 +776,69 @@ Overall, I found it to be a valuable experience, since the diverse perspectives 
 **(6) Be Respectful**: Acknowledge different opinions constructively.
 **(7) Summarize Key Points**: Conclude by briefly summarizing the discussion.
 
-#### 12.3 Acknowledge others' contribution
+### 12.3 Acknowledge others' contribution
 
-##### 12.3.1 Another point
+#### 12.3.1 Another point
 
 I completely agree with your point (about XXX), and I’d like to add that...
 
-##### 12.3.2 Similar point
+#### 12.3.2 Similar point
 
 I appreciate your insights (about XXX). To expand on that idea, I feel that...
 
-#### 12.4 Disagree others' opinion
+### 12.4 Disagree others' opinion
 
 I see your point, but I have a slightly different perspective. I believe that...
 
-#### 12.5 Clarify
+### 12.5 Clarify
 
-##### 12.5.1 Ask others to clarify
+#### 12.5.1 Ask others to clarify
 
 I’d love to hear more about your viewpoint on XXX. Could you explain that further, please?
 
 Could you possibly give an example to help me better understand your argument?
 
-##### 12.5.2 Self-clarify
+#### 12.5.2 Self-clarify
 
-###### (1) Be seriously misunderstood
+##### (1) Be seriously misunderstood
 
 I appreciate your input, but I think there may have been a misunderstanding. What I meant was...
 
-###### (2) Be slightly misunderstood
+##### (2) Be slightly misunderstood
 
 I understand the confusion. To be clear, I was referring to...
 
-###### (3) Made an unclear statement
+##### (3) Made an unclear statement
 
 Thanks for your perspective. To clarify my position, I want to emphasize that...
 
-#### 12.6 Interrupt
+### 12.6 Interrupt
 
-##### 12.6.1 Be interrupted
+#### 12.6.1 Be interrupted
 
 I appreciate your enthusiasm, but may I finish my point?
 
-##### 12.6.2 To interrupt
+#### 12.6.2 To interrupt
 
-###### (1) Go off topic
+##### (1) Go off topic
 
 I appreciate your insights, but could we focus back on...
 
-###### (2) Speak too long
+##### (2) Speak too long
 
 I see you have a lot of valuable thoughts, but for the sake of time, let’s try to keep our points brief. And I’d love to hear your main perspective.
 
-### 13. Questions for professors
+## V. Questions for professors
 
-#### 13.1 What personal qualities are important in e-commerce entrepreneurship?
+### 13.1 What personal qualities are important in e-commerce entrepreneurship?
 
 Professor, I'd like to ask, what personal qualities do you think are important for success in e-commerce entrepreneurship? Thank you for your insights.
 
-#### 13.2 Whether to encourage entrepreneurship during school?
+### 13.2 Whether to encourage entrepreneurship during school?
 
 Professor, I'like to know, during our studies at HKU, if we have good business ideas, does the university support us in making these ideas a reality?
 
-#### 13.3 What characteristics of people does the program tend to have?
+### 13.3 What characteristics of people does the program tend to have?
 
 Professsor, I'd like to ask, what qualities are you looking for in candidates during today's interview?
 
@@ -893,39 +874,39 @@ Professsor, I'd like to ask, what qualities are you looking for in candidates du
 
 ---
 
-#### 1. Here are some key differences between e-commerce in Hong Kong and the mainland China
+## Here are some key differences between e-commerce in Hong Kong and the mainland China
 
-##### (1) Market Structure
+### (1) Market Structure
 
 Hong Kong: It has a more Western-oriented market structure, with a blend of local and international brands. The market is smaller but more diverse.
 
 Mainland China: China has a massive domestic market with a range of local companies dominating, including giants like Alibaba and JD.com.
 
-##### (2) Regulations
+### (2) Regulations
 
 Hong Kong: E-commerce is less regulated, allowing for more flexible business practices. There are fewer restrictions on foreign businesses.
 
 Mainland China: E-commerce is heavily regulated, with strict rules regarding data protection, foreign investment, and tax implications.
 
-##### (3) Payment Systems
+### (3) Payment Systems
 
 Hong Kong: Credit cards and PayPal are widely used, along with local digital wallets like Alipay and WeChat Pay gaining popularity.
 
 Mainland China: Mobile payments dominate the landscape, with Alipay and WeChat Pay being the primary methods for transactions, often bypassing credit card usage entirely.
 
-##### (4) Logistics and Delivery
+### (4) Logistics and Delivery
 
 Hong Kong: Generally, the logistics infrastructure is more developed, leading to faster delivery times within the city.
 
 Mainland China: Thanks to improvements in logistics networks, many rural areas can now also enjoy efficient and often same-day or next-day delivery services, thanks to companies like Alibaba and JD.com investing heavily in their logistics capabilities.
 
-##### (5) Social Media Integration
+### (5) Social Media Integration
 
 Hong Kong: Social media platforms like Facebook and Instagram are commonly used for marketing and e-commerce integration.
 
 Mainland China: Platforms like WeChat and TikTok are crucial for e-commerce integration, blending social media and shopping seamlessly.
 
-##### (6) Cultural Differences
+### (6) Cultural Differences
 
 Hong Kong: The culture has a distinct international influence, affecting marketing strategies to be more aligned with Western trends and preferences.
 
@@ -933,89 +914,89 @@ Mainland China: Cultural factors, including local traditions and preferences, de
 
 These points highlight the unique characteristics of the e-commerce landscapes in Hong Kong and mainland China. Each has its own advantages and challenges.
 
-#### 2. Here are the advantages of AI technology in e-commerce
+## Here are the advantages of AI technology in e-commerce
 
-##### (1) Personalized Shopping Experience
+### (1) Personalized Shopping Experience
 
 AI algorithms analyze customer data to provide personalized recommendations based on past behavior, preferences, and purchasing patterns, enhancing user engagement.
 
-##### (2) Enhanced Customer Service
+### (2) Enhanced Customer Service
 
 AI-powered chatbots and virtual assistants offer 24/7 customer support, answering queries, resolving issues, and processing orders promptly, thereby improving customer satisfaction.
 
-##### (3) Inventory Management
+### (3) Inventory Management
 
 AI can predict demand trends, optimize stock levels, and manage inventory efficiently by analyzing sales data and market conditions, reducing overstock and stockouts.
 
-##### (4) Dynamic Pricing
+### (4) Dynamic Pricing
 
 AI systems can implement dynamic pricing strategies that adjust prices in real-time based on market demand, competitor pricing, and customer behavior, maximizing profit margins.
 
-##### (5) Fraud Detection
+### (5) Fraud Detection
 
 Machine learning algorithms can identify unusual patterns and flag potentially fraudulent transactions, enhancing security and protecting both businesses and consumers.
 
-##### (6) Improved Marketing Strategies
+### (6) Improved Marketing Strategies
 
 AI analyzes consumer data to create targeted marketing campaigns, improving conversion rates by ensuring the right message reaches the right audience at the right time.
 
-##### (7) User Behavior Analysis
+### (7) User Behavior Analysis
 
 AI tools track and analyze user behavior on e-commerce platforms, providing insights into customer journeys and helping businesses refine their offerings and website usability.
 
-##### (8) Supply Chain Optimization
+### (8) Supply Chain Optimization
 
 AI technologies streamline supply chain operations by predicting disruptions, optimizing logistics, and managing suppliers more effectively, leading to cost savings.
 
-##### (9) Visual Search and Image Recognition
+### (9) Visual Search and Image Recognition
 
 AI enables customers to search for products using images rather than text, enhancing the shopping experience and allowing for quicker product discovery.
 
-##### (10) Augmented Reality (AR) Integration
+### (10) Augmented Reality (AR) Integration
 
 AI combined with AR allows customers to visualize products in their environment before purchasing, increasing confidence and reducing return rates.
 
 These advancements illustrate how AI technology is transforming the e-commerce landscape, making operations more efficient while enhancing the overall customer experience.
 
-#### 3. Here are the disadvantages of AI technology in e-commerce
+## 3. Here are the disadvantages of AI technology in e-commerce
 
-##### (1) High Implementation Costs
+### (1) High Implementation Costs
 
 The initial investment required for AI technology can be significant, including costs for software, hardware, and skilled personnel, which may be a barrier for small businesses.
 
-##### (2) Data Privacy Concerns
+### (2) Data Privacy Concerns
 
 The collection and analysis of vast amounts of consumer data raise concerns about privacy and security, as businesses must ensure compliance with regulations and protect customer information.
 
-##### (3) Job Displacement
+### (3) Job Displacement
 
 Automation through AI can result in job losses in certain sectors of e-commerce, particularly in customer service and logistics, leading to workforce challenges and societal implications.
 
-##### (4) Over-reliance on Technology
+### (4) Over-reliance on Technology
 
 Businesses may become overly dependent on AI systems, potentially neglecting the human element of customer service and decision-making, which can affect customer relationships.
 
-##### (5) Algorithm Bias
+### (5) Algorithm Bias
 
 AI algorithms can inadvertently perpetuate biases present in training data, leading to unfair treatment of certain customer groups or skewed recommendations that do not reflect diversity.
 
-##### (6) Complexity and Maintenance
+### (6) Complexity and Maintenance
 
 Implementing AI solutions requires ongoing maintenance and updates, which can complicate operations and necessitate additional technical expertise.
 
-##### (7) Limited Understanding by Consumers
+### (7) Limited Understanding by Consumers
 
 Many consumers may not fully understand how AI works in e-commerce, leading to skepticism or distrust regarding personalized recommendations and automated services.
 
-##### (8) Potential for Errors
+### (8) Potential for Errors
 
 AI systems are not infallible and can make mistakes in predictions or analyses, which may lead to inventory issues, incorrect pricing, or poor customer experiences.
 
-##### (9) Security Risks
+### (9) Security Risks
 
 As AI systems become more integrated into e-commerce platforms, they also become targets for cyberattacks, necessitating robust security measures to protect sensitive data.
 
-##### (10) Negative User Experience
+### (10) Negative User Experience
 
 If not designed carefully, AI-driven features like chatbots may frustrate customers when they fail to understand queries or provide inadequate assistance, leading to dissatisfaction.
 
@@ -1044,7 +1025,7 @@ The Smart Contract Loan Platform primarily utilizes blockchain technology and in
 
 #### (1) Blockchain
 
-Uses decentralized ledger technology to create a transparent, tamper-proof record of transactions, enhancing user trust and safeguarding against fraud. And cryptographic techniques secure data against hacking.
+Uses decentralized ledger technology to create a transparent, tamper-proof record of transactions, enhancing user trust and safeguarding against fraud. And it also uses cryptographic techniques secure data against hacking.
 
 #### (2) Smart Contracts
 
