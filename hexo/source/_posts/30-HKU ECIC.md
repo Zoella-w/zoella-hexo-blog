@@ -23,7 +23,7 @@ I graduated from East China Normal University with a major in software engineeri
 
 During work, one of my proudest achievements is independently developing the Wealth Management Rights Card, a comprehensive membership system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
 
-My experience at JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
+My experience at JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup in HK, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
 
 - promotes “zero purchase and redemption fees”
 - I tried to live each day to the fullest.
@@ -32,7 +32,6 @@ My experience at JD.com ignited my passion to broaden my expertise beyond develo
 - to address unmet market needs
 
 ##### (2) complete
-
 
 ### 2. Understanding of program
 
@@ -54,15 +53,19 @@ Lastly, since I intend to build my career in Hong Kong, I believe HKU is the per
 
 #### 2.3 Why ECIC?
 
-I'm a developer, who's always been passionate about finance and business, and my ultimate ambition is to run my own venture in e-commerce. The ECIC program seamlessly combines technology with business, offering an extensive interdisciplinary curriculum, including courses such as "E-marketing" and "Entrepreneurship development and ventures in Asia". These subjects are perfectly aligned with my career ambition.
+The first key point is the curriculum. As a developer passionate about finance and business, my ultimate goal is to launch my own fintech startup in HK. The ECIC program offers conprehensive curriculum combining technology with business, which provide the skills I need for e-commerce startups.
 
-Moreover, I appreciate the diverse backgrounds of the students in this program, including accounting, management, engineering and law, because they bring different perspectives and ideas. And the strong alumni network will be invaluable for building connections and resources, which can benefit my personal and professional growth.
+I'm particularly interested in Professor Montgomery Alan's research about the analysis of clickstream data. Since I'm in charge with the development of marketing activities, I'm interested to know how to predict online consumer browsing patterns and purchase conversion rates.
 
-Additionally, the project has strong connections with various industries, and provides excellent internship opportunities. That offers a lot of opportunities for accumulating real-world business experience, and helps me to combine theory with practice.
+I also appreciate the diverse backgrounds of the students, including business, management, engineering and so on. This variety can bring different perspectives and ideas, benefiting my personal growth and career development.
 
-In short, the interdisciplinary curriculum, strong alumni network and practical business practice are exactly what I need to take my next career step.
+In summary, the interdisciplinary curriculum, strong faculty, and robust alumni network are exactly what I need to advance my career.
 
-#### 2.4 Favorite courses
+#### 2.4 What is ECIC?
+
+ECIC, or ECommerce and Information Computing, is a program at HKU that combines technology with business. It offers an interdisciplinary curriculum taught by both academics and industry professionals. This variaty prepares us for challenges in the digital economy, especially in areas like fintech and e-commerce, which are exactly what I need to advance my career.
+
+#### 2.5 Favorite courses
 
 This program provides interdisciplinary courses, which update continuously with the rapid developing tech world. Among all of them, "E-marketing" and "Entrepreneurship development and ventures in Asia" are particular appealing to me.
 
@@ -72,7 +75,7 @@ For the "Entrepreneurship Development and Ventures in Asia" course, I'm excited 
 
 Both courses offer unique skills that align perfectly with my ambitions in e-commerce and tech entrepreneurship.
 
-#### 2.5 Where to know?
+#### 2.6 Where to know?
 
 A colleague who graduated from the Hong Kong University recommended me that the ECIC project was very suitable for me. Then I went to the official website to check it out, and was deeply impressed by its curriculum designed to integrate business with technology. And that perfectly met my ambition of starting my own business in the field of e-commerce.
 
@@ -1033,7 +1036,7 @@ Automatically executes loan terms (like interest calculations, repayment schedul
 
 #### (3) Artificial Intelligence
 
-Applies AI algorithms to analyze credit risk and assess borrowers’ creditworthiness in real time using historical data, and social media insights.    
+Applies AI algorithms to analyze credit risk and assess borrowers’ creditworthiness in real time using historical data, and social media insights.
 
 #### (4) ChatGPT
 
@@ -1074,7 +1077,6 @@ AI-powered customer service via ChatGPT offers instant support, improving user e
 ##### (6) Immersive Community Engagement with Metaverse and VR
 
 Integration with the Metaverse and VR creates a social platform for users to interact and share experiences, enhancing community engagement and user loyalty.
-
 
 #### 2. Revenue Streams
 
