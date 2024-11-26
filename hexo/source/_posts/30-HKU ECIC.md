@@ -53,17 +53,18 @@ Lastly, since I intend to build my career in Hong Kong, I believe HKU is the per
 
 #### 2.3 Why ECIC?
 
-The first key point is the curriculum. As a developer passionate about finance and business, my ultimate goal is to launch my own fintech startup in HK. The ECIC program offers conprehensive curriculum combining technology with business, which provide the skills I need for e-commerce startups.
+The first key point is the curriculum. As a developer passionate about finance and business, my ultimate goal is to launch my own fintech startup in Hong Kong. And the ECIC program offers comprehensive curriculum combining technology with business, which provide the distinct skills that support my ambitions in e-commerce startups. 
 
-I'm particularly interested in Professor Montgomery Alan's research about the analysis of clickstream data. Since I'm in charge with the development of marketing activities, I'm interested to know how to predict online consumer browsing patterns and purchase conversion rates.
+I'm particularly interested in Professor Montgomery Alan's research, about the analysis of clickstream data. Since I'm in charge with the development of marketing activities, I'd like to know how to predict consumers' browsing patterns and conversion rates in this way.
 
 I also appreciate the diverse backgrounds of the students, including business, management, engineering and so on. This variety can bring different perspectives and ideas, benefiting my personal growth and career development.
 
-In summary, the interdisciplinary curriculum, strong faculty, and robust alumni network are exactly what I need to advance my career.
+In summary, the interdisciplinary curriculum and diverse environment provided by ECIC, are exactly what I need to advance my career.
+
 
 #### 2.4 What is ECIC?
 
-ECIC, or E-Commerce and Information Computing, focused on using technologies to enhance online businesses. Its topics consist of digital marketing, data analytics and software development, which provide distinct skills that support my ambitions in e-commerce startups.
+ECIC, or E-commerce and Information Computing, focuses on using technologies to enhance online businesses. It covers topics like digital marketing, data analytics, and software development, helping students innovate in the fast-pacing digital economy, which are exactly what I need to advance my career.
 
 #### 2.5 Favorite courses
 
@@ -83,15 +84,16 @@ A colleague who graduated from the Hong Kong University recommended me that the 
 
 #### 3.1 Why U?
 
-I believe my work experience, career goals and qualities are completely align with the ECIC program.
+I believe my work experience, career goals and qualities completely fit the ECIC program.
 
-With two years of hands-on experience in financial marketing in JD.com, I have a deep understanding of using technologies to enhance online businesses. And I'm eager to learn more about business and management to support my career goal of starting a fintech startup in HongKong.
+With two years of hands-on experience in marketing development in JD.com, I have a deep understanding of enhancing online businesses with technologies. And I'm eager to learn more about business and management to advance my career goal, of launching a fintech startup in Hong Kong.
 
-Moreover, I'm innovative and efficient.
-While working in JD.com, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text and generating corresponding videos." Finally, we developed an AI digital human content generation platform, and won the second prize.
-My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps me track progress and complete tasks efficiently.
+Moreover, I'm innovative and efficient. 
+While working, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text, and generating corresponding videos." Finally, we brought the idea to life and won the second prize.
+My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps track progress and finish tasks efficiently.
 
-In summary, I believe my background and qualities make me a strong fit for the ECIC program, and I'll contribute my unique perspectives and ideas to it.
+In summary, I believe my background and qualities perfectly fit the ECIC program, and I'll also contribute my unique perspectives and ideas to it.
+
 
 ##### 3.1.1 Disposition
 
@@ -117,15 +119,13 @@ Before starting work each day, I utilize a task management tool to list out my t
 
 #### 3.2 Advantages compared with others
 
-I believe my work experience, career goals and qualities stand me out with other candidate for the ECIC program.
+I believe each candidate brings their unique strengths and experiences, and my advantage lies in my work experience and qualities.
 
-With two years of hands-on experience in financial marketing in JD.com, I have a deep understanding of using technologies to enhance online businesses. And I'm eager to learn more about business and management to support my career goal of starting a fintech startup in HongKong.
+With two years of hands-on experience in marketing development in JD.com, I have a deep understanding of enhancing online businesses with technologies. And I'm eager to learn more about business and management to support my career goal, of launching a fintech startup in Hong Kong.
 
-Moreover, I'm innovative and efficient.
-While working in JD.com, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text and generating corresponding videos." Finally, we developed an AI digital human content generation platform, and won the second prize.
-My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps me track progress and complete tasks efficiently.
+Moreover, I'm innovative. While working, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text, and generating corresponding videos." Finally, we brought the idea to life and won the second prize.
 
-In summary, I believe my background and qualities make me a strong fit for the ECIC program, and I'll contribute my unique perspectives and ideas to it.
+Of course, I'm sure that everyone here has their unique qualities, and I look forward to learning and growing with them.
 
 #### 3.3 Disadvantages
 
