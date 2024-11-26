@@ -17,13 +17,13 @@ categories:
 
 Good morning, professor! I’m Wang Yueying, but you can call me Zoe, and I’m delighted to be here to share my journey with you.
 
-Currently, I work as a front-end development engineer at JD.com, one of top e-commerce giants in China. My role focuses on developing marketing activities to drive new user acquisition, conversion, and retention for the JD Finance App.
+Currently, I work as a front-end development engineer in JD.com, one of top e-commerce giants in China. My role focuses on developing marketing activities to drive new user acquisition, conversion, and retention for the JD Finance App.
 
 I graduated from East China Normal University with a major in software engineering, where I engaged in many practical projects and innovation competitions.
 
 During work, one of my proudest achievements is independently developing the Wealth Management Rights Card, a comprehensive membership system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
 
-My experience at JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup in HK, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
+My experience in JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup in HK, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
 
 - promotes “zero purchase and redemption fees”
 - I tried to live each day to the fullest.
@@ -63,7 +63,7 @@ In summary, the interdisciplinary curriculum, strong faculty, and robust alumni 
 
 #### 2.4 What is ECIC?
 
-ECIC, or ECommerce and Information Computing, is a program at HKU that combines technology with business. It offers an interdisciplinary curriculum taught by both academics and industry professionals. This variaty prepares us for challenges in the digital economy, especially in areas like fintech and e-commerce, which are exactly what I need to advance my career.
+ECIC, or E-Commerce and Information Computing, focused on using technologies to enhance online businesses. Its topics consist of digital marketing, data analytics and software development, which provide distinct skills that support my ambitions in e-commerce startups.
 
 #### 2.5 Favorite courses
 
@@ -73,7 +73,7 @@ I'm really into the "E-marketing" course, because I'm now in charge of the devel
 
 For the "Entrepreneurship Development and Ventures in Asia" course, I'm excited about the hands-on experience of co-founding a high-tech startup through a simulation game. It’s a fun and low-risk way to grasp the complexities of launching a venture. Plus, the focus on strategic thinking, competitive advantage, and AI-data business models will be incredibly valuable.
 
-Both courses offer unique skills that align perfectly with my ambitions in e-commerce and tech entrepreneurship.
+Both courses offer unique skills that provide unique skills that support my ambitions in e-commerce startups.
 
 #### 2.6 Where to know?
 
@@ -83,19 +83,21 @@ A colleague who graduated from the Hong Kong University recommended me that the 
 
 #### 3.1 Why U?
 
-I feel my work experience and career goals completely align with this program's mission. With two years of hands-on experience in marketing and tech applications at JD.com, I have a deep understanding of technology-driven business strategies. I'm eager to learn more finance, business and management knowledge to become a comprehensive talent in e-commerce.
+I believe my work experience, career goals and qualities are completely align with the ECIC program.
 
-Moreover, my background in journalism and communication, combined with social media expertise, equips me to create compelling stories that resonate with audiences and build deep customer relationships, which is crucial in e-commerce.
+With two years of hands-on experience in financial marketing in JD.com, I have a deep understanding of using technologies to enhance online businesses. And I'm eager to learn more about business and management to support my career goal of starting a fintech startup in HongKong.
 
-Finally, I'd like to say that I am someone with innovative and critical thinking skills, and I am also very determined. These qualities help me find new solutions in the face of challenges.
+Moreover, I'm innovative and efficient.
+While working in JD.com, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text and generating corresponding videos." Finally, we developed an AI digital human content generation platform, and won the second prize.
+My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps me track progress and complete tasks efficiently.
 
-I'm confident that my background and characteristics make me a great fit for the ECIC program. I also will contribute a unique perspective and value to the ECIC program.
+In summary, I believe my background and qualities make me a strong fit for the ECIC program, and I'll contribute my unique perspectives and ideas to it.
 
 ##### 3.1.1 Disposition
 
 ###### (1) determined
 
-While working at JD.com, I faced an important requirement needed to be completed quickly. I resolved to pushing my limits to ensure the project was delivered efficiently and with high quality.
+While working in JD.com, I faced an important requirement needed to be completed quickly. I resolved to pushing my limits to ensure the project was delivered efficiently and with high quality.
 First, I coordinated with my supervisor to bring in a colleague to assist me. Next, I designed a solution, breaking down the complex requirement into functional modules, and developing the system architecture and project plan. Then, I invested significant time, working an entire month without taking a day off.
 In the end, I exceeded expectations in delivering the project and earned respect and recognition from my colleagues and leaders.
 
@@ -107,7 +109,7 @@ In addition to my daily work, I regularly read news, reports, and articles relat
 
 ###### (1) innovative
 
-While working at JD.com, I participated in an AI competition. I was actively involved and creatively proposed the idea of "using JD's Yanxi large model to generate AI-written content, and using an AI digital human model to narrate the content and produce corresponding videos." Ultimately, we brought this idea to life and developed an AI digital human content generation platform, which fortunately earned us second place.
+While working in JD.com, I participated in an AI competition. I was actively involved and creatively proposed the idea of "using JD's Yanxi large model to generate AI-written content, and using an AI digital human model to narrate the content and produce corresponding videos." Ultimately, we brought this idea to life and developed an AI digital human content generation platform, which fortunately earned us second place.
 
 ###### (2) high-efficient
 
@@ -115,11 +117,15 @@ Before starting work each day, I utilize a task management tool to list out my t
 
 #### 3.2 Advantages compared with others
 
-On the one hand, with two years of front-end development practice in financial marketing at JD, I have gained a profound understanding of digital marketing strategies, and accumulated relevant knowledge in the financial sector. And during work, I've been using AI to better allocate our marketing resources for precise targeting. This has laid a foundation for my understanding of e-commerce.
+I believe my work experience, career goals and qualities stand me out with other candidate for the ECIC program.
 
-On the other hand, I'd like to say I am really ambitious, confident and determined. I hold the firm belief that I will achieve my career goal, and I'm willing to exert any effort required to make it a reality. These qualities help me persist in the face of challenges.
+With two years of hands-on experience in financial marketing in JD.com, I have a deep understanding of using technologies to enhance online businesses. And I'm eager to learn more about business and management to support my career goal of starting a fintech startup in HongKong.
 
-In summary, I'm confident that my background and characteristics stand me out with other candidate for the ECIC program. I am excited about the opportunity to bring a unique perspective and valuable insights to the program.
+Moreover, I'm innovative and efficient.
+While working in JD.com, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text and generating corresponding videos." Finally, we developed an AI digital human content generation platform, and won the second prize.
+My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps me track progress and complete tasks efficiently.
+
+In summary, I believe my background and qualities make me a strong fit for the ECIC program, and I'll contribute my unique perspectives and ideas to it.
 
 #### 3.3 Disadvantages
 
@@ -1007,7 +1013,7 @@ These drawbacks highlight some challenges and risks associated with the integrat
 
 Professor: Montgomery Alan
 Research fields: the analysis of clickstream data
-Reason: In my work at JD.com, I have consistently utilized tracking to record user interaction data, which has sparked a strong interest in clickstream analysis methods. Professor Alan's focus on "using clickstream data to predict online consumer browsing patterns and purchase conversion rates" aligns perfectly with my interests.
+Reason: In my work in JD.com, I have consistently utilized tracking to record user interaction data, which has sparked a strong interest in clickstream analysis methods. Professor Alan's focus on "using clickstream data to predict online consumer browsing patterns and purchase conversion rates" aligns perfectly with my interests.
 
 I‘ve always been a great fan of Cantonese cuisine and am eager to visit Hong Kong to experience various authentic Cantonese dishes.
 Additionally, I really enjoy listening to Cantonese songs and hope to come to Hong Kong to learn Cantonese, so that I can sing some of my favorite songs in the language.
