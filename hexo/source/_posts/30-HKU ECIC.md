@@ -37,30 +37,35 @@ My experience in JD.com ignited my passion to broaden my expertise beyond develo
 
 #### 2.1 Why Hong Kong?
 
-I choose Hong Kong for my further studies for mainly two reasons.
+I choose Hong Kong for further studies due to my career goals and personal interests.
 
-On the one hand, Hong Kong is an international financial and business center, and is the number-one choice for international businesses to establish their regional headquarters. So it will offer me great career opportunities and prospects, especially in e-commerce, which are areas I'm passionate about.
+Hong Kong is a global financial hub with strong regulations and a diverse talent pool, making it ideal for fintech. Its connections to mainland China and other markets provide unique growth opportunities, that align with my career ambitions.
 
-On the other hand, Hong Kong has a vibrant blend of Chinese and Western cultures for its status as an international city. So its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
+On a personal level, I love Cantonese cuisine for its delicious variety and fresh ingredients, especially the delightful dim sum. And I'm also a fan of Cantonese music, particularly Eason Chan, and I'd like to learn Cantonese to sing along and understand the lyrics.
+
+In summary, studying in Hong Kong will advance my career and enrich my life experiences, making it the ideal destination for me.
 
 #### 2.2 Why HKU?
 
-I'm choosing HKU because of its well-known international reputation and excellent research, ranking the 1st in Hong Kong and 17th in the World in the QS World University Rankings 2025.
+I chose Hong Kong University for several reasons.
 
-Moreover, HKU is a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. And its vibrant and diverse environment will bring me new perspectives and ideas. That's also invaluable for my personal development in innovation and entrepreneurship.
+Firstly, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
 
-Lastly, since I intend to build my career in Hong Kong, I believe HKU is the perfect place for me to chase my career aspirations. The chance to collaborate and innovate here will really set me up for success in e-commerce and technology.
+Furthermore, since I plan to build my career in Hong Kong, HKU is a great fit for my goals in fintech. The chance to collaborate and innovate there will offer me the skills and experiences I need to succeed in the fast-paced digital economy.
+
+Additionally, my aunt graduated from HKU, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
+
+Overall, studying at HKU will enhance my academic journey as well as support my career goals and personal growth in the top global financial hub.
 
 #### 2.3 Why ECIC?
 
-The first key point is the curriculum. As a developer passionate about finance and business, my ultimate goal is to launch my own fintech startup in Hong Kong. And the ECIC program offers comprehensive curriculum combining technology with business, which provide the distinct skills that support my ambitions in e-commerce startups. 
+The first key point is the curriculum. As a developer passionate about finance and business, my ultimate goal is to launch my own fintech startup in Hong Kong. And the ECIC program offers comprehensive curriculum combining technology with business, which provide the distinct skills that support my ambitions in e-commerce startups.
 
 I'm particularly interested in Professor Montgomery Alan's research, about the analysis of clickstream data. Since I'm in charge with the development of marketing activities, I'd like to know how to predict consumers' browsing patterns and conversion rates in this way.
 
 I also appreciate the diverse backgrounds of the students, including business, management, engineering and so on. This variety can bring different perspectives and ideas, benefiting my personal growth and career development.
 
 In summary, the interdisciplinary curriculum and diverse environment provided by ECIC, are exactly what I need to advance my career.
-
 
 #### 2.4 What is ECIC?
 
@@ -78,7 +83,7 @@ Both courses offer unique skills that provide unique skills that support my ambi
 
 #### 2.6 Where to know?
 
-A colleague who graduated from the Hong Kong University recommended me that the ECIC project was very suitable for me. Then I went to the official website to check it out, and was deeply impressed by its curriculum designed to integrate business with technology. And that perfectly met my ambition of starting my own business in the field of e-commerce.
+A colleague who graduated from HKU recommended the ECIC program to me. After checking the official website, I was impressed by its curriculum combining technology with business, which aligns perfectly with my goal of launching a fintech startup in Hong Kong.
 
 ### 3. Personalities
 
@@ -88,12 +93,11 @@ I believe my work experience, career goals and qualities completely fit the ECIC
 
 With two years of hands-on experience in marketing development in JD.com, I have a deep understanding of enhancing online businesses with technologies. And I'm eager to learn more about business and management to advance my career goal, of launching a fintech startup in Hong Kong.
 
-Moreover, I'm innovative and efficient. 
+Moreover, I'm innovative and efficient.
 While working, I took part in an AI competition, where I proposed the idea of "using JD's Yanxi large model to utilize an AI digital human to broadcast text, and generating corresponding videos." Finally, we brought the idea to life and won the second prize.
 My efficiency comes from using a task management tool to prioritize tasks, update their status, and reflect on my daily achievements. This helps track progress and finish tasks efficiently.
 
 In summary, I believe my background and qualities perfectly fit the ECIC program, and I'll also contribute my unique perspectives and ideas to it.
-
 
 ##### 3.1.1 Disposition
 
