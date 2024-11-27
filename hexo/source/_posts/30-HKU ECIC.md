@@ -39,23 +39,23 @@ My experience in JD.com ignited my passion to broaden my expertise beyond develo
 
 I choose Hong Kong for further studies due to my career goals and personal interests.
 
-Hong Kong is a global financial hub with strong regulations and a diverse talent pool, making it ideal for fintech. Its connections to mainland China and other markets provide unique growth opportunities, that align with my career ambitions.
+Hong Kong is a global financial hub with strong regulations and a diverse talent pool, making it ideal for fintech. And its connections to mainland China and other markets provide unique growth opportunities. All of that perfectly support my career ambitions.
 
-On a personal level, I love Cantonese cuisine for its delicious variety and fresh ingredients, especially the delightful dim sum. And I'm also a fan of Cantonese music, particularly Eason Chan, and I'd like to learn Cantonese to sing along and understand the lyrics.
+On a personal level, I love Cantonese cuisine for its delicious variety and fresh ingredients, especially the delightful dim sum. And I'm also a big fan of Cantonese music, particularly Eason Chan, and I'd like to learn Cantonese to sing along and better understand the lyrics.
 
 In summary, studying in Hong Kong will advance my career and enrich my life experiences, making it the ideal destination for me.
 
 #### 2.2 Why HKU?
 
-I chose Hong Kong University for several reasons.
+I choose the University of Hong Kong for several reasons.
 
 Firstly, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
 
-Furthermore, since I plan to build my career in Hong Kong, HKU is a great fit for my goals in fintech. The chance to collaborate and innovate there will offer me the skills and experiences I need to succeed in the fast-paced digital economy.
+Furthermore, since I plan to build my career in Hong Kong, the university of Hong Kong is ideal for my goals in fintech. The chance to collaborate and innovate there will provide distinct skills that support my career ambitions in the fast-pacing digital economy.
 
-Additionally, my aunt graduated from HKU, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
+Additionally, my aunt graduated from the university of Hong Kong, and she's a source of pride for our family. She always shares her delightful experiences there, which has increased my admiration for the university.
 
-Overall, studying at HKU will enhance my academic journey as well as support my career goals and personal growth in the top global financial hub.
+Overall, studying at the university of Hong Kong will support my career goals and personal growth in the global financial hub.
 
 #### 2.3 Why ECIC?
 
@@ -83,7 +83,7 @@ Both courses offer unique skills that provide unique skills that support my ambi
 
 #### 2.6 Where to know?
 
-A colleague who graduated from HKU recommended the ECIC program to me. After checking the official website, I was impressed by its curriculum combining technology with business, which aligns perfectly with my goal of launching a fintech startup in Hong Kong.
+A colleague who graduated from the university of Hong Kong recommended the ECIC program to me. After checking the official website, I was impressed by its curriculum combining technology with business, which  perfectly supports my goal of launching my own fintech startup in Hong Kong.
 
 ### 3. Personalities
 
