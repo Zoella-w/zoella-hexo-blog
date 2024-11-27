@@ -83,7 +83,7 @@ Both courses offer unique skills that provide unique skills that support my ambi
 
 #### 2.6 Where to know?
 
-A colleague who graduated from the university of Hong Kong recommended the ECIC program to me. After checking the official website, I was impressed by its curriculum combining technology with business, which  perfectly supports my goal of launching my own fintech startup in Hong Kong.
+A colleague who graduated from the university of Hong Kong recommended the ECIC program to me. After checking the official website, I was impressed by its curriculum combining technology with business, which perfectly supports my goal of launching my own fintech startup in Hong Kong.
 
 ### 3. Personalities
 
