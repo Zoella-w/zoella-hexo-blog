@@ -19,11 +19,11 @@ Good morning, professor! I’m Wang Yueying, but you can call me Zoe, and I’m 
 
 Currently, I work as a front-end development engineer in JD.com, one of top e-commerce giants in China. My role focuses on developing marketing activities to drive new user acquisition, conversion, and retention for the JD Finance App.
 
-I graduated from East China Normal University with a major in software engineering, where I engaged in many practical projects and innovation competitions.
+I graduated from East China Normal University with a major in software engineering, where I engaged in various extracurricular activities and practical projects.
 
-During work, one of my proudest achievements is independently developing the Wealth Management Rights Card, a comprehensive membership system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
+During work, one of my proudest achievements is independently developing the Wealth Management Rights Card system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
 
-My experience in JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My ultimate goal is to launch my own fintech startup in HK, which is why I am excited to apply for the HKU's ECIC program. I believe the invaluable knowledge and skills I'll gain from this program can really support my ambitions. Thank you for listening.
+My experience in JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My final goal is to launch my own fintech startup in Hong Kong, which is why I'm excited to apply for the ECIC program. I believe the invaluable knowledge and skills I'll gain from the program can really support my career ambitions. Thank you for listening.
 
 - promotes “zero purchase and redemption fees”
 - I tried to live each day to the fullest.
@@ -49,11 +49,11 @@ In summary, studying in Hong Kong will advance my career and enrich my life expe
 
 I chose Hong Kong University for several reasons.
 
-Firstly, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
+Firstly, my aunt graduated from HKU, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
 
-Furthermore, since I plan to build my career in Hong Kong, HKU is a great fit for my goals in fintech. The chance to collaborate and innovate there will offer me the skills and experiences I need to succeed in the fast-paced digital economy.
+Furthermore, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
 
-Additionally, my aunt graduated from HKU, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
+Additionally, since I plan to build my career in Hong Kong, HKU is a great fit for my goals in fintech. The chance to collaborate and innovate there will offer me the skills and experiences I need to succeed in the fast-paced digital economy.
 
 Overall, studying at HKU will enhance my academic journey as well as support my career goals and personal growth in the top global financial hub.
 
@@ -133,15 +133,17 @@ Of course, I'm sure that everyone here has their unique qualities, and I look fo
 
 #### 3.3 Disadvantages
 
-It‘s sometimes difficult for me to say no to extra tasks or responsibilities. I sincerely want to help my colleagues, but this may lead to taking on work beyond my ability, taking up my personal time and even affecting my health. Now I'm trying to set clearer boundaries and prioritize my workload to keep it reasonable.
+Given my technical background, I sometimes pay more attention to the technical details of a project than its commercial significance, which is no good for my career goal of starting a fintech startup in Hong Kong.
+To broaden my horizons, I often discuss the motives and goals behind the demand with product managers, and keep myself updated with industry news to gain insight into market trends and customer needs.
+In the future, I plan to learn more about business and management. That's why I'd like to join the ECIC program.
 
-Given my technical background, I've noticed that I sometimes focus too much on the technical details and overlook the business aspects behind a project. To address this, I've been actively working on broadening my perspective. For instance, I regularly discuss the motivations and goals of our requirements with my product manager colleagues. This helps me stay aligned with the overall direction of the project.
+#### 3.4 Career plan
 
-#### 3.4 Career planning
+In the short term, I'll develop financial internet products at top financial institutions in Hong Kong, like banks or exchanges, to be exposed to advanced technologies. Next, I'll transition into product manager through internal rotations, to enhance my skills in strategic planning and market analysis. While doing this, I’ll also explore some startup ideas and find ways to scale profitable initiatives.
 
-In the short term, I will work on developing financial internet products in renowned financial institutions in Hong Kong, such as banks or exchanges. Following this role, I aim to transition into positions as a product manager through internal job rotations, gaining diverse skills and experiences. During this period, I intend to explore entrepreneurial ventures until they become profitable, and then scale them up.
+Long term, I'll launch a fintech startup in Hong Kong, which uses innovative technology to improve traditional financial services, for small businesses and individual entrepreneurs.
 
-In the long term, I will start a fintech company in Hong Kong that focuses on using innovative technology to make traditional financial services more efficient and accessible. My goal is to tackle the financing challenges faced by small businesses and individual entrepreneurs, promoting inclusive finance in the industry. Elon Musk is my role model; his company Tesla has transformed the automotive industry with its breakthroughs in battery tech and smart driving.
+(I’m really inspired by Elon Musk and his amazing work with Tesla, which shows how innovation can lead to real change.) I believe the ECIC program will equip me with the skills needed to succeed in fintech startup and achieve my vision for a more inclusive financial future.
 
 ### 4. Interpersonal relationship
 
