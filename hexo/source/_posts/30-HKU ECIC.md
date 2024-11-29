@@ -21,9 +21,9 @@ Currently, I work as a front-end development engineer in JD.com, one of top e-co
 
 I graduated from East China Normal University with a major in software engineering, where I engaged in various extracurricular activities and practical projects.
 
-During work, one of my proudest achievements is independently developing the Wealth Management Rights Card system, which has attracted over 200,000 users and generated significant profits. This achievement was even featured in “China Fund News” in 2023, enhancing our brand visibility.
+During work, one of my proudest achievements is my independent development of the Wealth Management Rights Card system, which has attracted over 200,000 users. Its achievement was even featured in “China Fund News” in 2023.
 
-My experience in JD.com ignited my passion to broaden my expertise beyond development into product design and business strategy. My final goal is to launch my own fintech startup in Hong Kong, which is why I'm excited to apply for the ECIC program. I believe the invaluable knowledge and skills I'll gain from the program can really support my career ambitions. Thank you for listening.
+The experience in JD.com ignited my passion to expand my expertise beyond development into product design and business strategy. My final goal is to launch my own fintech startup in Hong Kong, which is why I'm excited to apply for the ECIC program. I believe the invaluable knowledge and skills I'll gain from the program can really support my career ambitions. Thank you for listening.
 
 - promotes “zero purchase and redemption fees”
 - I tried to live each day to the fullest.
@@ -37,11 +37,11 @@ My experience in JD.com ignited my passion to broaden my expertise beyond develo
 
 #### 2.1 Why Hong Kong?
 
-I choose Hong Kong for further studies due to my career goals and personal interests.
+I choose Hong Kong for further studies due to personal interests and my career goals.
 
-Hong Kong is a global financial hub with strong regulations and a diverse talent pool, making it ideal for fintech. And its connections to mainland China and other markets provide unique growth opportunities. All of that perfectly support my career ambitions.
+On a personal level, I love Cantonese cuisine for its delicious variety and fresh ingredients, especially the dim sum. I'm also a big fan of Cantonese music, and I'd like to learn Cantonese to sing along and better understand the lyrics.
 
-On a personal level, I love Cantonese cuisine for its delicious variety and fresh ingredients, especially the delightful dim sum. And I'm also a big fan of Cantonese music, particularly Eason Chan, and I'd like to learn Cantonese to sing along and better understand the lyrics.
+Moreover, Hong Kong is a global financial hub with strong regulations and a diverse talent pool, making it ideal for fintech. And its connections to mainland China and other markets provide unique growth opportunities. All of that perfectly support my career ambitions.
 
 In summary, studying in Hong Kong will advance my career and enrich my life experiences, making it the ideal destination for me.
 
@@ -49,13 +49,13 @@ In summary, studying in Hong Kong will advance my career and enrich my life expe
 
 I choose the University of Hong Kong for several reasons.
 
-Firstly, my aunt graduated from HKU, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
+Firstly, my aunt graduated from the University of Hong Kong, and she's a source of pride for our family. She often shares her delightful experiences there, which has increased my admiration for the university.
 
-Furthermore, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
+Moreover, it's a vibrant blend of cultures and ideas, attracting top faculty and students from all over the world. The chance to collaborate and innovate there will provide distinct skills that support my career ambitions
 
-Additionally, since I plan to build my career in Hong Kong, HKU is a great fit for my goals in fintech. The chance to collaborate and innovate there will offer me the skills and experiences I need to succeed in the fast-paced digital economy.
+Additionally, it has an excellent international reputation, ranking 17th globally in the QS World University Rankings 2025.
 
-Overall, studying at the university of Hong Kong will support my career goals and personal growth in the global financial hub.
+Overall, studying at the university of Hong Kong will advance my career and personal growth in the global financial hub.
 
 #### 2.3 Why ECIC?
 
@@ -63,7 +63,7 @@ The first key point is the curriculum. As a developer passionate about finance a
 
 I'm particularly interested in Professor Montgomery Alan's research, about the analysis of clickstream data. Since I'm in charge with the development of marketing activities, I'd like to know how to predict consumers' browsing patterns and conversion rates in this way.
 
-I also appreciate the diverse backgrounds of the students, including business, management, engineering and so on. This variety can bring different perspectives and ideas, benefiting my personal growth and career development.
+I also appreciate the diverse backgrounds of the students, including business, management, engineering and so on. This variety can bring different perspectives and ideas, benefiting my personal growth.
 
 In summary, the interdisciplinary curriculum and diverse environment provided by ECIC, are exactly what I need to advance my career.
 
