@@ -1,5 +1,5 @@
 ---
-title: 25
+title: DNS
 date: 2024-10-18 21:30:22
 tags:
     - 面经

@@ -1,5 +1,5 @@
 ---
-title: 28-interface & type
+title: interface & type
 date: 2024-11-05 09:27:00
 tags:
 ---

@@ -868,7 +868,7 @@
                      data-src="/../images/23/5.png"
                       alt="图5"
                 ></p>
-<h2 id="不正确投放链接-1"><a href="#不正确投放链接-1" class="headerlink" title="不正确投放链接"></a>不正确投放链接</h2><p>访问<code>https://lc.jr.jd.com/finance/fund/fundinvest/investZone/</code>的请求过程：</p>
+<h2 id="正确投放链接"><a href="#正确投放链接" class="headerlink" title="正确投放链接"></a>正确投放链接</h2><p>访问<code>https://lc.jr.jd.com/finance/fund/fundinvest/investZone/</code>的请求过程：</p>
 <h3 id="一、有缓存-1"><a href="#一、有缓存-1" class="headerlink" title="一、有缓存"></a>一、有缓存</h3><p>服务器返回304响应码，表示可以使用客户端中之前缓存的副本</p>
 <ul>
 <li>该请求的request header中包含「与缓存相关」的条件参数</li>
@@ -1040,7 +1040,7 @@
       </tags>
   </entry>
   <entry>
-    <title>25</title>
+    <title>DNS</title>
     <url>/2024/10/18/25-DNS/</url>
     <content><![CDATA[<h2 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h2><p>DNS 是：</p>
 <ul>
@@ -1114,7 +1114,7 @@
       </tags>
   </entry>
   <entry>
-    <title>26-CDN</title>
+    <title>CDN</title>
     <url>/2024/10/29/26-CDN/</url>
     <content><![CDATA[<h2 id="一、概念"><a href="#一、概念" class="headerlink" title="一、概念"></a>一、概念</h2><p>CDN 全称为 “Content Delivery Network”，即内容分发网络。<br>CDN 是一种特殊的 DNS服务器。</p>
 <h2 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h2><p>当使用域名访问某一个网站时（比如访问 <code>www.baidu.com</code>），分为两步：</p>
@@ -1198,7 +1198,7 @@
       </tags>
   </entry>
   <entry>
-    <title>28-interface &amp; type</title>
+    <title>interface &amp; type</title>
     <url>/2024/11/05/28-interface&amp;type/</url>
     <content><![CDATA[<h2 id="一、相同点"><a href="#一、相同点" class="headerlink" title="一、相同点"></a>一、相同点</h2><h3 id="1、都可以描述对象和函数的类型"><a href="#1、都可以描述对象和函数的类型" class="headerlink" title="1、都可以描述对象和函数的类型"></a>1、都可以描述对象和函数的类型</h3><p>但语法不一样，type 使用 &#x3D; 赋值</p>
 <div class="highlight-container" data-rel="Ts"><figure class="iseeu highlight ts"><table><tr><td class="code"><pre><span class="line"><span class="keyword">interface</span> <span class="title class_">User</span> &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="built_in">string</span></span><br><span class="line">    <span class="attr">age</span>: <span class="built_in">number</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">SetUser</span> &#123;</span><br><span class="line">    (<span class="attr">name</span>: <span class="built_in">string</span>, <span class="attr">age</span>: <span class="built_in">number</span>): <span class="built_in">void</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
@@ -1229,36 +1229,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>30-HKU ECIC</title>
-    <url>/2024/11/08/30-HKU%20ECIC/</url>
-    <content><![CDATA[<h2 id="I-Personal-Program"><a href="#I-Personal-Program" class="headerlink" title="I. Personal &amp; Program"></a>I. Personal &amp; Program</h2><h3 id="1-Self-introduction-Experiences"><a href="#1-Self-introduction-Experiences" class="headerlink" title="1. Self-introduction &amp; Experiences"></a>1. Self-introduction &amp; Experiences</h3><h4 id="1-1-Self-introduction"><a href="#1-1-Self-introduction" class="headerlink" title="1.1 Self-introduction"></a>1.1 Self-introduction</h4><h5 id="1-complete"><a href="#1-complete" class="headerlink" title="(1) complete"></a>(1) complete</h5><p>Good morning&#x2F;afternoon, professors! I’m Wang Yueying, but you can call me Zoe. And I’m so thrilled to be here.</p>
-<p>Currently, I’m a front-end development engineer at JD.com, one of premier e-commerce giants in China. My role primarily involves developing marketing activities to drive new user acquisition, conversion and retention for the JD Finance App.</p>
-<p>For instance, I’ve been independently developing the system Wealth Management Rights Card for about a year and a half, which is a comprehensive membership system, including features like card purchase, renewal, and return etc. Activities like rights flash sales and group buying are included as well.</p>
-<p>Furthermore, We made various technological improvements to refine our marketing strategies. For instance, we used AI to better allocate our marketing resources for precise targeting, and took risk control measures to spot and prevent fraud. Additionally, by tracking user behavior data, we could continuously evaluate the effectiveness of our campaigns.</p>
-<p>Now, our system has grown to over 200,000 users, generated significant profits, and seen remarkable improvements in new customer conversion rates and existing customer retention rates. Its success attracted media attention, with features in “China Fund News” in 2023, extremely boosting our brand visibility.</p>
-<p>In terms of my educational background, I graduated from East China Normal University majored in software engineering, where I spent plenty of time on a lot of practical projects, and participation in various innovation and entrepreneurship competitions.</p>
-<p>My numerous project experiences not only improved my learning ability, but also enhanced my communication and organization skills. More importantly, they sparked my passion to expand my expertise beyond front-end development into areas like product design and market strategy.</p>
-<p>That’s why I apply for HKU’s ECIC program. It combines technical and strategic business education, which will refine my entrepreneurial skills, where I can turn theories into real-world solutions, and deliver significant personal and societal benefits. Thank you for listening.</p>
-<p>promotes “zero purchase and redemption fees”<br>I tried to live each day to the fullest.<br>In addition to improve technical strength, I have grasped a deep understanding of financial concepts and strategic marketing by active self-study, and open-minded consultation with collegues.<br>to acquire customers, and to optimize user retention and conversion<br>to address unmet market needs</p>
-<h5 id="2-breif"><a href="#2-breif" class="headerlink" title="(2) breif"></a>(2) breif</h5><p>Good morning&#x2F;afternoon, professors! I’m Wang Yueying. And I’m thrilled to be here.</p>
-<p>Currently, I’m a front-end development engineer at JD.com, one of premier e-commerce giants in China. My role involves developing marketing activities to drive new user acquisition, conversion and retention.</p>
-<p>I developed the system Wealth Management Rights Card, and we made various technological improvements to refine our marketing strategies, like we used AI to better allocate our marketing resources, and tracked user behavior data to evaluate the effectiveness of our campaigns.</p>
-<p>Now, our system has grown to over 200,000 users, generated significant profits, which attracted media attention, with features in “China Fund News” in 2023.</p>
-<p>I graduated from East China Normal University majored in software engineering two years ago, where I spent plenty of time on participation in various innovation and entrepreneurship competitions.</p>
-<p>My numerous project experiences improved my learning ability, enhanced my organization skills, and sparked my passion to expand my expertise beyond development into areas like product design and market strategy.</p>
-<p>That’s why I apply for HKU’s ECIC program. It combines technical and strategic business education, where I can turn theories into real solutions, and deliver significant personal and societal benefits. Thank you for listening.</p>
-<h3 id="2-Understanding-of-program"><a href="#2-Understanding-of-program" class="headerlink" title="2. Understanding of program"></a>2. Understanding of program</h3><h4 id="2-1-Why-Hong-Kong"><a href="#2-1-Why-Hong-Kong" class="headerlink" title="2.1 Why Hong Kong?"></a>2.1 Why Hong Kong?</h4><h4 id="2-2-Why-HKU"><a href="#2-2-Why-HKU" class="headerlink" title="2.2 Why HKU?"></a>2.2 Why HKU?</h4><h4 id="2-3-Why-ECIC"><a href="#2-3-Why-ECIC" class="headerlink" title="2.3 Why ECIC?"></a>2.3 Why ECIC?</h4><h4 id="2-4-Favorite-cource"><a href="#2-4-Favorite-cource" class="headerlink" title="2.4 Favorite cource"></a>2.4 Favorite cource</h4><h4 id="2-5-Where-to-know"><a href="#2-5-Where-to-know" class="headerlink" title="2.5 Where to know?"></a>2.5 Where to know?</h4><h3 id="3-Personalities"><a href="#3-Personalities" class="headerlink" title="3. Personalities"></a>3. Personalities</h3><h4 id="3-1-Why-U"><a href="#3-1-Why-U" class="headerlink" title="3.1 Why U?"></a>3.1 Why U?</h4><h4 id="3-2-Advantages-compared-with-others"><a href="#3-2-Advantages-compared-with-others" class="headerlink" title="3.2 Advantages compared with others"></a>3.2 Advantages compared with others</h4><h4 id="3-3-Disadvantages"><a href="#3-3-Disadvantages" class="headerlink" title="3.3 Disadvantages"></a>3.3 Disadvantages</h4><h4 id="3-4-Career-planning"><a href="#3-4-Career-planning" class="headerlink" title="3.4 Career planning"></a>3.4 Career planning</h4><h3 id="4-Interpersonal-relationship"><a href="#4-Interpersonal-relationship" class="headerlink" title="4. Interpersonal relationship"></a>4. Interpersonal relationship</h3><h4 id="4-1-How-to-handle-members-who-are-not-actively-participating"><a href="#4-1-How-to-handle-members-who-are-not-actively-participating" class="headerlink" title="4.1 How to handle members who are not actively participating?"></a>4.1 How to handle members who are not actively participating?</h4><h4 id="4-2-Receive-candidates-with-work-experience-or-not"><a href="#4-2-Receive-candidates-with-work-experience-or-not" class="headerlink" title="4.2 Receive candidates with work experience or not?"></a>4.2 Receive candidates with work experience or not?</h4><h2 id="II-E-commerce-Technology"><a href="#II-E-commerce-Technology" class="headerlink" title="II. E-commerce &amp; Technology"></a>II. E-commerce &amp; Technology</h2><h3 id="5-Comparison-e-commerce-finance-technology"><a href="#5-Comparison-e-commerce-finance-technology" class="headerlink" title="5. Comparison (e-commerce &amp; finance &amp; technology)"></a>5. Comparison (e-commerce &amp; finance &amp; technology)</h3><h4 id="5-1-Hong-Kong-e-commerce-and-mainland-e-commerce"><a href="#5-1-Hong-Kong-e-commerce-and-mainland-e-commerce" class="headerlink" title="5.1 Hong Kong e-commerce and mainland e-commerce"></a>5.1 Hong Kong e-commerce and mainland e-commerce</h4><h4 id="5-2-Alipay-and-wechat-pay"><a href="#5-2-Alipay-and-wechat-pay" class="headerlink" title="5.2 Alipay and wechat pay"></a>5.2 Alipay and wechat pay</h4><h4 id="5-3-Domestic-and-foreign-generative-AI"><a href="#5-3-Domestic-and-foreign-generative-AI" class="headerlink" title="5.3 Domestic and foreign generative AI"></a>5.3 Domestic and foreign generative AI</h4><h3 id="6-Influence-of-AI-to-e-commerce"><a href="#6-Influence-of-AI-to-e-commerce" class="headerlink" title="6. Influence of AI to e-commerce"></a>6. Influence of AI to e-commerce</h3><h4 id="6-1-Advantages-of-AI-e-commerce"><a href="#6-1-Advantages-of-AI-e-commerce" class="headerlink" title="6.1 Advantages of AI e-commerce"></a>6.1 Advantages of AI e-commerce</h4><h4 id="6-2-Disadvantages-of-AI-e-commerce"><a href="#6-2-Disadvantages-of-AI-e-commerce" class="headerlink" title="6.2 Disadvantages of AI e-commerce"></a>6.2 Disadvantages of AI e-commerce</h4><h3 id="7-Technology-terms"><a href="#7-Technology-terms" class="headerlink" title="7. Technology terms"></a>7. Technology terms</h3><h4 id="7-1-ChatGPT"><a href="#7-1-ChatGPT" class="headerlink" title="7.1 ChatGPT"></a>7.1 ChatGPT</h4><h4 id="7-2-Application-scenario-of-large-model"><a href="#7-2-Application-scenario-of-large-model" class="headerlink" title="7.2 Application scenario of large model"></a>7.2 Application scenario of large model</h4><h4 id="7-3-Block-chain"><a href="#7-3-Block-chain" class="headerlink" title="7.3 Block chain"></a>7.3 Block chain</h4><h4 id="7-4-Digital-currency"><a href="#7-4-Digital-currency" class="headerlink" title="7.4 Digital currency"></a>7.4 Digital currency</h4><h4 id="7-5-Metauniverse-shopping-marketing"><a href="#7-5-Metauniverse-shopping-marketing" class="headerlink" title="7.5 Metauniverse (shopping &amp; marketing)"></a>7.5 Metauniverse (shopping &amp; marketing)</h4><h4 id="7-6-Generated-AI"><a href="#7-6-Generated-AI" class="headerlink" title="7.6 Generated AI"></a>7.6 Generated AI</h4><h2 id="III-Business-Thinking-Entrepreneurial-Project"><a href="#III-Business-Thinking-Entrepreneurial-Project" class="headerlink" title="III. Business Thinking &amp; Entrepreneurial Project"></a>III. Business Thinking &amp; Entrepreneurial Project</h2><h3 id="8-Business-thinking"><a href="#8-Business-thinking" class="headerlink" title="8. Business thinking"></a>8. Business thinking</h3><h4 id="8-1-How-business-model-make-money-And-from-whom"><a href="#8-1-How-business-model-make-money-And-from-whom" class="headerlink" title="8.1 How business model make money? And from whom?"></a>8.1 How business model make money? And from whom?</h4><h4 id="8-2-Current-and-future-trends-of-e-commerce"><a href="#8-2-Current-and-future-trends-of-e-commerce" class="headerlink" title="8.2 Current and future trends of e-commerce"></a>8.2 Current and future trends of e-commerce</h4><h4 id="8-3-Business-projects-what-to-consider-about-e-commerce-startup"><a href="#8-3-Business-projects-what-to-consider-about-e-commerce-startup" class="headerlink" title="8.3 Business projects: what to consider about (e-commerce) startup?"></a>8.3 Business projects: what to consider about (e-commerce) startup?</h4><h3 id="9-Business-Entrepreneurship-cases-in-four-fields"><a href="#9-Business-Entrepreneurship-cases-in-four-fields" class="headerlink" title="9. Business Entrepreneurship cases in four fields"></a>9. Business Entrepreneurship cases in four fields</h3><h4 id="9-1-E-commerce-cases"><a href="#9-1-E-commerce-cases" class="headerlink" title="9.1 E-commerce cases"></a>9.1 E-commerce cases</h4><h4 id="9-2-Financial-cases"><a href="#9-2-Financial-cases" class="headerlink" title="9.2 Financial cases"></a>9.2 Financial cases</h4><h4 id="9-3-To-B-cases"><a href="#9-3-To-B-cases" class="headerlink" title="9.3 To B cases"></a>9.3 To B cases</h4><h4 id="9-4-Innovation-cases"><a href="#9-4-Innovation-cases" class="headerlink" title="9.4 Innovation cases"></a>9.4 Innovation cases</h4><h3 id="10-Entrepreneurial-paths-with-10-000-000-10-million-yuan-or-100-yuan"><a href="#10-Entrepreneurial-paths-with-10-000-000-10-million-yuan-or-100-yuan" class="headerlink" title="10. Entrepreneurial paths with 10,000,000 (10 million) yuan or 100 yuan"></a>10. Entrepreneurial paths with 10,000,000 (10 million) yuan or 100 yuan</h3><h3 id="11-Critical-thinking-skills-academic"><a href="#11-Critical-thinking-skills-academic" class="headerlink" title="11. Critical thinking skills (academic)"></a>11. Critical thinking skills (academic)</h3><h4 id="11-1-Mind-map"><a href="#11-1-Mind-map" class="headerlink" title="11.1 Mind map"></a>11.1 Mind map</h4><h4 id="11-2-Notes"><a href="#11-2-Notes" class="headerlink" title="11.2 Notes"></a>11.2 Notes</h4><h3 id="12-Group-interview-skills"><a href="#12-Group-interview-skills" class="headerlink" title="12. Group interview skills"></a>12. Group interview skills</h3><h4 id="12-1-Principles"><a href="#12-1-Principles" class="headerlink" title="12.1 Principles"></a>12.1 Principles</h4><h4 id="12-2-How-to-prepare"><a href="#12-2-How-to-prepare" class="headerlink" title="12.2 How to prepare?"></a>12.2 How to prepare?</h4><h4 id="12-3-Acknowledge-others’-contribution"><a href="#12-3-Acknowledge-others’-contribution" class="headerlink" title="12.3 Acknowledge others’ contribution"></a>12.3 Acknowledge others’ contribution</h4><h4 id="12-4-Disagree-others’-opinion"><a href="#12-4-Disagree-others’-opinion" class="headerlink" title="12.4 Disagree others’ opinion"></a>12.4 Disagree others’ opinion</h4><h4 id="12-5-Ask-others-to-clarify-self-clarify"><a href="#12-5-Ask-others-to-clarify-self-clarify" class="headerlink" title="12.5 Ask others to clarify &amp; self-clarify"></a>12.5 Ask others to clarify &amp; self-clarify</h4><h4 id="12-6-Be-interrupted-To-interrupt"><a href="#12-6-Be-interrupted-To-interrupt" class="headerlink" title="12.6 Be interrupted &amp; To interrupt"></a>12.6 Be interrupted &amp; To interrupt</h4><h3 id="13-Questions-for-professors"><a href="#13-Questions-for-professors" class="headerlink" title="13. Questions for professors"></a>13. Questions for professors</h3><h4 id="13-1-Notes"><a href="#13-1-Notes" class="headerlink" title="13.1 Notes"></a>13.1 Notes</h4><h4 id="13-2-Whether-to-encourage-entrepreneurship-during-school"><a href="#13-2-Whether-to-encourage-entrepreneurship-during-school" class="headerlink" title="13.2 Whether to encourage entrepreneurship during school?"></a>13.2 Whether to encourage entrepreneurship during school?</h4><h4 id="13-3-What-characteristics-of-people-does-the-program-tend-to-have"><a href="#13-3-What-characteristics-of-people-does-the-program-tend-to-have" class="headerlink" title="13.3 What characteristics of people does the program tend to have?"></a>13.3 What characteristics of people does the program tend to have?</h4><hr>
-<h5 id="2-breif-1"><a href="#2-breif-1" class="headerlink" title="(2) breif"></a>(2) breif</h5><h4 id="1-2-Experiences"><a href="#1-2-Experiences" class="headerlink" title="1.2 Experiences"></a>1.2 Experiences</h4><h3 id="Why-Hong-Kong"><a href="#Why-Hong-Kong" class="headerlink" title="- Why Hong Kong?"></a>- Why Hong Kong?</h3><h3 id="Why-HKU"><a href="#Why-HKU" class="headerlink" title="- Why HKU?"></a>- Why HKU?</h3><h3 id="What-is-ECIC"><a href="#What-is-ECIC" class="headerlink" title="- What is ECIC?"></a>- What is ECIC?</h3><h3 id="Why-ECIC-Why-this-program"><a href="#Why-ECIC-Why-this-program" class="headerlink" title="- Why ECIC? &#x2F; Why this program?"></a>- Why ECIC? &#x2F; Why this program?</h3><h3 id="ECIC-curriculum"><a href="#ECIC-curriculum" class="headerlink" title="- ECIC curriculum"></a>- ECIC curriculum</h3><h3 id="What-can-be-added-in-curriculum-Why"><a href="#What-can-be-added-in-curriculum-Why" class="headerlink" title="- What can be added in curriculum? Why?"></a>- What can be added in curriculum? Why?</h3><h3 id="Why-choose-you"><a href="#Why-choose-you" class="headerlink" title="- Why choose you?"></a>- Why choose you?</h3><h3 id="Why-back-to-school"><a href="#Why-back-to-school" class="headerlink" title="- Why back to school?"></a>- Why back to school?</h3><h3 id="Career-planning"><a href="#Career-planning" class="headerlink" title="- Career planning"></a>- Career planning</h3><h3 id="How-to-start-your-own-business"><a href="#How-to-start-your-own-business" class="headerlink" title="- How to start your own business?"></a>- How to start your own business?</h3><h3 id="Benefits-of-you-compared-with-others"><a href="#Benefits-of-you-compared-with-others" class="headerlink" title="- Benefits of you compared with others"></a>- Benefits of you compared with others</h3><h3 id="What’s-your-disadvantages"><a href="#What’s-your-disadvantages" class="headerlink" title="- What’s your disadvantages?"></a>- What’s your disadvantages?</h3><h3 id="Questions-for-professors"><a href="#Questions-for-professors" class="headerlink" title="- Questions for professors"></a>- Questions for professors</h3><h2 id="II-Specific-Questions"><a href="#II-Specific-Questions" class="headerlink" title="II. Specific Questions"></a>II. Specific Questions</h2><h3 id="What-payment-methods-Differences-between-alipay-and-wechat-pay"><a href="#What-payment-methods-Differences-between-alipay-and-wechat-pay" class="headerlink" title="- What payment methods? Differences between alipay and wechat pay"></a>- What payment methods? Differences between alipay and wechat pay</h3><h3 id="Suppose-you-are-an-agency-responsible-for-helping-students-apply-for-ECIC-design-2-functions-that-you-think-are-the-most-important-to-help-improve-the-success-rate-of-application-and-how-to-price-the-service"><a href="#Suppose-you-are-an-agency-responsible-for-helping-students-apply-for-ECIC-design-2-functions-that-you-think-are-the-most-important-to-help-improve-the-success-rate-of-application-and-how-to-price-the-service" class="headerlink" title="- Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service"></a>- Suppose you are an agency responsible for helping students apply for ECIC, design 2 functions that you think are the most important to help improve the success rate of application and how to price the service</h3><h3 id="Design-an-enterpreneurial-project-around-ChatGPT-and-show-the-killing-points"><a href="#Design-an-enterpreneurial-project-around-ChatGPT-and-show-the-killing-points" class="headerlink" title="- Design an enterpreneurial project around ChatGPT, and show the killing points"></a>- Design an enterpreneurial project around ChatGPT, and show the killing points</h3><h3 id="ChatGPT’s-influence-to-e-commerce"><a href="#ChatGPT’s-influence-to-e-commerce" class="headerlink" title="- ChatGPT’s influence to e-commerce"></a>- ChatGPT’s influence to e-commerce</h3><h3 id="Blockchain"><a href="#Blockchain" class="headerlink" title="- Blockchain"></a>- Blockchain</h3><h3 id="Metauniverse"><a href="#Metauniverse" class="headerlink" title="- Metauniverse"></a>- Metauniverse</h3><h3 id="Digital-currency"><a href="#Digital-currency" class="headerlink" title="- Digital currency"></a>- Digital currency</h3><h3 id="Differences-between-Hong-Kong-e-commerce-and-mainland-e-commerce"><a href="#Differences-between-Hong-Kong-e-commerce-and-mainland-e-commerce" class="headerlink" title="- Differences between Hong Kong e-commerce and mainland e-commerce"></a>- Differences between Hong Kong e-commerce and mainland e-commerce</h3><h3 id="Think-of-a-business-case-and-point-out-its-shortcomings"><a href="#Think-of-a-business-case-and-point-out-its-shortcomings" class="headerlink" title="- Think of a business case and point out its shortcomings"></a>- Think of a business case and point out its shortcomings</h3><h3 id="Provide-a-sum-of-money-to-start-an-e-commerce-related-business-in-Hong-Kong-and-provide-a-three-year-plan"><a href="#Provide-a-sum-of-money-to-start-an-e-commerce-related-business-in-Hong-Kong-and-provide-a-three-year-plan" class="headerlink" title="- Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan"></a>- Provide a sum of money to start an e-commerce related business in Hong Kong and provide a three-year plan</h3><h3 id="Provide-HK-200-000-to-discuss-an-e-commerce-project"><a href="#Provide-HK-200-000-to-discuss-an-e-commerce-project" class="headerlink" title="- Provide HK$ 200,000 to discuss an e-commerce project"></a>- Provide HK$ 200,000 to discuss an e-commerce project</h3><h3 id="Come-up-with-an-e-pay-project-and-how-to-make-money"><a href="#Come-up-with-an-e-pay-project-and-how-to-make-money" class="headerlink" title="- Come up with an e-pay project and how to make money"></a>- Come up with an e-pay project and how to make money</h3><h3 id="What-technological-development-do-you-think-will-change-the-profit-model-in-the-next-decade-And-how"><a href="#What-technological-development-do-you-think-will-change-the-profit-model-in-the-next-decade-And-how" class="headerlink" title="- What technological development do you think will change the profit model in the next decade? And how?"></a>- What technological development do you think will change the profit model in the next decade? And how?</h3><p>AR, VR, Blockchain</p>
-<h3 id="How-to-combine-Metauniverse-and-AI-to-make-a-project"><a href="#How-to-combine-Metauniverse-and-AI-to-make-a-project" class="headerlink" title="- How to combine Metauniverse and AI to make a project?"></a>- How to combine Metauniverse and AI to make a project?</h3><h3 id="If-you-are-a-student-group-leader-what-should-you-do-if-there-are-people-who-don’t-do-anything-in-the-group"><a href="#If-you-are-a-student-group-leader-what-should-you-do-if-there-are-people-who-don’t-do-anything-in-the-group" class="headerlink" title="- If you are a student group leader, what should you do if there are people who don’t do anything in the group?"></a>- If you are a student group leader, what should you do if there are people who don’t do anything in the group?</h3><h2 id="III-Group-Interview"><a href="#III-Group-Interview" class="headerlink" title="III. Group Interview"></a>III. Group Interview</h2>]]></content>
-      <categories>
-        <category>ECIC 面经</category>
-      </categories>
-      <tags>
-        <tag>ECIC 面经</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>27-三次握手&amp;四次挥手</title>
+    <title>三次握手&amp;四次挥手</title>
     <url>/2024/11/04/27-%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B&amp;%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</url>
     <content><![CDATA[<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><h3 id="一、概念"><a href="#一、概念" class="headerlink" title="一、概念"></a>一、概念</h3><h4 id="1、TCP-协议"><a href="#1、TCP-协议" class="headerlink" title="1、TCP 协议"></a>1、TCP 协议</h4><p>TCP（Transmission Control Protocol），即传输控制协议。<br>TCP 协议是一个 <strong>面向连接的、可靠的、基于字节流</strong> 的 <strong>传输层协议</strong>。</p>
 <p>TCP 连接可以用于 <strong>保证可靠性</strong> 和 <strong>流量控制机制</strong>，包括 Socket、序列号及窗口大小。</p>
@@ -1318,7 +1289,7 @@
       </tags>
   </entry>
   <entry>
-    <title>29-TCP</title>
+    <title>TCP</title>
     <url>/2024/11/05/29-TCP/</url>
     <content><![CDATA[<p><img  
                      lazyload
@@ -1362,6 +1333,129 @@
         <tag>面经</tag>
         <tag>计算机网络</tag>
         <tag>TCP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大区块链-简介</title>
+    <url>/2025/01/02/30-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h2 id="区块链技术与应用-简介"><a href="#区块链技术与应用-简介" class="headerlink" title="区块链技术与应用-简介"></a>区块链技术与应用-简介</h2><p>视频链接：<a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&amp;vd_source=69ac93649ea21c4726fe85f272b6d968" >https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&amp;vd_source=69ac93649ea21c4726fe85f272b6d968 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>本课程主要讲：比特币和以太坊 两种加密货币</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大区块链-密码学基础</title>
+    <url>/2025/01/02/31-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E5%AF%86%E7%A0%81%E5%AD%A6%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h2 id="区块链技术与应用-密码学基础"><a href="#区块链技术与应用-密码学基础" class="headerlink" title="区块链技术与应用-密码学基础"></a>区块链技术与应用-密码学基础</h2><p>Crypto-currency（加密货币）</p>
+<p>区块链和比特币主要用到：哈希函数 和 数字签名</p>
+<h3 id="一、Cryptographic-Hash-Function（哈希函数）"><a href="#一、Cryptographic-Hash-Function（哈希函数）" class="headerlink" title="一、Cryptographic Hash Function（哈希函数）"></a>一、Cryptographic Hash Function（哈希函数）</h3><p>区块链用到了哈希函数的 抗碰撞性 和 隐私性；比特币除了这两个性质，还要求 谜题友好性</p>
+<h4 id="（1）Collision-resistance（抗碰撞）"><a href="#（1）Collision-resistance（抗碰撞）" class="headerlink" title="（1）Collision resistance（抗碰撞）"></a>（1）Collision resistance（抗碰撞）</h4><p> x≠y, H(x)≠H(y)<br> 给定一个x，没有高效的方法找到一个y，满足H(x)&#x3D;H(y)，可以用 brute-force（蛮力破解）</p>
+<p> Message digest（信息摘要）：给定一个消息m，用H(m)检测对消息的篡改<br> 对m’≠m，H(m’)≠H(m)</p>
+<p> MD5已经可以被人为地制造碰撞</p>
+<h4 id="（2）Hiding（隐私性）-Not-invertable（单向不可逆）"><a href="#（2）Hiding（隐私性）-Not-invertable（单向不可逆）" class="headerlink" title="（2）Hiding（隐私性）&#x2F; Not invertable（单向不可逆）"></a>（2）Hiding（隐私性）&#x2F; Not invertable（单向不可逆）</h4><p> x –&gt; H(x)，没有高效的方法从H(x)得到x，除了 brute-force</p>
+<h4 id="（3）Puzzle-friendly（谜题友好）"><a href="#（3）Puzzle-friendly（谜题友好）" class="headerlink" title="（3）Puzzle friendly（谜题友好）"></a>（3）Puzzle friendly（谜题友好）</h4><p> 不知道如何选定x，使H(x)落在某个区间内，Exp. 00…0XXX…X（以k个0开始）</p>
+<p> 挖矿过程：找一个nonce，和区块块头中的其他信息和在一起作为输入，哈希过后的值要小于等于目标域值，即H(block header) ≤target<br> 其谜题友好意味着，挖矿的过程不存在捷径，只能靠 brute-force，所以该过程才能作为 power of work（pow，工作量证明）<br> 设置 mining puzzle 的原则：Difficult to solve, but easy to verify</p>
+<h5 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1"></a>Example 1</h5><p>比特币中用到的哈希函数是 SHA-256（Secure Hash Algorithm），满足以上三个性质</p>
+<h5 id="Example-2"><a href="#Example-2" class="headerlink" title="Example 2"></a>Example 2</h5><p>Digital commitment（数字承诺），又名 Digital Equivalent of a Sealed Envelope（密封信封的数字等价物），允许一方将某个值（秘密或消息）“承诺”给另一方（验证者）</p>
+<p>结合了哈希函数的抗碰撞和隐私性<br>Hiding：公开m&#x3D;H(x)，给定x’，如果H(x’)&#x3D;m，即可保证x’&#x3D;x</p>
+<p>扩大输入空间的方法：选取nonce（number once）随机数，H(x||nonce)</p>
+<h3 id="二、Digital-Signature（数字签名）"><a href="#二、Digital-Signature（数字签名）" class="headerlink" title="二、Digital Signature（数字签名）"></a>二、Digital Signature（数字签名）</h3><p>不同于银行的开户流程，比特币是去中心化的，只要在本地创建一个公私钥对（public key，private key），就代表一个比特币账户，来源于非对称加密体系（asymmetric encryption algorithm）</p>
+<p>在比特币系统中，公私钥用于签名：发布者用自己的私钥对交易进行签名，接受者通过发布者的公钥验签</p>
+<p>生成公私钥、以及签名 都需要 a good source of randomess</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>在比特币系统中，通常对一个message取哈希，然后再对该哈希值进行签名</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>密码学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大区块链-共识协议</title>
+    <url>/2025/01/02/33-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E5%85%B1%E8%AF%86%E5%8D%8F%E8%AE%AE/</url>
+    <content><![CDATA[<h2 id="区块链技术与应用-共识协议"><a href="#区块链技术与应用-共识协议" class="headerlink" title="区块链技术与应用-共识协议"></a>区块链技术与应用-共识协议</h2><h3 id="一、Double-spending-attack（双花攻击）"><a href="#一、Double-spending-attack（双花攻击）" class="headerlink" title="一、Double spending attack（双花攻击）"></a>一、Double spending attack（双花攻击）</h3><p>双花攻击指同一笔资金被重复支付的情况，也是数字货币面临的主要挑战</p>
+<p>中心化解决方案：数字货币上添加唯一编号，并由央行维护一个数据结构，展示每个编号的货币由谁持有；如果付费方的货币在表中对应的持有人与此人不符，则证明该货币已支付给其他人</p>
+<p>去中心化的解决方案：比特币</p>
+<p>关注：货币的发行（挖矿）、交易的有效性验证（防范双花攻击）</p>
+<h3 id="二、交易的有效性验证"><a href="#二、交易的有效性验证" class="headerlink" title="二、交易的有效性验证"></a>二、交易的有效性验证</h3><p>通过一个由所有用户共同维护的数据结构——区块链 来实现</p>
+<h3 id="三、区块链简易结构"><a href="#三、区块链简易结构" class="headerlink" title="三、区块链简易结构"></a>三、区块链简易结构</h3><p>Note：以下为简易版的区块链，每个区块都只有一个交易，实际上每个区块的交易记录都构成一个 Merkle tree</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/33/1.png"
+                      alt="图1"
+                ></p>
+<p>存在两种哈希指针：将区块串联成链表的指针，和指向前面某个交易的指针（为了说明币的来源，避免凭空捏造和重复交易）</p>
+<p>1、用户A 具有发行货币的权利（铸币权），并发行了10个比特币（coin  base transaction，铸币交易）<br>2、用户A 分别给 用户B、用户C 5个比特币<br>3、用户B 分别给 用户C 2个比特币、用户D 3个比特币<br>4、用户C 转给 用户E 7个比特币<br>5、假设用户B 继续给 用户F 5个比特币，通过区块的回溯，校验出其已经在先前的交易中支付过了，所以交易不合法（避免双花攻击）</p>
+<p>在 用户A 向 用户B 的交易中，需要记录 「输入」A的公钥、A的签名 和 「输出」B的地址（通过B的公钥取哈希等操作得到，可类比为银行卡账号）<br>A 需要 B的公钥 知道向哪里转账，所有节点都 需要 A的公钥 来验签</p>
+<h5 id="BitCoin-Scripts"><a href="#BitCoin-Scripts" class="headerlink" title="BitCoin Scripts"></a>BitCoin Scripts</h5><p>交易中的A的公钥（该交易的输入脚本），需要与 币的来源的A的公钥的哈希（前一交易的输出脚本） 相符（两脚本拼在一起能顺利执行）；否则说明币的来源有问题，A被冒名顶替了</p>
+<h3 id="四、区块结构"><a href="#四、区块结构" class="headerlink" title="四、区块结构"></a>四、区块结构</h3><h4 id="1、Block-header"><a href="#1、Block-header" class="headerlink" title="1、Block header"></a>1、Block header</h4><p>包含区块的宏信息，比如：version（协议版本）、hash of privious block header（前一区块头的哈希）、merkle root hash（Merkle树 根哈希），还有和挖矿相关的 target（挖矿的难度目标域值）、nonce（随机数）</p>
+<p>Note：<br>（1）hash of privious block header 取的只是前一区块头的哈希，不包含块体<br>（2）Merkle树 根哈希 保证了块体中的交易列表不会被篡改<br>（3）target 满足 H(block header)≤target，块头中存的是该目标域值的编码 nBits</p>
+<h4 id="2、Block-body"><a href="#2、Block-body" class="headerlink" title="2、Block body"></a>2、Block body</h4>]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>共识协议</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大区块链-数据结构</title>
+    <url>/2025/01/02/32-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="区块链技术与应用-数据结构"><a href="#区块链技术与应用-数据结构" class="headerlink" title="区块链技术与应用-数据结构"></a>区块链技术与应用-数据结构</h2><h3 id="一、Hash-Pointers（哈希指针）"><a href="#一、Hash-Pointers（哈希指针）" class="headerlink" title="一、Hash Pointers（哈希指针）"></a>一、Hash Pointers（哈希指针）</h3><p>哈希指针除了地址之外，还要保存地址的哈希值，用于检测结构体的内容是否被篡改</p>
+<p>Block chain is a linked list using hash pointers.</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/32/1.png"
+                      alt="图1"
+                ></p>
+<p>区块链中的第一个区块叫 genesis block（创世区块），最后一个区块叫 most recent block</p>
+<p>后一个区块中的哈希指针是对前一区块的整体取哈希（包含前一区块中储存的哈希指针），可以实现 tamper-evident log（篡改证明记录）</p>
+<p>修改一个区块，会导致其后所有区块的哈希发生改变。所以只需保存和比对最后一个哈希值，就能检测出对区块链中任何部位的修改</p>
+<h3 id="二、Merkle-Tree（默克尔树）"><a href="#二、Merkle-Tree（默克尔树）" class="headerlink" title="二、Merkle Tree（默克尔树）"></a>二、Merkle Tree（默克尔树）</h3><p>Merkle tree 和 Binary tree 对比，就是把普通指针换成哈希指针</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/32/2.png"
+                      alt="图2"
+                ></p>
+<p>只要记录并比对 root hash（根哈希值），就能检测出整个树中任何部位的修改</p>
+<h4 id="区块结构"><a href="#区块结构" class="headerlink" title="区块结构"></a>区块结构</h4><p>每个区块包含 block header（块头） 和 block body（块身）</p>
+<p>1、块头：包含 该区块的所有交易组成的 Merkle tree 的根哈希值，但没有具体的交易内容<br>2、块体：包含具体的交易列表</p>
+<h4 id="比特币节点"><a href="#比特币节点" class="headerlink" title="比特币节点"></a>比特币节点</h4><p>比特币中的节点分为：</p>
+<ul>
+<li>full node, or fully validationg node（全节点）</li>
+<li>light node, or light-weight node（轻节点）</li>
+</ul>
+<p>1、全节点：保存整个区块的内容，包括块头和块体（包含 tansaction list，即交易的具体信息）；会验证每一笔交易</p>
+<p>2、轻节点：比如手机上的比特币钱包的APP，只保存块头；无法独立验证交易的合法性</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/32/3.png"
+                      alt="图3"
+                ></p>
+<p>Merkle proof 指从交易发生到根哈希值的路径，可以向轻节点证明某笔交易写入了区块链，流程如下：<br>（1）轻节点向全节点请求图3中红色的哈希值<br>（2）然后根据交易和红色的哈希值，自底向上算出绿色的哈希值，直至算出根哈希值<br>（3）最后将算出的根哈希值，与轻节点块头中的哈希指针比较，一致则证明该交易发生在此区块</p>
+<p>上述方法也叫做 proof of membership 或 proof of inclusion<br>假设最底层的交易数为n，验证交易存在的时间复杂度为：θ(log(n))</p>
+<p>对于无序的 Merkle tree，proof of non-membership（验证交易不存在）的时间复杂度为线性 θ(n)，即一个一个试<br>对于 Sorted Merkle tree（对交易取哈希，并且按哈希值大小排序），上述验证的时间复杂度为 θ(log(n))，与二分法一致：只需要对其大小相邻的两个交易进行哈希值的校验，如果和根哈希一致，则证明该交易不存在</p>
+<p>由于区块链中不需要做不存在证明，所以比特币中的 Merkle tree 不要求排序</p>
+<p>除了区块链 和 Merkle tree，哈希指针还可以用在其他无环的链表中</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>数据结构</tag>
       </tags>
   </entry>
 </search>

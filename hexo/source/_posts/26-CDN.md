@@ -1,5 +1,5 @@
 ---
-title: 26-CDN
+title: CDN
 date: 2024-10-29 09:15:20
 tags:
     - 面经
