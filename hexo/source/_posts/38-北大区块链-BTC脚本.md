@@ -11,7 +11,7 @@ categories:
 
 本节课较多用到 PPT 上的动画，视频链接如下：
 
-`https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=9`
+https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=9
 
 比特币使用的编程语言很简单，内存空间只有一个通用的堆栈
 
