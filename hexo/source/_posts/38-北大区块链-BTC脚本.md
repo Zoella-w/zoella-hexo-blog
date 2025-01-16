@@ -95,6 +95,6 @@ output script:
 
 这种类型的输出被称为：Provably Unspendable（可证明不可花费） / Prunable Outputs（可删减输出）
 
-这个脚本是证明销毁掉比特币的一种方法，有两种应用场景：（1）有些小的币种要求销毁一定数量的比特币才能够得到该币，这种币叫做 AltCoin（Alternative Coin）；（2）往区块链中写入一些内容，比如 digital commitment，把知识产权取哈希放在 return 后面，可以证明在某个时间点知道某个知识，任何用户都可以通过销毁少量比特币、换取向区块链写入的机会
+这个脚本是证明销毁掉比特币的一种方法，有两种应用场景：（1）有些小的币种要求销毁一定数量的比特币才能够得到该币，这种币叫做 AltCoin（Alternative Coin）；（2）往区块链中写入一些内容，比如 digital commitment，把知识产权取哈希放在 return 后面，可以证明在某个时间点知道某个知识，任何用户都可以通过销毁少量比特币（将币转到不存在的地址）、换取向区块链写入的机会（不提倡，因为该交易会永久保留在 UTXO 中，浪费资源）
 
 注意：以上的 CHECKSIG 全称是 OP_CHECKSIG，DUP 全程是 OP_DUP

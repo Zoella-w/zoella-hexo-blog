@@ -54,7 +54,7 @@ Block header 的详细字段：https://developer.bitcoin.org/reference/block_cha
 
 在比特币的 POW（Power of work，工作量证明机制）中，矿工需要不断尝试不同的 nonce 和 coinbase message 组合，以找到一个满足目标哈希值的区块头，共有两层循环：
 
-外层循环调整 coin base 域 的 extra nonce，算出 block header 里的根哈希值之后，内层循环再调整 header 里的 nonce
+外层循环调整 coinbase 域 的 extra nonce，算出 block header 里的根哈希值之后，内层循环再调整 header 里的 nonce
 
 ![图3](../images/34/3.png)
 
