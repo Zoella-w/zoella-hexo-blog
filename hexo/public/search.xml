@@ -1340,7 +1340,7 @@
     <url>/2025/01/02/30-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<p>本课程主要讲：比特币和以太坊 两种加密货币</p>
 <p>视频链接：</p>
-<p><code>&lt;https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&gt;</code></p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&vd_source=69ac93649ea21c4726fe85f272b6d968" >https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.337.search-card.all.click&amp;vd_source=69ac93649ea21c4726fe85f272b6d968 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>Web3 - 北大肖臻-区块链技术与应用</category>
@@ -1432,7 +1432,7 @@
                      data-src="/../images/33/2.png"
                       alt="图2"
                 ></p>
-<p>当两个矿工同时创造新区块时，其他节点按照接收时间来选择接受哪个区块，等长的临时性的分叉会维持一段时间，直到其中一条链胜出（先找到下一个区块）；而另一条链就变成了 orphan block（孤儿区块），被丢弃掉，也就没有出块奖励</p>
+<p>当两个矿工同时创造新区块时，其他节点按照接收时间来选择接受哪个区块，等长的临时性的分叉会维持一段时间，直到其中一条链胜出（先找到下一个区块）；而另一条链就变成了 orphan block（孤儿区块） &#x2F; stale block，被丢弃掉，也就没有出块奖励</p>
 <h3 id="4、Block-reward（区-出块奖励）"><a href="#4、Block-reward（区-出块奖励）" class="headerlink" title="4、Block reward（区&#x2F;出块奖励）"></a>4、Block reward（区&#x2F;出块奖励）</h3><p>获得记账权的节点，在发布的区块里可以进行 coinbase transaction（铸币交易），发布一定数量的比特币</p>
 <p>一开始，每个发布的区块可以产生 50 BTC；21万个区块以后，出块奖励会减半为 25 BTC；再过21万个区块，会变成 12.5 BTC（现在）</p>
 <p>平均出块时间为10分钟，出块奖励减半的时间：21w * 10min &#x2F; (60min * 24h * 365d) ≈ 4年</p>
@@ -1722,7 +1722,7 @@
     <title>北大-区块链技术与应用11-课堂回答</title>
     <url>/2025/01/15/40-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E8%AF%BE%E5%A0%82%E5%9B%9E%E7%AD%94/</url>
     <content><![CDATA[<p>略（基本没有新东西），详情可参考课程视频：</p>
-<p><code>https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.videopod.episodes&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=11</code></p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.videopod.episodes&vd_source=69ac93649ea21c4726fe85f272b6d968&p=11" >https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.videopod.episodes&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=11 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>Web3 - 北大肖臻-区块链技术与应用</category>
@@ -1734,7 +1734,25 @@
   <entry>
     <title>北大-区块链技术与应用12-BTC的匿名性</title>
     <url>/2025/01/15/41-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-BTC%E5%8C%BF%E5%90%8D%E6%80%A7/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="一、比特币的匿名性"><a href="#一、比特币的匿名性" class="headerlink" title="一、比特币的匿名性"></a>一、比特币的匿名性</h2><p>anonimity（匿名性）、privacy（隐私性）</p>
+<p>比特币使用的是 pseudonymity（假名）</p>
+<p>Example：一个人通过自己的两个账户 addr1 和 addr2，向商家账户转账 addr3，然后把零钱转入自己的另一个账户 addr4</p>
+<p>Inputs: addr1, addr2</p>
+<p>Outputs: addr3, addr4</p>
+<h3 id="1、破坏比特币匿名性的方法："><a href="#1、破坏比特币匿名性的方法：" class="headerlink" title="1、破坏比特币匿名性的方法："></a>1、破坏比特币匿名性的方法：</h3><p>（1）比特币不同账户之间可以进行关联</p>
+<p>（2）比特币可以和实体世界相关联</p>
+<h3 id="2、Silk-road（丝路）"><a href="#2、Silk-road（丝路）" class="headerlink" title="2、Silk road（丝路）"></a>2、Silk road（丝路）</h3><p>Silk road 是一个非法交易平台，被称为 eBay for illegal drugs，支付手段采用比特币，底层路由采用 TOR（洋葱路由），提供匿名邮寄服务，后被封禁</p>
+<p>这说明比特币的匿名性并没有那么好</p>
+<h3 id="3、如何提高自己比特币的匿名性？"><a href="#3、如何提高自己比特币的匿名性？" class="headerlink" title="3、如何提高自己比特币的匿名性？"></a>3、如何提高自己比特币的匿名性？</h3><h4 id="（1）Network-layer"><a href="#（1）Network-layer" class="headerlink" title="（1）Network layer"></a>（1）Network layer</h4><p>采用多路由转发，比如 TOR（洋葱路由）</p>
+<h4 id="（2）Application-layer"><a href="#（2）Application-layer" class="headerlink" title="（2）Application layer"></a>（2）Application layer</h4><p>Coin mixing（混币交易），即把不同人的币混起来。交易所天然具有 coin mixing 的性质，前提是交易所不会泄露任何交易记录</p>
+<h2 id="二、Zero-knowledge-proof（零知识证明）"><a href="#二、Zero-knowledge-proof（零知识证明）" class="headerlink" title="二、Zero-knowledge proof（零知识证明）"></a>二、Zero-knowledge proof（零知识证明）</h2><p>零知识证明：指证明方向验证者证明一个陈述是正确的，而无需泄露额外的任何信息</p>
+<h3 id="同态隐藏"><a href="#同态隐藏" class="headerlink" title="同态隐藏"></a>同态隐藏</h3><h4 id="（1）不会碰撞：如果-x-y-不同，那么它们的加密函数值-E-x-和-E-y-也不相同，其逆否命题也成立"><a href="#（1）不会碰撞：如果-x-y-不同，那么它们的加密函数值-E-x-和-E-y-也不相同，其逆否命题也成立" class="headerlink" title="（1）不会碰撞：如果 x, y 不同，那么它们的加密函数值 E(x) 和 E(y) 也不相同，其逆否命题也成立"></a>（1）不会碰撞：如果 x, y 不同，那么它们的加密函数值 E(x) 和 E(y) 也不相同，其逆否命题也成立</h4><h4 id="（2）隐私性：给定-E-x-的值，很难反推出-x-的值"><a href="#（2）隐私性：给定-E-x-的值，很难反推出-x-的值" class="headerlink" title="（2）隐私性：给定 E(x) 的值，很难反推出 x 的值"></a>（2）隐私性：给定 E(x) 的值，很难反推出 x 的值</h4><h4 id="（3）给定-E-x-和-E-y-的值，我们可以很容易地计算出某些关于-x-y-的加密函数值"><a href="#（3）给定-E-x-和-E-y-的值，我们可以很容易地计算出某些关于-x-y-的加密函数值" class="headerlink" title="（3）给定 E(x) 和 E(y) 的值，我们可以很容易地计算出某些关于 x, y 的加密函数值"></a>（3）给定 E(x) 和 E(y) 的值，我们可以很容易地计算出某些关于 x, y 的加密函数值</h4><ul>
+<li>同态加法：通过 E(x) 和 E(y) 计算出 E(x+y) 的值</li>
+<li>同态乘法：通过 E(x) 和 E(y) 计算出 E(xy) 的值</li>
+<li>扩展到多项式</li>
+</ul>
+<h2 id="三、零币和零钞"><a href="#三、零币和零钞" class="headerlink" title="三、零币和零钞"></a>三、零币和零钞</h2><p>零币（zerocoin）和零钞（zerocash）融合了匿名化处理，但仍未解决与实体世界相关联导致的隐私泄露问题</p>
+]]></content>
       <categories>
         <category>Web3 - 北大肖臻-区块链技术与应用</category>
       </categories>
@@ -1747,7 +1765,7 @@
     <title>北大-区块链技术与应用9-BTC脚本</title>
     <url>/2025/01/14/38-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-BTC%E8%84%9A%E6%9C%AC/</url>
     <content><![CDATA[<p>本节课较多用到 PPT 上的动画，视频链接如下：</p>
-<p><code>https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=9</code></p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=9" >https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=9 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>比特币使用的编程语言很简单，内存空间只有一个通用的堆栈</p>
 <p><img  
                      lazyload
@@ -1795,6 +1813,501 @@
       <tags>
         <tag>web3</tag>
         <tag>BTC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用13-BTC引发的思考</title>
+    <url>/2025/01/15/42-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-BTC%E5%BC%95%E5%8F%91%E7%9A%84%E6%80%9D%E8%80%83/</url>
+    <content><![CDATA[<h2 id="一、哈希指针"><a href="#一、哈希指针" class="headerlink" title="一、哈希指针"></a>一、哈希指针</h2><p>指针保存的是本地的内存地址，区块链中的哈希指针是如何传递的？其实区块中保存的只有哈希，没有指针（只是形象化的说法）。全节点会把区块以 (key, value) 存储在数据库（level DB）中，且只保存最近的几千个区块</p>
+<h2 id="二、区块恋"><a href="#二、区块恋" class="headerlink" title="二、区块恋"></a>二、区块恋</h2><p>双方把私钥截成两段，每方保存一段不可取，有两点问题：</p>
+<ul>
+<li>蛮力攻击更加容易</li>
+<li>永久占据 UTXO，浪费资源</li>
+</ul>
+<p>建议采取 MULTISIG（多重签名）</p>
+<h2 id="三、比特币中的稀缺性"><a href="#三、比特币中的稀缺性" class="headerlink" title="三、比特币中的稀缺性"></a>三、比特币中的稀缺性</h2><p>比特币的总量是确定的，这种“稀缺”的东西不适合作为货币，一个好的货币需要有通货膨胀的功能；否则随着社会财富的增加，总量一定的货币会越来越值钱，先来者躺平，后来者买不起（类比国内房地产）</p>
+<h2 id="四、量子计算"><a href="#四、量子计算" class="headerlink" title="四、量子计算"></a>四、量子计算</h2><p>量子计算技术离使用还差的很远，就算有一天量子计算能够破解现有的加密体系，首先冲击的是传统金融业；并且后面还会有量子加密算法</p>
+<p>比特币并没有直接暴露账户的公钥，而是把公钥取哈希得到一个地址。假设量子计算使得从公钥推出私钥变为可能，比特币还有另一层防护：使用的是公钥哈希，首先需要通过地址推出公钥，而取哈希是不可逆的，因为取哈希的过程中存在信息丢失（比如任意长度的公钥都能通过 SHA-256 压缩成 256位）</p>
+<p>从 安全性 和 隐私保护 的角度看，比特币的一个地址一旦用过后，就不要再用了，每次从一个地址取钱时，最好把所有钱都取走，除了支付的钱，剩下的转给自己的另外一个账户</p>
+<p>如果担心量子计算的威胁，即使是公钥也不要随意泄露</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用14-ETH概述</title>
+    <url>/2025/01/15/43-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<p>比特币被称为 区块链1.0，以太坊被称为 区块链2.0</p>
+<h2 id="一、以太坊和区块链的对比"><a href="#一、以太坊和区块链的对比" class="headerlink" title="一、以太坊和区块链的对比"></a>一、以太坊和区块链的对比</h2><h3 id="1、出块时间"><a href="#1、出块时间" class="headerlink" title="1、出块时间"></a>1、出块时间</h3><p>以太坊的出块时间从比特币的 10分钟 降低到了十几秒</p>
+<h3 id="2、共识机制"><a href="#2、共识机制" class="headerlink" title="2、共识机制"></a>2、共识机制</h3><p>以太坊设计了新的 ghost 共识机制</p>
+<h3 id="3、mining-puzzle"><a href="#3、mining-puzzle" class="headerlink" title="3、mining puzzle"></a>3、mining puzzle</h3><p>以太坊设计了新的 mining puzzle：比特币的 mining puzzle 是计算型的，比拼的是算力；而以太坊的 mining puzzle 是 memory hard，对内存的要求很高，从而限制了 ASIC 芯片的使用（ASIC resistance）</p>
+<h3 id="4、证明机制"><a href="#4、证明机制" class="headerlink" title="4、证明机制"></a>4、证明机制</h3><p>以太坊用 POS（proof of stake，权益证明） 来替代 POW（proof of work，工作量证明）</p>
+<h3 id="5、智能合约"><a href="#5、智能合约" class="headerlink" title="5、智能合约"></a>5、智能合约</h3><p>以太坊增加了对 smart contract（智能合约）的支持</p>
+<h4 id="（1）BitCoin：decentralized-currency（去中心化货币）"><a href="#（1）BitCoin：decentralized-currency（去中心化货币）" class="headerlink" title="（1）BitCoin：decentralized currency（去中心化货币）"></a>（1）BitCoin：decentralized currency（去中心化货币）</h4><p>在跨国转账方面，fiat currency（法定货币）不如比特币</p>
+<h4 id="（2）Etherem：decentralized-contract（去中心化协议）"><a href="#（2）Etherem：decentralized-contract（去中心化协议）" class="headerlink" title="（2）Etherem：decentralized contract（去中心化协议）"></a>（2）Etherem：decentralized contract（去中心化协议）</h4><p>类似的，在跨国协议方面，去中心化协议也有优势</p>
+<h3 id="6、最小单位"><a href="#6、最小单位" class="headerlink" title="6、最小单位"></a>6、最小单位</h3><p>比特币的最小单位是 Satoshi（聪）；而以太坊的货币叫做 Ether（以太），最小单位是 Wei</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用15-ETH的账户</title>
+    <url>/2025/01/15/44-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E8%B4%A6%E6%88%B7/</url>
+    <content><![CDATA[<h2 id="一、比特币——基于交易的账本"><a href="#一、比特币——基于交易的账本" class="headerlink" title="一、比特币——基于交易的账本"></a>一、比特币——基于交易的账本</h2><p>比特币用的是 transaction-based ledger（基于交易的账本），系统没有显示地记录账户的金额，需要通过 UTXO 计算，这种方式隐私性好，但不便于使用</p>
+<h2 id="二、以太坊——基于账户的账本"><a href="#二、以太坊——基于账户的账本" class="headerlink" title="二、以太坊——基于账户的账本"></a>二、以太坊——基于账户的账本</h2><p>以太坊用的是 account-based ledger（基于账户的账本），转账时不需要说明币的来源</p>
+<h3 id="1、好处"><a href="#1、好处" class="headerlink" title="1、好处"></a>1、好处</h3><p>不会出现 double spending attack（双花攻击——花钱的人不诚实）</p>
+<h3 id="2、缺点"><a href="#2、缺点" class="headerlink" title="2、缺点"></a>2、缺点</h3><p>需要预防 replay attack（重放攻击——收钱的人不诚实），一次交易被恶意节点广播多次</p>
+<p>通过增加一个计数器 nonce，用来记录某账户交易的次数，转账时交易次数要成为交易内容的一部分，都受到发布交易者签名的保护；如果发起重放攻击，交易中 nonce 的值和计数器的值相等，会被校验为不合法（合法的应该比计数器大 1）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/44/1.png"
+                      alt="图一"
+                ></p>
+<h2 id="三、以太坊的账户类型"><a href="#三、以太坊的账户类型" class="headerlink" title="三、以太坊的账户类型"></a>三、以太坊的账户类型</h2><h3 id="1、Extranally-owned-account（外部账户）"><a href="#1、Extranally-owned-account（外部账户）" class="headerlink" title="1、Extranally owned account（外部账户）"></a>1、Extranally owned account（外部账户）</h3><p>外部账户类似于比特币的账户，通过公私钥控制，也叫做普通账户。一个外部账户的状态有 balance（账户余额）和 nonce（计数器）</p>
+<h3 id="2、Smart-contract-account（合约账户）"><a href="#2、Smart-contract-account（合约账户）" class="headerlink" title="2、Smart contract account（合约账户）"></a>2、Smart contract account（合约账户）</h3><p>合约账户不是通过公私钥对控制，不能主动发起交易（只有外部账户可以）。合约账户除了 balance（账户余额），nonce（计数器），还有 code（代码） 和 storage（状态&#x2F;存储）</p>
+<p>合约账户如何调用？创建合约时，会返回一个地址，知道合约的地址，就能调用合约，调用过程中状态会发生变化，但是代码是不变的</p>
+<p>以太坊的创始人是 Vitalik。现在有人提出用智能合约生成一些 financial derivative（金融衍生品），比如：期权、期货</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用16-ETH中的状态树</title>
+    <url>/2025/01/15/45-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E7%8A%B6%E6%80%81%E6%A0%91/</url>
+    <content><![CDATA[<p>从账户地址到账户状态的映射：addr -&gt; state</p>
+<p>以太坊中的账户地址是 160 bits，也就是 20字节，一般表示为 40个 16进制的数；比特币和以太坊的地址格式、长度都不同，但是以太坊中的地址也是由公钥转换来的（公钥取哈希、进行截取，并只保留后面）</p>
+<p>在比特币中，merkle tree 除了证明账户上有多少钱之外，还可以维护各个全节点之间状态的一致性</p>
+<h2 id="以太坊的状态树结构"><a href="#以太坊的状态树结构" class="headerlink" title="以太坊的状态树结构"></a>以太坊的状态树结构</h2><p>以太坊采用的数据结构是 MPT（‌Merkle Patricia Tree，默克尔前缀树&#x2F;压缩前缀树），基于 trie（单词查找树）</p>
+<h3 id="一、Trie"><a href="#一、Trie" class="headerlink" title="一、Trie"></a>一、Trie</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/1.png"
+                      alt="图一"
+                ></p>
+<h4 id="1、优点"><a href="#1、优点" class="headerlink" title="1、优点"></a>1、优点</h4><p>（1）Trie 每个节点的分支数目，取决于 key 每个元素的取值范围，以太坊的 branching factor 是 17（0~f，加结束位）</p>
+<p>（2）Trie 的查找效率取决于 key 的长度，越长查找次数越多，以太坊 key 值的长度都是 40</p>
+<p>（3）比起 key-value 对，trie 不会出现哈希碰撞</p>
+<p>（4）Trie 生成的树和插入顺序无关</p>
+<p>（5）Trie 中的更新操作具有局部性</p>
+<h4 id="2、缺点"><a href="#2、缺点" class="headerlink" title="2、缺点"></a>2、缺点</h4><p>一脉单传，存储浪费空间，于是就引入了 MPT</p>
+<h3 id="二、MPT"><a href="#二、MPT" class="headerlink" title="二、MPT"></a>二、MPT</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/2.png"
+                      alt="图二"
+                ></p>
+<p>MPT 对树的高度进行压缩，访问内存的次数减少，提高效率。路径压缩在键值分布比较稀疏的情况下，效果比较好</p>
+<p>以太坊中的地址是 160 bits，地址空间为 2^160，因此以太坊账户地址的键值分布非常稀疏。地址这么长的原因是防止哈希碰撞（不同公钥哈希后的值相同）</p>
+<p>Merkle tree 比起 binary tree，把普通指针换成哈希指针；同样的，MPT 比起 PT，也是把普通指针换成哈希指针，最后计算出根哈希值</p>
+<h4 id="1、根哈希值的作用"><a href="#1、根哈希值的作用" class="headerlink" title="1、根哈希值的作用"></a>1、根哈希值的作用</h4><p>（1）防止篡改</p>
+<p>（2）merkle proof，证明账户余额</p>
+<p>（3）和 sorted merkle tree 一样，可以证明账户是否存在</p>
+<h4 id="2、Modified-MPT"><a href="#2、Modified-MPT" class="headerlink" title="2、Modified MPT"></a>2、Modified MPT</h4><p>以太坊用的是 modified MPT</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/3.png"
+                      alt="图三"
+                ></p>
+<p>以太坊之所以会保留历史状态，是为了便于回滚</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/4.png"
+                      alt="图四"
+                ></p>
+<h3 id="三、状态树的数据结构"><a href="#三、状态树的数据结构" class="headerlink" title="三、状态树的数据结构"></a>三、状态树的数据结构</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/5.png"
+                      alt="图五"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/6.png"
+                      alt="图六"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/45/7.png"
+                      alt="图七"
+                ></p>
+<h3 id="四、状态树中的状态"><a href="#四、状态树中的状态" class="headerlink" title="四、状态树中的状态"></a>四、状态树中的状态</h3><p>状态树中保存的是 (key, value)，value（账户的状态）是通过 RLP（Recursive Length Prefix，递归长度前缀，特点是极简）序列化之后存储在账户中的</p>
+<p>Protobuf（protocol buffer）是一个做数据序列化的常用库，只支持一种类型：nested array of bytes（嵌套字节数组）</p>
+<p>以太坊中的所有其它类型（整数、哈希），最终都要变成嵌套字节数组，实现 RLP 比嵌套字节数组容易很多</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用17-ETH中的交易树和收据树</title>
+    <url>/2025/01/16/46-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E4%BA%A4%E6%98%93%E6%A0%91&amp;%E6%94%B6%E6%8D%AE%E6%A0%91/</url>
+    <content><![CDATA[<p>以太坊中的交易树和收据树也是 MPT，其好处是支持查找操作，查找的键值是交易在发布的区块中的序号（即排第几），其顺序由发布交易的区块确定</p>
+<p>交易树和收据树都是只把当前区块发布的交易组织起来，而状态树是把系统中所有账户的状态都包含进去（原因是：便于查找账户余额，尤其是很久没发生过交易的区块，更重要的是无法找到新账户）</p>
+<p>上节课讲到，多个区块的状态树是共享节点的；而每个区块的交易树和收据树是独立的</p>
+<p>交易树和收据树的用途是：提供 Merkle proof，交易树可以证明某个交易被打包到区块里，收据树的可以证明某个交易的执行结果</p>
+<h2 id="1、Bloom-filter（布隆过滤器）"><a href="#1、Bloom-filter（布隆过滤器）" class="headerlink" title="1、Bloom filter（布隆过滤器）"></a>1、Bloom filter（布隆过滤器）</h2><p>以太坊的收据树包含一个 Bloom filter</p>
+<p>Bloom filter 可以支持高效的查找某元素是否在某个大的集合。通过将大的集合中的元素做哈希，映射到一个小的数组，该数组元素初始全为0，最终如果有元素映射到该位置，则置为1</p>
+<p>用 Bloom filter 检测元素是否在某个集合中，可能会出现 false positive（假阳性），即 实际不在、但是检测结果在，但<strong>检测结果在、实际一定在</strong>。且 Bloom filter 不支持删除元素</p>
+<p>Bloom filter 在以太坊中的用途是支持复杂查询操作，比如：找到过去10天所有 和某个智能合约有关 &#x2F; 众筹 &#x2F; 发布新币的交易</p>
+<p>每个交易执行后会形成一个收据，收据里包含一个 Bloom filter，记录该交易的类型、地址和其他信息。发布的区块在块头里也有一个总的 Bloom filter，是区块里所有交易 Bloom filter 的并集</p>
+<p>轻节点只有块头信息，可以通过 Bloom filter 过滤掉很多区块，只保留符合条件的（即可能含有该交易的）区块，然后向全节点获取进一步的信息</p>
+<p>以太坊的运行过程，可以看做一个 transaction-driven state machine（交易驱动的状态机），状态是所有账户的状态，交易是每次发布的区块中的交易，执行交易会驱动系统转移到下一个状态</p>
+<p>比特币也可以看做一个交易驱动的状态机，其状态是 UTXO</p>
+<h2 id="2、交易树、收据树、叔父数组-源码"><a href="#2、交易树、收据树、叔父数组-源码" class="headerlink" title="2、交易树、收据树、叔父数组 源码"></a>2、交易树、收据树、叔父数组 源码</h2><p>有点复杂，暂时没搞明白，详见以下课程链接（从29分开始）：</p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=17" >https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=17 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用18-GHOST协议</title>
+    <url>/2025/01/16/47-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-GHOST%E5%8D%8F%E8%AE%AE/</url>
+    <content><![CDATA[<p>以太坊出块时间的显著降低，使得更容易出现分叉（甚至多个分叉），大型矿池有优势，尤其对个体矿工不公平</p>
+<p>因为当出现分叉时，所有个体矿工的算力是分散的，而矿池中的所有算力会集中在其挖出的区块，导致矿池挖出的区块更容易成为最长合法链，造成 mining centralization，这种情况也叫做 centralization bias（中心化带来的不成比例的优势）；再加上矿池会在网络的多个地方有接口，所以其发布的区块可能更早被其他节点收到</p>
+<h2 id="一、叔父区块"><a href="#一、叔父区块" class="headerlink" title="一、叔父区块"></a>一、叔父区块</h2><p>GHOST 协议不是以太坊发明的，是以太坊对其做了改进。核心思想是给予孤儿区块（在以太坊中叫做 uncle block，叔父区块）一定的奖励（7&#x2F;8 的出块奖励），而打包叔父区块的区块可以获得额外的 1&#x2F;32 的出块奖励（一个区块最多包含 2 个叔父区块）</p>
+<p>以太坊一开始的出块奖励是 5个以太币，后来改为 3个以太币，现在变为 2个以太币（和挖矿难度相关）</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/47/1.png"
+                      alt="图一"
+                ></p>
+<p>GHOST 的这种设计有利于鼓励系统中出现分叉后及时进行合并（解决系统中的临时性分叉）</p>
+<p>但是可能存在矿池恶意竞争，故意不包含叔父区块</p>
+<h2 id="二、Uncle-reward（叔父区块的奖励）"><a href="#二、Uncle-reward（叔父区块的奖励）" class="headerlink" title="二、Uncle reward（叔父区块的奖励）"></a>二、Uncle reward（叔父区块的奖励）</h2><p>最长合法链上的后续区块，仍然能包含前面区块未打包的叔父区块，但是叔父区块距离越远，奖励越小（7&#x2F;8, 6&#x2F;8, 5&#x2F;8, 4&#x2F;8, 3&#x2F;8, 2&#x2F;8），最长不能超过六代</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/47/2.png"
+                      alt="图二"
+                ></p>
+<p>叔父区块的定义：必须和当前区块在七代以内有共同的祖先（at most seven generations）</p>
+<p>设计七代以内辈分的原因是：如果不限制备份，全节点需要维护的状态就太多了；七代以内辈分 uncle reward 逐级递减的原因是：有利于鼓励出现分叉后尽早进行合并</p>
+<p>在比特币和以太坊中，把 block reward 叫做 static reward（静态奖励）</p>
+<p>在比特币中，tx fee 叫做 dynamic reward（动态奖励）；而在以太坊中，在执行区块中包含的智能合约时，可以得到 gas fee（汽油费），叔父区块是得不到汽油费的</p>
+<p>比特币被比喻为数字黄金，是用来储值的；以太币被比喻为石油，是用来消耗的（不太恰当，因为以太币本身不会消失）</p>
+<p>打包叔父区块时不应该执行叔父区块中的交易，因为叔父区块中可能存在有冲突的交易（执行完父区块的交易，再执行叔父区块的交易就会非法）；而是会通过 block header 检查叔父区块是不是一个合法发布的区块（是否符合挖矿难度要求）</p>
+<p>叔父区块后面的节点不能给予奖励，否则分叉攻击就变得太简单了：如果成功，可以回滚交易；不成功，也可以合并获得 uncle reward</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/47/3.png"
+                      alt="图三"
+                ></p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用19-ETH挖矿算法</title>
+    <url>/2025/01/18/48-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E6%8C%96%E7%9F%BF%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<p>Block chain is secured by mining（挖矿保障了区块链的安全性），比特币的挖矿算法是一个天然的 bug bounty（悬赏找bug），如果能找到漏洞或挖矿的捷径（shortcut）就能获取很大的利益</p>
+<p>很多人认为，挖矿设备的专业化 和比特币的去中心化理念是相违背的（one cpu, one vote），普通人能够参与挖矿有利于分散算力，预防 51% attack。所以后续的加密货币设计 mining puzzle 的一个理念是 ASIC resistance</p>
+<p>设计 ASIC resistance 的 mining puzzle 的常用做法是：增加 puzzle 对内存访问的需求，即 memory hard mining puzzle，因为 ASIC 芯片计算能力强，但是在内存访问的性能上没有很大的优势</p>
+<h2 id="一、LiteCoin-Scrypt"><a href="#一、LiteCoin-Scrypt" class="headerlink" title="一、LiteCoin &amp; Scrypt"></a>一、LiteCoin &amp; Scrypt</h2><p>一个早期的例子是 LiteCoin（莱特币），曾经是市值仅次于比特币的加密货币，其 mining puzzle 基于 scrypt</p>
+<p>Scrypt 是一个对内存要求很高的哈希函数，设计思想是：开设一个很大的数组，按照顺序填充一些伪随机数；具体过程是：按照一个 seed 的值，运算出一个数填在第一个位置，后面每个位置都是前一个位置取哈希得到的；其特点是里面的取值是有前后依赖关系的；求解 puzzle 时，按照伪随机的顺序从数组中读取一些数（通过对当前数运算得到下一个读取顺序，模拟随机）；好处是：如果数组开得足够大，对于矿工来说就是 memory hard 的，有的矿工可能保存一部分内存区域的内容，比如只保留奇数位置的数，需要读取到偶数再算，这也叫做 time-memory trade off（时间换空间）</p>
+<p>其坏处是：对于轻节点验证来说也是 memory hard，不符合 difficult to solve, but easy to verify。所以其实际使用过程中，数组只有 128k，不足以对 ASIC 芯片造成遏制，但该理念对其冷启动有很大帮助（需要冷启动是因为，参与挖矿的人太少很容易遭受恶意攻击），所以莱特币现在仍然是主流货币</p>
+<p>莱特币的出块时间是两分半，速度是比特币的四倍，其他部分和比特币基本相同</p>
+<h2 id="二、以太坊-memory-hard"><a href="#二、以太坊-memory-hard" class="headerlink" title="二、以太坊 memory hard"></a>二、以太坊 memory hard</h2><p>以太坊的挖矿算法叫做 ethash，矿工挖矿需要 1G 的内存，和莱特币的 128k 比，大了 8000 多倍，光是 cashe 就大了 100 多倍；更别说现在内存要求还在增长</p>
+<p>以太坊使用一大一小两个数据集：16M 的 cache 和 1G 的dataset，轻节点只要保存 cache，矿工才需要保存 1G 的大数据集</p>
+<h3 id="1、具体算法"><a href="#1、具体算法" class="headerlink" title="1、具体算法"></a>1、具体算法</h3><p>算法太复杂了，没完全搞明白，具体算法的伪代码可参考课程视频（28分）：</p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=19" >https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=19 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>cache 的生成方式和 scrypt 类似，但是不同于莱特币从数组中按照伪随机的顺序读取并进行运算，以太坊是需要先生成一个更大的数组（dataset 要大得多），而且 cache 和 dataset 是定期增长的，因为计算机的内存容量也在增长</p>
+<p>dataset 中的每个元素都是从 cache 中按照伪随机的顺序读取一些元素（和莱特币类似），一共读 256 次，用这 256 个数算出一个数，作为 dataset 的第一个元素，后续元素也一样</p>
+<p>求解 puzzle 时只使用 dataset 中的数，按照伪随机的顺序，从大数据集中读取 128 个数：一开始根据区块的块头、包括其中的 nonce 值，算出一个初始的哈希，然后根据该哈希映射到这个大数据集中的某个位置，将其中的数读取出来（同时将其相邻的元素读取出来），然后进行一些运算算出下一个位置，总共进行 64 次循环，共读取 128 个数。最后算出一个哈希值，和挖矿难度的目标域值比较，看是否符合要求，如果不符合，更换 nonce 之后再重新计算</p>
+<h3 id="2、矿工保存-dataset-的原因"><a href="#2、矿工保存-dataset-的原因" class="headerlink" title="2、矿工保存 dataset 的原因"></a>2、矿工保存 dataset 的原因</h3><p>由于矿工需要验证非常多的 nonce，如果每次都从 16M 的 cache 中重新生成，挖矿的效率就太低了，并且其中有大量的重复计算（因为随机选取的 dataset 的元素中有很多是重复的，可能是之前尝试别的 nonce 时用过的）。所以矿工采取空间换时间的策略，保存整个 dataset</p>
+<h3 id="3、轻节点只保存-cache-的原因"><a href="#3、轻节点只保存-cache-的原因" class="headerlink" title="3、轻节点只保存 cache 的原因"></a>3、轻节点只保存 cache 的原因</h3><p>轻节点由于只验证一个 nonce，验证时直接生成要用到的 dataset 中的元素即可</p>
+<p>和比特币相比，以太坊中验证一个 nonce 的计算量要大很多，但也在可接受范围内</p>
+<p>目前以太坊挖矿还是以 GPU 为主，所以起到了 ASIC resistance</p>
+<h2 id="三、以太坊-POS"><a href="#三、以太坊-POS" class="headerlink" title="三、以太坊 POS"></a>三、以太坊 POS</h2><p>以太坊没有出现 ASIC 矿机的另一个原因是，以太坊2.0（或以太坊合并）已经于 2022年 从 POW 转向 POS（Power of Stake，权益证明），即按照所占的权益进行投票从而形成共识，而不是挖矿，类似于股份制公司按照股份多少来投票</p>
+<p>这对于 ASIC 厂商是很大的威胁，因为其研发周期很长（1年都算快的），并且研发成本也很高，如果后续不挖矿了，那么所有投入都白费了</p>
+<h2 id="四、预挖矿"><a href="#四、预挖矿" class="headerlink" title="四、预挖矿"></a>四、预挖矿</h2><p>以太坊采用了 pre-mining（预挖矿），在当初发行货币的时候，预留一部分货币给以太坊的开发者，类似创业公司留一部分股票给创始人和早期员工；而比特币没有采用 pre-mining 的模式，都是挖矿挖出来的</p>
+<p>Pre-sale（预售） 就是把 pre-mining 中预留的币，通过出售的方法来换取一些资产，用于加密货币的开发工作</p>
+<p>但有一些人认为，让通用计算设备参与挖矿反而是不安全的，用 ASIC 芯片挖矿才是最安全的，因为购买矿机需要大量的资金，并且只能用于一种加密货币，成本较高</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用18-ETH挖矿难度调整</title>
+    <url>/2025/01/18/49-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-ETH%E6%8C%96%E7%9F%BF%E9%9A%BE%E5%BA%A6%E8%B0%83%E6%95%B4/</url>
+    <content><![CDATA[<p>比特币是每隔 2016 个区块会调整挖矿难度，目标是维持出块时间在十分钟左右；以太坊是每个区块都可以修改挖矿难度</p>
+<h2 id="一、难度调整公式"><a href="#一、难度调整公式" class="headerlink" title="一、难度调整公式"></a>一、难度调整公式</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/49/1.png"
+                      alt="图一"
+                ></p>
+<p>基础部分的作用是维持出块时间在 15秒 左右</p>
+<p>ε 是难度炸弹，为了以太坊从 POW 逐步过渡到 POS</p>
+<h3 id="1、基础部分"><a href="#1、基础部分" class="headerlink" title="1、基础部分"></a>1、基础部分</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/49/2.png"
+                      alt="图二"
+                ></p>
+<p>x 是难度调整的力度，为父区块的难度除以 2048，再向下取整</p>
+<p>一次性下调难度最多是父区块难度的 99&#x2F;2048</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/49/3.png"
+                      alt="图三"
+                ></p>
+<h3 id="2、难度炸弹"><a href="#2、难度炸弹" class="headerlink" title="2、难度炸弹"></a>2、难度炸弹</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/49/4.png"
+                      alt="图四"
+                ></p>
+<h2 id="二、以太坊发展的四个阶段"><a href="#二、以太坊发展的四个阶段" class="headerlink" title="二、以太坊发展的四个阶段"></a>二、以太坊发展的四个阶段</h2><p>Frontier（前沿）、Homestead（家园）、Metropolis（大都会）和 Serenity（宁静）</p>
+<p>其中 Metropolis 分为 两个子阶段：Byzantium（拜占庭） 和 Constantinople（君士坦丁堡），难度炸弹的回调发生在 Byzantium 阶段</p>
+<p>Serenity（宁静）即以太坊2.0，从 POW 转向 POS</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/49/5.png"
+                      alt="图五"
+                ></p>
+<p>EIP（Ethereum Improvement Proposal）：以太坊改进提案</p>
+<p>BitCoin Improvement Proposal）：比特币改进提案</p>
+<h2 id="三、具体代码实现"><a href="#三、具体代码实现" class="headerlink" title="三、具体代码实现"></a>三、具体代码实现</h2><p>略，没特别明白，可以参考课程视频（20分）：</p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=20" >https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=20 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>比特币中讲过最长合法链，而对于以太坊来说是最难合法链</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用19-权益证明</title>
+    <url>/2025/01/19/50-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-POS/</url>
+    <content><![CDATA[<p>POW（Proof of work，工作量证明）受到的普遍批评是浪费电</p>
+<p>以太坊交易的能耗比比特币低，是因为出块时间更短</p>
+<h2 id="一、POS-基本思想"><a href="#一、POS-基本思想" class="headerlink" title="一、POS 基本思想"></a>一、POS 基本思想</h2><p>POS（Proof of Stake，权益证明）的基本思想是：按照每个人投入资金的多少来决定收益的分配，这也叫做 virtual mining（虚拟挖矿）</p>
+<p>采用权益证明的货币，在发行前一般会预留一部分货币给开发者，也会出售一部分货币来换取开发所需的资金。将来按照的权益证明的共识机制，按照每个人持有货币的数量进行投票</p>
+<h2 id="二、POS-的好处"><a href="#二、POS-的好处" class="headerlink" title="二、POS 的好处"></a>二、POS 的好处</h2><p>（1）省去了挖矿的过程，也避免了由此带来的能耗和对环境的影响</p>
+<p>（2）如果有人想发动恶意攻击，需要设法获得该币种一半以上的份额，即发动攻击的资源只能从加密系统内部获得，形成一个闭环。如果有人在初期大量买入，币价大涨，早期投资者可能会跑卖出路（类似于股份制公司遭受恶意收购）</p>
+<p>基于 POW 的共识系统，从某种意义上来说，维护区块链安全的资源不是一个闭环，因为 Block chain is secured by mining. 而 mining 所需的 equipment 是由法币买来的（即加密货币的生态系统之外得到的），这就带来一个问题：虽然加密货币的总市值有了很大的增长，但是和世界经济总量相比仍然是微乎其微的，也就是说发动 51% attack 攻击的资源可以从外界得到、并且是有可能达到的，尤其对于刚发行的小的币种 AltCoin（Alternative coin），这叫做 AltCoin Infanticide（杀婴）</p>
+<p>有些加密货币采用的是一种混合模型，即仍然需要挖矿，但是挖矿难度和占有权益（持有币的数量）相关。这样会导致，系统中持有币数量最多的人，每次挖矿都最容易，所以有些加密货币要求，投入的币会被锁定一段时间，不能重复使用（比如：挖矿时投入一些币降低挖矿难度，等区块发布出来后，投入的币就会被锁定一段时间，下次再挖就不能用了，过一定区块才能继续用），这叫做 Proof of Deposit（存款证明）</p>
+<h2 id="三、早期-POS-遭遇的问题"><a href="#三、早期-POS-遭遇的问题" class="headerlink" title="三、早期 POS 遭遇的问题"></a>三、早期 POS 遭遇的问题</h2><p>Nothing at stake（两边下注）：参与者通过持有并锁定一定数量的加密货币、而不需要消耗资源（如算力）来生成区块，因此可以同时支持多个分叉上的区块而没有损失</p>
+<h2 id="四、Casper-协议"><a href="#四、Casper-协议" class="headerlink" title="四、Casper 协议"></a>四、Casper 协议</h2><p>Casper 是以太坊采用的 POS 协议</p>
+<p>Casper the Friendly Finality Gadget（CFG，Casper 友好的最终性工具）：在过渡阶段，需要和工作量证明混合使用，为工作量证明提供 finality，它是一种最终的状态，包含在其中的交易不会被取消</p>
+<p>单纯基于挖矿的交易时可能被回滚的，比如某个交易被写入区块链里，但是有人从前面的区块开始分叉，挖出一条更长的分叉链</p>
+<p>Casper 引入了 validator（验证者）的概念，validator 必须投入一定数量的以太币作为保证金，保证金会被锁定。Validator 的作用是推动系统达成共识，投票决定哪条链是最长合法链，投票权重取决于保证金的数目大小</p>
+<p>具体做法类似于数据库中的 two-phase commit（两阶段提交），第一阶段是 prepare message，第二阶段是 commit message</p>
+<p>每挖出 100个 区块，就作为一个 epoch（纪元），要决定其能否成为 finality 需要进行投票，Casper 规定每一轮投票都要得到 2&#x2F;3 以上验证者（按照保证金金额大小）同意才能通过</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/50/1.png"
+                      alt="图一"
+                ></p>
+<p>实际系统中不区分 prepare message 和 commit message，而且把 epoch 从原来的 100个 区块，减少到了 50个 区块就作为一个 epoch，每个 epoch 只需要一轮投票，投票结果对于上一个区块是 commit message，对于下一个区块是 prepare message，需要连续两轮投票（2个 epoch）都得到 2&#x2F;3 以上的通过，才算有效</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/50/2.png"
+                      alt="图二"
+                ></p>
+<p>验证者参与该过程的好处是，如果其履行职责，可以得到相应的奖励；相反，如果验证者有不良行为被发现，会受到相应的处罚，比如：该投票时不投票，导致系统迟迟无法达成共识，这种情况会扣除其一部分保证金；比如乱投票，给两个有冲突的分叉都投票（两边下注），这种情况会没收其所有保证金（所有扣除或没收都是销毁的模式）</p>
+<p>每个验证者有一定的任期，任期满后会有一个等待期，该等待期是为了让其他节点检举或揭发其是否有不良行为。如果等待期过了，验证者就可以取回当初的保证金和应得的奖励</p>
+<h2 id="五、关于-Casper-的思考"><a href="#五、关于-Casper-的思考" class="headerlink" title="五、关于 Casper 的思考"></a>五、关于 Casper 的思考</h2><p>Casper 在挖矿的过程中，对其状态做一个 check point（检查点），这是否安全；或者说通过验证者投票达成的 finality 是否可能被推翻？</p>
+<p>假设某个有恶意的组织想发动攻击，如果组织仅仅是矿工，那么就无法推翻已经达成的 finality，因为它是验证者投票的结果；如果组织是验证者，由于需要连续两轮投票都得到 2&#x2F;3 以上的通过才算有效，那么至少有 1&#x2F;3 的验证者两边下注了：正常链得到至少 2&#x2F;3 的票数，非法链也得到至少 2&#x2F;3 的票数，那么至少一共是 2&#x2F;3+2&#x2F;3&#x3D;4&#x2F;3 的票数，即至少 4&#x2F;3-1&#x3D;1&#x2F;3 的验证者都参与了两条链的投票。这 1&#x2F;3 的验证者被发现后，会被没收所有的保证金</p>
+<p>EOS 加密货币（俗称柚子），采用的是 DPOS（Delegated Proof of Stake）协议，先用投票的方式选出 21个 超级节点，再由这些超级节点产生区块，现在已经凉了</p>
+<h2 id="六、POW-的争论"><a href="#六、POW-的争论" class="headerlink" title="六、POW 的争论"></a>六、POW 的争论</h2><p>很多人认为 POW 挖矿的好处是，提供了把多余电能转化为钱的一种手段，可以有效地化解过剩产能，带动当地经济的发展。因为电能是很难存储、很难传输的，很多大型数据中心要建在电比较便宜的地方，就是因为传输数据比传输电容易，很多比特币的矿场都是建在电力资源丰富的地方</p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+        <tag>POS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>北大-区块链技术与应用20-智能合约</title>
+    <url>/2025/01/19/51-%E5%8C%97%E5%A4%A7%E5%8C%BA%E5%9D%97%E9%93%BE-%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/</url>
+    <content><![CDATA[<h2 id="一、智能合约概念"><a href="#一、智能合约概念" class="headerlink" title="一、智能合约概念"></a>一、智能合约概念</h2><p>Smart contract（智能合约）是运行在区块链上的一段代码，代码的逻辑定义了合约的内容</p>
+<p>智能合约的账户保存了合约当前的运行状态</p>
+<ul>
+<li>balance 当前余额</li>
+<li>nonce 交易次数</li>
+<li>code 合约代码</li>
+<li>storage 存储，数据结构是一颗 MPT</li>
+</ul>
+<p>Sodility 是智能合约最常用的语言，语法上与 JavaScript 很接近</p>
+<h2 id="二、Sodility-数据结构"><a href="#二、Sodility-数据结构" class="headerlink" title="二、Sodility 数据结构"></a>二、Sodility 数据结构</h2><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/1.png"
+                      alt="图一"
+                ></p>
+<p>其中，bid() 后面的 payable 说明该合约账户能接受外部转账。该函数是用来进行竞拍出价的，在出价时需要把以太币发送并存储到合约里，锁定到拍卖结束，因此该函数需要有能接受外部转账的能力</p>
+<p>withdraw() 函数是在拍卖结束后，未中标的账户可调用该函数，把出价时锁定在智能合约中的以太币取回来</p>
+<h2 id="三、智能合约调用"><a href="#三、智能合约调用" class="headerlink" title="三、智能合约调用"></a>三、智能合约调用</h2><h3 id="1、一个账户调用一个智能合约"><a href="#1、一个账户调用一个智能合约" class="headerlink" title="1、一个账户调用一个智能合约"></a>1、一个账户调用一个智能合约</h3><p>外部账户调用智能合约，和转账类似：假设 A 发起一个交易转账给 B，如果 B 是普通用户，则为普通交易；如果 B 是合约账户，那么该调用实际是对 B 合约的调用，具体调用函数是在 data 域中进行说明</p>
+<h3 id="2、一个合约调用另一个合约"><a href="#2、一个合约调用另一个合约" class="headerlink" title="2、一个合约调用另一个合约"></a>2、一个合约调用另一个合约</h3><p>以太坊中规定，一个交易只有外部账户才能发起，一个合约账户不能主动发起交易。所以在实际中，有两种调用方式</p>
+<h4 id="（1）直接调用"><a href="#（1）直接调用" class="headerlink" title="（1）直接调用"></a>（1）直接调用</h4><p>通过一个普通账户调用合约 B 中的函数，然后这个函数再调用合约 A 中的函数</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/2.png"
+                      alt="图二"
+                ></p>
+<h4 id="（2）使用-address-类型的-call-函数"><a href="#（2）使用-address-类型的-call-函数" class="headerlink" title="（2）使用 address 类型的 call() 函数"></a>（2）使用 address 类型的 call() 函数</h4><p>这种调用和上述不同的是：对于错误处理的不同。在直接调用中，如果被调用的合约执行发生错误，会导致发起调用的合约也跟着一起回滚；而 addr.call() 的方法，如果被调用的合约发生异常，addr.call() 会返回 flase，但发起调用的合约不会抛出异常，而是会继续执行</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/3.png"
+                      alt="图三"
+                ></p>
+<h4 id="（3）代理使用-delegatecall"><a href="#（3）代理使用-delegatecall" class="headerlink" title="（3）代理使用 delegatecall()"></a>（3）代理使用 delegatecall()</h4><p>和 call() 很像，区别是 delegatecall() 不需要切换到被调用的合约的环境中去执行，而是在当前合约的环境中执行</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/4.png"
+                      alt="图四"
+                ></p>
+<h3 id="3、fallback-函数"><a href="#3、fallback-函数" class="headerlink" title="3、fallback() 函数"></a>3、fallback() 函数</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/5.png"
+                      alt="图五"
+                ></p>
+<p>A 调用 B 的合约，要在转账交易里的 data 域说明调用的是 B 中的哪个函数。如果 A 给合约 B 转了一笔钱，没有说明掉的是哪个函数（或者调的函数在 data 域中不存在），此时缺省就调用 fallback() 函数</p>
+<p>在交易中，转账金额可以为 0，但是汽油费不能为 0，因为没有汽油费，发布该区块的矿工就不会将该笔交易打包进去</p>
+<h2 id="四、智能合约的创建和运行"><a href="#四、智能合约的创建和运行" class="headerlink" title="四、智能合约的创建和运行"></a>四、智能合约的创建和运行</h2><p>智能合约是由某个外部账户发起一个转账交易，转给 0X0 地址，转账金额为 0，然后把要发布的合约的代码放到 data 域里</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/6.png"
+                      alt="图六"
+                ></p>
+<p>JVM 的目的是增强可移植性，EVM 也是类似的思想，通过加一层虚拟机，对智能合约的运行提供一个一致性的平台，所以 EVM 有时叫做 world wide computer，EVM 的寻址空间非常大，为 256 位</p>
+<h2 id="五、汽油费"><a href="#五、汽油费" class="headerlink" title="五、汽油费"></a>五、汽油费</h2><p>比特币的设计理念很简单，功能有限（比如不支持循环）；而以太坊需要提供一个 Turing-complete Programming Model（图灵完备的编程模型），包含条件控制、循环和递归、数据存储、基本的算术运算功能，但也可能带来问题，比如出现死循环</p>
+<p>一个全节点收到一个对智能合约的调用，不知道该调用执行起来是否会导致死循环，这叫做 Halting Problem（停机问题），这个问题是不可解的，不是 NPC 问题（Non-deterministic Polynomial 的问题，即多项式复杂程度的非确定性问题，NPC 是可解的，只是没有多项式时间的解法）</p>
+<p>以太坊引入了汽油费机制，发起一个对智能合约的调用，就要支付相应的汽油费</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/7.png"
+                      alt="图七"
+                ></p>
+<p>当一个全节点收到一个对智能合约的调用时，先按照调用中给出的 gasLimit，算出可能花掉的最大汽油费，然后一次性把汽油费从发起调用的账户上扣除，然后再根据实际执行的情况，算出实际花了多少汽油费（多退）</p>
+<p>不同的指令消耗的汽油费不同，简单的指令（比如加减法），消耗的汽油费是很少的，复杂的指令消耗的汽油费就比较多（比如取哈希）；除了计算量，需要存储状态的指令消耗的汽油费也比较大；只需读取公共指令的命令是免费的</p>
+<h2 id="六、错误处理"><a href="#六、错误处理" class="headerlink" title="六、错误处理"></a>六、错误处理</h2><p>以太坊中的交易执行起来具有原子性，一个交易要么全部执行、要么完全不执行，不会只执行一部分，既包含普通的转账交易，也包含对智能合约的调用。所以如果在执行智能合约的过程中，出现任何错误，会导致整个交易的执行回滚，退回到开始执行前的状态</p>
+<h3 id="1、出现错误的情况"><a href="#1、出现错误的情况" class="headerlink" title="1、出现错误的情况"></a>1、出现错误的情况</h3><p>（1）交易执行结束后，没有达到当初的 gas limit，多余的汽油费会被退回到这个账户里；相反的，如果执行一半，gas limit 已经都用完了，这时合约的执行会退回到开始执行之前的状态，且已经消耗掉的汽油费是不退的</p>
+<p>（2）抛出错误的语句 assert（通常判断内部条件），require（通常判断外部条件，比如函数输入是否符合要求），revert（无条件抛出异常，原来是 throw）。sodility 当中没有 try catch 这种结构</p>
+<h3 id="2、嵌套调用"><a href="#2、嵌套调用" class="headerlink" title="2、嵌套调用"></a>2、嵌套调用</h3><p>如果嵌套调用，一个智能合约调用另外一个智能合约，被调用的智能合约出现错误，不一定会导致发起调用的智能合约也跟着一起回滚，即连锁式回滚</p>
+<p>这取决于调用智能合约的方式，如果这个智能合约是直接调用，就会触发连锁式回滚；如果用 call() 的方式，就不会连锁回滚，而是返回一个 false</p>
+<p>如果只是向一个账户里转账，但该账户为合约账户，该操作就有可能触发对函数的调用，因为如果没有指明哪个函数，仍会调用 fallback() 函数</p>
+<h2 id="七、Block-header"><a href="#七、Block-header" class="headerlink" title="七、Block header"></a>七、Block header</h2><p>gasUsed 是该区块里所有交易所消耗的汽油费的总和</p>
+<p>发布区块需要消耗一定的资源，需要对消耗的资源有一个限制（类似比特币区块大小不能超过一兆），gasLimit 是该区块里所有交易实际能够消耗汽油的上限</p>
+<p>比特币区块一兆大小的限制是固定的，但是以太坊的 gasLimit 也有一个上限，但是每个矿工发布区块时，可以对 gasLimit 进行微调，即在上一个区块 gasLimit 的基础上 上调或下调 1&#x2F;1024</p>
+<h2 id="八、思考"><a href="#八、思考" class="headerlink" title="八、思考"></a>八、思考</h2><h3 id="1、先挖矿还是先执行"><a href="#1、先挖矿还是先执行" class="headerlink" title="1、先挖矿还是先执行"></a>1、先挖矿还是先执行</h3><p>前置知识：任何对状态的修改，都是在改本地的数据结构，只有当合约执行完了，发布到区块链之后，这些本地的修改才会变成外部可见的、变成区块链上的共识</p>
+<p>假设某个全节点要打包一些交易到一个区块里，这些交易里有一些是对智能合约的调用，那么全节点是先把这些智能合约都执行完再去挖矿，还是应该先挖矿、获得记账权之后，再执行合约？</p>
+<p>答案是先执行智能合约，因为不先执行，更新三颗树（状态、交易、收据），就无法得到三颗树的根哈希，也就无法通过 block header 去挖矿</p>
+<h3 id="2、是否会存在故意不验证的全节点"><a href="#2、是否会存在故意不验证的全节点" class="headerlink" title="2、是否会存在故意不验证的全节点"></a>2、是否会存在故意不验证的全节点</h3><p>汽油费的设置是对于矿工执行智能合约所消耗资源的一种补偿，但是这种补偿只有最终挖到矿的矿工才能得到</p>
+<p>如果某个区块不验证新发布的交易，不去执行新发布的区块，也就没办法更新本地的三棵树，以后就没办法再发布区块</p>
+<h3 id="3、合约执行错误能否上链"><a href="#3、合约执行错误能否上链" class="headerlink" title="3、合约执行错误能否上链"></a>3、合约执行错误能否上链</h3><p>如果智能合约执行的过程中出现了错误，也要发布到区块链上，否则汽油费扣不掉。也就是说发布到区块链上的交易不一定都是成功执行的</p>
+<h3 id="4、智能合约是否支持多线程"><a href="#4、智能合约是否支持多线程" class="headerlink" title="4、智能合约是否支持多线程"></a>4、智能合约是否支持多线程</h3><p>多核处理器很普遍，但是智能合约不支持多核并行处理，sodility 没有支持多线程的语句，原因是：以太坊是一个交易驱动的状态机，状态机必须是完全确认性的，给定同一组输入，产生的输出&#x2F;转移到的下一个状态必须是完全确定的。因为所有的全节点都得执行同一组操作，达到同一个状态，如果不确定的话，三个树的根哈希值根本对不上。多线程的问题是多个核对内存访问顺序不同的话，执行结果有可能不确定</p>
+<p>除了多线程之外，其他可能造成执行结果不确定的操作也都不支持，比如：产生随机数，所以以太坊中的智能合约没办法产生真正意义下的随机数，只能用伪随机数</p>
+<h2 id="九、收据树"><a href="#九、收据树" class="headerlink" title="九、收据树"></a>九、收据树</h2><p>下面是 Receipt 的数据结构：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/8.png"
+                      alt="图八"
+                ></p>
+<p>每个交易执行完之后会形成一个收据，status 表示交易的执行情况</p>
+<h2 id="十、智能合约可以获得的信息"><a href="#十、智能合约可以获得的信息" class="headerlink" title="十、智能合约可以获得的信息"></a>十、智能合约可以获得的信息</h2><h3 id="1、智能合约可以获得的区块信息"><a href="#1、智能合约可以获得的区块信息" class="headerlink" title="1、智能合约可以获得的区块信息"></a>1、智能合约可以获得的区块信息</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/9.png"
+                      alt="图九"
+                ></p>
+<h3 id="2、智能合约可以获得的调用信息"><a href="#2、智能合约可以获得的调用信息" class="headerlink" title="2、智能合约可以获得的调用信息"></a>2、智能合约可以获得的调用信息</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/10.png"
+                      alt="图十"
+                ></p>
+<p>msg.data 说明了调用哪个函数，和该函数的参数取值</p>
+<p>msg.gas 是剩余的汽油费，决定了还能做那些操作，想要再调用其他合约，前提是有足够的汽油费剩余</p>
+<p>msg.sig 是 msg.data 的前四个字节，即函数标识符，表示调用的是哪个函数</p>
+<p>now 是当前区块的时间戳，等同于图区块信息中的 block.timestamp</p>
+<p>消息发送者 msg.sender 和 交易发起者 tx.origin 是不一样的</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/11.png"
+                      alt="图十一"
+                ></p>
+<p>比如上述交易，对于 f2，msg.sender 是 C1，但是 tx.origin 是 A</p>
+<h3 id="3、地址类型"><a href="#3、地址类型" class="headerlink" title="3、地址类型"></a>3、地址类型</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../images/51/12.png"
+                      alt="图十二"
+                ></p>
+<p>addr.balance 是成员变量，剩余的都是成员函数</p>
+<p>addr.transfer(amount) 是当前合约往地址 addr 转入 amount 以太币，转入的地址是 addr，转出的地址是该合约地址</p>
+<p>addr.call() 合约账户发起对 addr 这个合约的调用</p>
+<h3 id="4、三种发送-ETH-的方式"><a href="#4、三种发送-ETH-的方式" class="headerlink" title="4、三种发送 ETH 的方式"></a>4、三种发送 ETH 的方式</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">addr.transfer(amount)</span><br><span class="line">addr.send(amount) return (bool)</span><br><span class="line">addr.call.value(amount)()</span><br></pre></td></tr></table></figure></div>
+
+<p>（1）transfer 会导致连锁性的回滚；失败时抛出异常；为要调用的合约提供 2300 汽油费（少量）</p>
+<p>（2）send 在失败时会返回一个 false；不会导致连锁式回滚；为要调用的合约提供 2300 汽油费（少量）</p>
+<p>（3）call 在失败时会返回一个 false；不会导致连锁式回滚；会将当前调用剩下的所有汽油都发送给要调用的合约，合约后续会执行什么操作当前账户无法控制</p>
+<h2 id="十一、智能合约拍卖实例"><a href="#十一、智能合约拍卖实例" class="headerlink" title="十一、智能合约拍卖实例"></a>十一、智能合约拍卖实例</h2><p>这部分结合智能合约拍卖实例，讲述可能存在的安全漏洞，代码截图较多，视频链接如下（1小时31分25秒）：</p>
+<p><a class="link"   href="https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.788.player.switch&vd_source=69ac93649ea21c4726fe85f272b6d968&p=22" >https://www.bilibili.com/video/BV1Vt411X7JF/?spm_id_from=333.788.player.switch&amp;vd_source=69ac93649ea21c4726fe85f272b6d968&amp;p=22 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>Web3 - 北大肖臻-区块链技术与应用</category>
+      </categories>
+      <tags>
+        <tag>web3</tag>
+        <tag>ETH</tag>
+        <tag>智能合约</tag>
       </tags>
   </entry>
 </search>
