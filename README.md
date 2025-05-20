@@ -1,21 +1,33 @@
 # zoella-hexo-blog
 
-启动本地：
-```hexo s```
-(`hexo server`)
+### install Hexo
 
-创建新文章：
+```npm install -g hexo-cli```
+
+
+### install dependencies
+
+```cd hexo```
+
+```npm i```
+
+
+### run local server
+
+```hexo s``` or ```hexo server```
+
+
+### create new articles
+
 ```hexo new <title>```
 
-生成静态文件&部署网站：
-```hexo g```
-```hexo d```
-(`hexo generate` `hexo deploy`)
 
-部署网站：
-```hexo d```
-(`hexo deploy`)
+### generate static files
 
-生成静态文件：
-```hexo g```
-(`hexo generate`)
+```hexo g``` or ```hexo generate```
+
+
+### deploy the site
+
+```hexo d``` or ```hexo deploy```
+
