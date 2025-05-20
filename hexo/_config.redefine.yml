@@ -19,11 +19,11 @@ info:
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
   # Favicon
-  favicon: /images/cat-logo.svg
+  favicon: /images/static/cat-logo.svg
   # Site logo
-  logo: /images/cat-logo.svg
+  logo: /images/static/cat-logo.svg
   # Site avatar
-  avatar: /images/ariana-avatar.webp
+  avatar: /images/static/ariana-avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
