@@ -6,17 +6,15 @@
 # DEMO: https://redefine.ohevan.com
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # BASIC INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 info:
   # Site title
-  title: Zoella's Cabin
+  title: Gabrielle's Cabin
   # Author name
-  author: Zoella
+  author: Gabrielle
   # Site URL
   url: https://zoella-w.github.io
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 defaults:
@@ -28,30 +26,28 @@ defaults:
   avatar: /images/ariana-avatar.webp
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
   primary: "#474D95"
   # Secondary color (beta)
-  secondary: 
+  secondary:
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 global:
   # Custom fonts
   fonts:
     # Chinese fonts
-    chinese: 
+    chinese:
       enable: false # Whether to enable custom chinese font
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: # Font family
+      url: # Font URL to CSS file
     # English fonts
-    english: 
+    english:
       enable: false # Whether to enable custom chinese font
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: # Font family
+      url: # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -78,9 +74,8 @@ global:
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
-    id:  # Google Analytics Measurement ID
+    id: # Google Analytics Measurement ID
 # SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-    
 
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 fontawesome: # Pro v6.2.1
@@ -94,7 +89,6 @@ fontawesome: # Pro v6.2.1
   sharp_solid: false
 # FONTAWESOME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
@@ -102,7 +96,7 @@ home_banner:
   # style of home banner
   style: fixed # static or fixed
   # Home banner image
-  image: 
+  image:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
@@ -110,7 +104,7 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: ["Tomorrow is another day."] # subtitle text, array
-    hitokoto:  # 一言配置
+    hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 90 # Typing speed (ms)
@@ -120,11 +114,11 @@ home_banner:
     loop: true # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
-  text_color: 
+  text_color:
     light: "#fff" # light mode
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
-  text_style: 
+  text_style:
     # Title font size
     title_size: 2.8rem
     # Subtitle font size
@@ -132,11 +126,11 @@ home_banner:
     # Line height between title and subtitle
     line_height: 1.2
   # Home banner custom font
-  custom_font: 
+  custom_font:
     # Whether to enable custom font
     enable: false
     # Font family
-    family: 
+    family:
     # URL to font CSS file
     url:
   # Home banner social links
@@ -148,7 +142,7 @@ home_banner:
       github: https://github.com/Zoella-w # your GitHub URL
       instagram: # your Instagram URL
       zhihu: https://www.zhihu.com/people/serein-32-5 # your ZhiHu URL
-      twitter:  # your twitter URL
+      twitter: # your twitter URL
       email: 2695969122@qq.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
@@ -157,43 +151,42 @@ home_banner:
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 navbar:
   categories:
     Categories: #取名随意
-        icon: fa-solid fa-folder #图标
-        path: /categories/ #链接
+      icon: fa-solid fa-folder #图标
+      path: /categories/ #链接
   tags:
     Tags: #取名随意
-        icon: fa-solid fa-tags #图标
-        path: /tags/ #链接
+      icon: fa-solid fa-tags #图标
+      path: /tags/ #链接
   about:
     About: #取名随意
-        icon: fa-solid fa-user #图标
-        path: /about/ #链接
+      icon: fa-solid fa-user #图标
+      path: /about/ #链接
   # Auto hide navbar
   auto_hide: false
   # Navbar background color
   color:
-    left: "#f78736" #left side 
-    right: "#367df7"  #right side
+    left: "#f78736" #left side
+    right: "#367df7" #right side
     transparency: 35 #percent (10-99)
   # Navbar links
   links:
-    Home: 
-      path: / 
+    Home:
+      path: /
       icon: fa-regular fa-house
-    Categories: 
-      path: /categories 
+    Categories:
+      path: /categories
       icon: fa-regular fa-bookmark
-    Tags: 
-      path: /tags 
+    Tags:
+      path: /tags
       icon: fa-regular fa-tags
-    Archives: 
-      path: /archives 
+    Archives:
+      path: /archives
       icon: fa-regular fa-archive
-    About: 
+    About:
       icon: fa-regular fa-user
       submenus:
         Me: /about
@@ -208,7 +201,6 @@ navbar:
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # HOME PAGE ARTICLE SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home:
   # Sidebar settings
@@ -218,28 +210,27 @@ home:
     first_item: info # First item in sidebar. menu, info
     announcement: # Announcement text
     links:
-      Archives: 
-        path: /archives 
+      Archives:
+        path: /archives
         icon: fa-regular fa-archive # can be empty
-      Categories: 
-        path: /categories 
+      Categories:
+        path: /categories
         icon: fa-regular fa-folder # can be empty
-      Tags: 
-        path: /tags 
+      Tags:
+        path: /tags
         icon: fa-regular fa-tags # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article categories visibility
   categories:
-    enable: true  # Whether to enable
+    enable: true # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:
-    enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    enable: true # Whether to enable
+    limit: 3 # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # ARTICLE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 articles:
@@ -257,7 +248,7 @@ articles:
     count: true # Whether to display word count
     min2read: true # Whether to display reading time
   # Author label
-  author_label: 
+  author_label:
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
@@ -295,7 +286,6 @@ articles:
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 comment:
@@ -335,7 +325,6 @@ comment:
       loading: lazy # Load the comments lazily
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 footer:
   # Show website running time
@@ -353,13 +342,12 @@ footer:
     url: # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
-
 # INJECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 inject:
   # Whether to enable inject
   enable: false
   # Inject custom head html code
-  head: 
+  head:
     -
     -
   # Inject custom footer html code
@@ -367,7 +355,6 @@ inject:
     -
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 plugins:
@@ -383,17 +370,16 @@ plugins:
         artist: # audio artist
         url: # audio url
         cover: # audio cover url
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-      # .... you can add more audios here
+  #      - name: # audio name
+  #        artist: # audio artist
+  #        url: # audio url
+  #        cover: # audio cover url
+  # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
     enable: true # enable mermaid or not
     version: "9.3.0" # default v9.3.0
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # PAGE TEMPLATES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 page_templates:
@@ -402,7 +388,6 @@ page_templates:
   # Tags page style
   tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 cdn:
@@ -413,7 +398,7 @@ cdn:
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must be in the source folder of the theme
-  custom_url: 
+  custom_url:
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # DEVELOPER MODE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start

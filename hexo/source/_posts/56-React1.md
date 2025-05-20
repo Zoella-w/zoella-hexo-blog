@@ -1,5 +1,5 @@
 ---
-title: 56-React1
+title: React1
 date: 2025-01-22 12:24:59
 tags:
     - React
