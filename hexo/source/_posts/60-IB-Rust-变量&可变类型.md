@@ -1,5 +1,5 @@
 ---
-title: IB-Rust2-变量&可变类型
+title: IB-Rust-变量&可变类型
 date: 2025-05-20 17:50:23
 tags:
     - Rust
@@ -8,7 +8,7 @@ categories:
       - IB课程
 ---
 
-[Codes in lesson2](https://github.com/Zoella-w/IB-Rust/tree/main/2_variable_mut/cargo)
+[Codes in lesson2](https://github.com/Zoella-w/IB-Rust/tree/main/2_variable_mut)
 
 ## 一、可变 & 不可变变量（Mutable & Immutable）
 

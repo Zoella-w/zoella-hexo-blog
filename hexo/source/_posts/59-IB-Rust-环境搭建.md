@@ -1,5 +1,5 @@
 ---
-title: IB-Rust1-环境搭建
+title: IB-Rust-环境搭建
 date: 2025-05-20 12:17:51
 tags:
     - Rust
