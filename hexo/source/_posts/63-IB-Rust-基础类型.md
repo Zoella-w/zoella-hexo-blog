@@ -1,5 +1,5 @@
 ---
-title: 63-IB-Rust-基础类型
+title: IB-Rust-基础类型
 date: 2025-05-21 17:07:26
 tags:
     - Rust
