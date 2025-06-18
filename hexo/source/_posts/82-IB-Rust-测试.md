@@ -637,6 +637,7 @@ path = "examples/complex_demo/main.rs"
 
 ## 目录结构规范
 
+```text
 .
 ├── Cargo.lock
 ├── Cargo.toml
@@ -664,6 +665,7 @@ path = "examples/complex_demo/main.rs"
     └── multi-file-test/
         ├── main.rs
         └── test_module.rs
+```
 
 ## 课后习题
 
