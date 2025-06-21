@@ -31,3 +31,7 @@
 
 ```hexo d``` or ```hexo deploy```
 
+
+### generate & deploy
+
+```hexo g -d```

@@ -40,8 +40,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 检查是否正确安装 Rust
 
-```console
-$ rustc --version
+```bash
+rustc --version
 ```
 
 ### 2、rustup 命令
@@ -240,7 +240,6 @@ rand = {  registry = "ustc" }
 ```toml
 [source.crates-io]
 replace-with = 'ustc'
-
 [source.ustc]
 registry = "https://mirrors.ustc.edu.cn/crates.io-index/"
 ```
