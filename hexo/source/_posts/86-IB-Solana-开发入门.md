@@ -8,9 +8,9 @@ categories:
       - IB课程
 ---
 
-[Codes in lesson2.1](https://github.com/Zoella-w/IB-Solana/tree/main/2.1_startup_native)
-[Codes in lesson2.2](https://github.com/Zoella-w/IB-Solana/tree/main/2.2_startup_anchor)
-[Codes in lesson2.3](https://github.com/Zoella-w/IB-Solana/tree/main/2.3_startup_anchor_todo)
+[Codes in lesson2.1: startup_native](https://github.com/Zoella-w/IB-Solana/tree/main/2.1_startup_native)
+[Codes in lesson2.2: startup_anchor](https://github.com/Zoella-w/IB-Solana/tree/main/2.2_startup_anchor)
+[Codes in lesson2.3: startup_anchor_todo](https://github.com/Zoella-w/IB-Solana/tree/main/2.3_startup_anchor_todo)
 
 ## Native Rust 搭建
 

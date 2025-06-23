@@ -8,9 +8,9 @@ categories:
       - IB课程
 ---
 
-[Codes in lesson1.1](https://github.com/Zoella-w/IB-Rust/tree/main/1.1_hello_world)
+[Codes in lesson1.1: hello_world](https://github.com/Zoella-w/IB-Rust/tree/main/1.1_hello_world)
 
-[Codes in lesson1.2](https://github.com/Zoella-w/IB-Rust/tree/main/1.2_hello_cargo)
+[Codes in lesson1.2: hello_cargo](https://github.com/Zoella-w/IB-Rust/tree/main/1.2_hello_cargo)
 
 ## 一、Rust 介绍
 

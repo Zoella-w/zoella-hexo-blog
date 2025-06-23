@@ -273,8 +273,8 @@ anchor -V
 
 ```bash
 solana-keygen new # --force overwrite
+solana-keygen new -o ~/.config/solana/id2.json # 创建多个钱包
 solana config set -k ~/.config/solana/id.json # 设置为默认钱包
-solana-keygen new --outfile ~/.config/solana/id2.json # 创建多个钱包
 ```
 
 #### Playground
