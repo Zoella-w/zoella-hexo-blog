@@ -1,5 +1,5 @@
 ---
-title: 87-IB-Solana-账户&简单交互
+title: IB-Solana-账户&简单交互
 date: 2025-06-21 19:21:19
 tags:
     - Solana
@@ -9,7 +9,6 @@ categories:
 ---
 
 [Codes in lesson3](https://github.com/Zoella-w/IB-Solana/tree/main/3_account_interaction)
-
 
 ## 账户
 
