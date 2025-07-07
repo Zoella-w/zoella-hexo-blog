@@ -2,6 +2,10 @@
 title: IB-Solana-SPLToken合约创建
 date: 2025-06-26 16:17:13
 tags:
+    - Solana
+categories:
+    - Solana
+      - IB课程
 ---
 
 [Codes in lesson5.1](https://github.com/Zoella-w/IB-Solana/tree/main/5.1_token_contract)
