@@ -1,5 +1,5 @@
 ---
-title: IB-Solana社交项目
+title: IB-Solana-社交项目
 date: 2025-07-04 16:36:47
 tags:
     - Solana
