@@ -14,6 +14,11 @@ dist
 dist-ssr
 *.local
 
+# Hexo generated files
+db.json
+public/
+.deploy_git/
+
 # Editor directories and files
 #.vscode/*
 #!.vscode/extensions.json
