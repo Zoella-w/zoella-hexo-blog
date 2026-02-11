@@ -1,5 +1,5 @@
 ---
-title: 94-IB-Solana-Defi项目拆解4
+title: IB-Solana-Defi项目拆解4
 date: 2025-07-09 12:12:11
 tags:
     - Solana
